@@ -17,6 +17,20 @@
               class="text-center mt-2"
               style="color: white"
             >
+              <div>
+                <img
+                  src="/icjia-logo.png"
+                  alt="Footer logo"
+                  width="100"
+                  style="border: 0px solid #ddd; display: inline"
+                  class="hover"
+                  @click="
+                    $router.push('/').catch((err) => {
+                      $vuetify.goTo(0);
+                    })
+                  "
+                />
+              </div>
               <div style="font-size: 12px; font-weight: 400">
                 <strong
                   >&#169; 2023
@@ -27,15 +41,7 @@
                     >Illinois Criminal Justice Information Authority</a
                   >
                 </strong>
-                <!-- &nbsp;|&nbsp;
-                <strong>
-                  <a
-                    href="https://www2.illinois.gov/sites/gov/Pages/default.aspx"
-                    target="_blank"
-                    style="color: #fff"
-                    >Governor JB Pritzker
-                  </a>
-                </strong> -->
+
                 &nbsp;|&nbsp;
                 <strong>
                   <a
@@ -69,14 +75,6 @@
               </div>
             </v-col>
           </v-row>
-          <!-- <v-row
-            ><v-col class="text-center" @click="scrollTop"
-              ><span class="goToTop"> BACK TO TOP </span
-              ><v-icon small right style="color: #fff; font-size: 10px"
-                >mdi-chevron-up</v-icon
-              ></v-col
-            ></v-row
-          > -->
         </v-container>
       </v-card>
     </v-footer>
