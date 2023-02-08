@@ -651,20 +651,20 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/image-edge@1.0.0-27827328.bc9ddc0":
-  version "1.0.0-27827328.bc9ddc0"
-  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-27827328.bc9ddc0.tgz#3be36c6a98dffc3812d368e7f708ab25d41923fb"
-  integrity sha512-8fy6dSJaH9I5FKPK4EA6ddgUWNkxz2Y1AGIKVbAaRKftyK4y66gHmA+pbPPjb1cgYw6pWoWrnA4JxsHKelD8+A==
+"@nuxt/image-edge@1.0.0-27919678.2f5b64b":
+  version "1.0.0-27919678.2f5b64b"
+  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-27919678.2f5b64b.tgz#a9b084cf2ad5eafff2e069b85e856a9dd1a876f3"
+  integrity sha512-MvQ8NJyOTO4n8x+KU+Fyn7H+FegAb+ZN+7cwTAquOy41ev+c1mKn2EYGjkrYEoY/jKMaKSgK/jMtQjOeOhiQXA==
   dependencies:
-    "@nuxt/kit" "^3.0.0"
+    "@nuxt/kit" "^3.1.1"
     consola "^2.15.3"
-    defu "^6.1.1"
-    h3 "^1.0.1"
+    defu "^6.1.2"
+    h3 "^1.1.0"
     image-meta "^0.1.1"
     node-fetch-native "^1.0.1"
     ohash "^1.0.0"
-    pathe "^1.0.0"
-    ufo "^1.0.0"
+    pathe "^1.1.0"
+    ufo "^1.0.1"
   optionalDependencies:
     ipx "1.0.0-2"
 
@@ -2691,7 +2691,7 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3@^1.0.1, h3@^1.1.0, h3@^1.2.0:
+h3@^1.1.0, h3@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/h3/-/h3-1.3.0.tgz#ae0c189a5a3c6723dbe3d5f58800a214b597db55"
   integrity sha512-nuEQOgMmdVl5wJYGoGnMwd048j004IcPcNdPmSrIjjPSbgusM4+ObSQ2b5SWqXAV7rspxjdG5+Er1ORmJOVbaQ==
