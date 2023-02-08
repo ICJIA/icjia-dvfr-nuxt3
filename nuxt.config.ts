@@ -12,6 +12,7 @@ import appRoutes from "./public/appRoutes.json";
 export default defineNuxtConfig({
   app: {
     // baseURL: "/i2i/",
+    pageTransition: { name: "page", mode: "out-in" },
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
