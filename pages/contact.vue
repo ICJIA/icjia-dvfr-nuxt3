@@ -32,6 +32,26 @@
 
               <v-btn
                 class="ma-2"
+                style="text-transform: none; background: #c13584; color: #fff"
+                href="https://www.instagram.com/icjia_illinois/"
+                target="_blank"
+              >
+                Instagram
+                <v-icon end icon="mdi-instagram"></v-icon>
+              </v-btn>
+
+              <v-btn
+                class="ma-2"
+                style="text-transform: none; background: #0077b5; color: #fff"
+                href="https://www.linkedin.com/company/icjia/"
+                target="_blank"
+              >
+                LinkedIn
+                <v-icon end icon="mdi-linkedin"></v-icon>
+              </v-btn>
+
+              <v-btn
+                class="ma-2"
                 style="background: #1da1f2; color: white; text-transform: none"
                 href="https://twitter.com/ICJIA_Illinois"
                 target="_blank"
@@ -48,16 +68,6 @@
               >
                 YouTube
                 <v-icon end icon="mdi-youtube"></v-icon>
-              </v-btn>
-
-              <v-btn
-                class="ma-2"
-                style="text-transform: none; background: #0077b5; color: #fff"
-                href="https://www.linkedin.com/company/icjia/"
-                target="_blank"
-              >
-                LinkedIn
-                <v-icon end icon="mdi-linkedin"></v-icon>
               </v-btn>
             </div>
           </div> </v-col></v-row
