@@ -11,6 +11,13 @@
         <template #not-found>Document not found</template>
       </ContentDoc>
     </div>
+    <div class="text-center" style="margin-top: 100px">
+      <v-btn color="indigo-darken-4" @click="downloadReport()"
+        >Download Full Report (PDF)&nbsp;&nbsp;<v-icon right
+          >mdi-download</v-icon
+        ></v-btn
+      >
+    </div>
   </div>
 </template>
 
@@ -18,6 +25,14 @@
 // const { path } = useRoute();
 // const router = useRouter();
 const isMounted = ref(false);
+
+const downloadReport = () => {
+  // window.open(
+  //   "https://i2i.icjia-api.cloud/uploads/2021-ICJIA-Annual-Report.pdf",
+  //   "_blank"
+  // );
+  alert("TODO: Download Report on click");
+};
 
 // const error = useError();
 const { data } = await useAsyncData(`content-home`, async () => {
