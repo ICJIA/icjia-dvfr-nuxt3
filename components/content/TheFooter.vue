@@ -21,7 +21,7 @@
                 <img
                   src="/icjia-logo.png"
                   alt="Footer logo"
-                  width="100"
+                  width="150"
                   style="border: 0px solid #ddd; display: inline"
                   class="hover"
                   @click="
@@ -30,6 +30,56 @@
                     })
                   "
                 />
+              </div>
+              <div class="pb-6">
+                <v-btn
+                  variant="text"
+                  style="color: #fff !important; font-size: 30px"
+                  aria-label="Link to ICJIA on Twitter"
+                  href="https://twitter.com/icjia_illinois?lang=en"
+                  target="_blank"
+                  ><v-icon>mdi-twitter</v-icon>
+                </v-btn>
+
+                <v-btn
+                  variant="text"
+                  style="
+                    color: #fff !important;
+                    font-size: 30px;
+                    margin-right: -10px;
+                  "
+                  target="_blank"
+                  aria-label="Link to ICJIA on Facebook"
+                  href="https://www.facebook.com/ICJIA/"
+                  ><v-icon>mdi-facebook</v-icon></v-btn
+                >
+
+                <v-btn
+                  variant="text"
+                  style="color: #fff !important; font-size: 30px"
+                  target="_blank"
+                  aria-label="Link to ICJIA on YouTube"
+                  href="https://www.youtube.com/c/illinoiscriminaljusticeinformationauthority"
+                  ><v-icon> mdi-youtube</v-icon></v-btn
+                >
+
+                <v-btn
+                  variant="text"
+                  style="color: #fff !important; font-size: 30px"
+                  target="_blank"
+                  href="https://www.instagram.com/icjia_illinois/"
+                  aria-label="ICJIA on Instagram"
+                  ><v-icon>mdi-instagram</v-icon></v-btn
+                >
+
+                <v-btn
+                  variant="text"
+                  style="color: #fff !important; font-size: 30px"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/icjia/"
+                  aria-label="ICJIA on LinkedIn "
+                  ><v-icon>mdi-linkedin</v-icon></v-btn
+                >
               </div>
               <div style="font-size: 12px; font-weight: 400">
                 <strong
@@ -42,15 +92,6 @@
                   >
                 </strong>
 
-                &nbsp;|&nbsp;
-                <strong>
-                  <a
-                    href="https://coronavirus.illinois.gov/"
-                    target="_blank"
-                    style="color: #fff"
-                    >Statewide Coronavirus Response
-                  </a>
-                </strong>
                 &nbsp;|&nbsp;
                 <strong>
                   <nuxt-link to="/privacy" style="color: #fff"
