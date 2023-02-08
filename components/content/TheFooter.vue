@@ -21,7 +21,7 @@
                 <img
                   src="/icjia-logo.png"
                   alt="Footer logo"
-                  width="150"
+                  width="120"
                   style="border: 0px solid #ddd; display: inline"
                   class="hover"
                   @click="
@@ -34,7 +34,7 @@
               <div class="pb-6">
                 <v-btn
                   variant="text"
-                  style="color: #fff !important; font-size: 30px"
+                  style="color: #fff !important; font-size: 20px"
                   aria-label="Link to ICJIA on Twitter"
                   href="https://twitter.com/icjia_illinois?lang=en"
                   target="_blank"
@@ -45,7 +45,7 @@
                   variant="text"
                   style="
                     color: #fff !important;
-                    font-size: 30px;
+                    font-size: 20px;
                     margin-right: -10px;
                   "
                   target="_blank"
@@ -56,7 +56,7 @@
 
                 <v-btn
                   variant="text"
-                  style="color: #fff !important; font-size: 30px"
+                  style="color: #fff !important; font-size: 20px"
                   target="_blank"
                   aria-label="Link to ICJIA on YouTube"
                   href="https://www.youtube.com/c/illinoiscriminaljusticeinformationauthority"
@@ -65,7 +65,7 @@
 
                 <v-btn
                   variant="text"
-                  style="color: #fff !important; font-size: 30px"
+                  style="color: #fff !important; font-size: 20px"
                   target="_blank"
                   href="https://www.instagram.com/icjia_illinois/"
                   aria-label="ICJIA on Instagram"
@@ -74,7 +74,7 @@
 
                 <v-btn
                   variant="text"
-                  style="color: #fff !important; font-size: 30px"
+                  style="color: #fff !important; font-size: 20px"
                   target="_blank"
                   href="https://www.linkedin.com/company/icjia/"
                   aria-label="ICJIA on LinkedIn "
