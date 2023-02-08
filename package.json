@@ -1,10 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "yarn scripts && nuxt build",
-    "build:serve": "npm run scripts && nuxt build && node .output/server/index.mjs ",
-    "build:edge": "NITRO_PRESET=netlify-edge nuxt build",
-    "dev": "yarn scripts && nuxt dev --port=8000 -o",
+    "build": "rm -rf .nuxt && yarn scripts && nuxt build",
+    "build:serve": "rm -rf .nuxt && npm run scripts && nuxt build && node .output/server/index.mjs ",
+    "dev": "rm -rf .nuxt && yarn scripts && nuxt dev --port=8000 -o",
     "dev:local": "yarn scripts:local && nuxt dev --port=8000 -o",
     "generate:local": "yarn scripts:local && nuxt generate",
     "generate": "yarn scripts && nuxt generate",
