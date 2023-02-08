@@ -12,7 +12,10 @@
       </ContentDoc>
     </div>
     <div class="text-center" style="margin-top: 100px">
-      <v-btn @click="downloadReport()"
+      <v-btn
+        style="color: #000 !important"
+        color="grey-lighten-3"
+        @click="downloadReport()"
         >Download Full Report (PDF)&nbsp;&nbsp;<v-icon right
           >mdi-download</v-icon
         ></v-btn
