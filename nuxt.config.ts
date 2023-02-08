@@ -11,7 +11,7 @@ import appRoutes from "./public/appRoutes.json";
 // console.log("Generated routes:", siteRoutes);
 export default defineNuxtConfig({
   app: {
-    // baseURL: "/i2i/",
+    // baseURL: "/dvfr/",
     // pageTransition: { name: "page", mode: "out-in" },
     head: {
       charset: "utf-8",
