@@ -214,11 +214,6 @@ const goToTranslate = () => {
   router.push({ path: "/translate" });
 };
 
-const openTranslationModal = () => {
-  const toggleState = useTranslateToggle();
-  toggleState.value = true;
-};
-
 const items = ref([
   { title: "Click Me" },
   { title: "Click Me" },

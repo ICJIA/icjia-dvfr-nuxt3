@@ -6,6 +6,8 @@ const pages = require("../public/pages.json");
 // const posts = require("../public/posts.json");
 // const site = [...pages, ...posts];
 
+//TODO: Add dynamic pages to search index
+
 const site = [...pages];
 
 const searchIndex = site.map((item) => {

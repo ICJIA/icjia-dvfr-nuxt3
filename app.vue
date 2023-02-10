@@ -3,7 +3,6 @@
     <TheNav></TheNav>
 
     <TheSidebar></TheSidebar>
-    <!-- <TheTranslationModal v-if="isTranslationEnabled"></TheTranslationModal> -->
 
     <NuxtLoadingIndicator color="blue" />
 

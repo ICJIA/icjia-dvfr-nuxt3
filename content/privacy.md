@@ -3,12 +3,12 @@ title: State of Illinois Privacy Policy
 slug: privacy
 hideFromSearch: false
 hideFromSitemap: false
-showTableOfContents: false
+showTableOfContents: true
 summary: Access to the State of Illinois websites is provided subject to the
   following terms and conditions.
 section: root
 createdAt: 2023-02-06T17:36:01.722Z
-updatedAt: 2023-02-06T17:36:02.864Z
+updatedAt: 2023-02-10T13:55:31.746Z
 publishedAt: 2023-02-06T17:36:02.857Z
 searchMeta: "cookies analytics tracking "
 rawText: "access to the state of illinois websites is provided subject to the

@@ -3,7 +3,7 @@
   "scripts": {
     "build": "rm -rf .nuxt && yarn scripts && nuxt build",
     "build:serve": "rm -rf .nuxt && npm run scripts && nuxt build && node .output/server/index.mjs ",
-    "dev": "rm -rf .nuxt && yarn scripts && nuxt dev --port=8000 -o",
+    "dev": "rm -rf .nuxt .output && yarn scripts && nuxt dev --port=8000 -o",
     "dev:local": "yarn scripts:local && nuxt dev --port=8000 -o",
     "generate:local": "yarn scripts:local && nuxt generate",
     "generate": "yarn scripts && nuxt generate",
@@ -28,7 +28,7 @@
     "@nuxt/image-edge": "1.0.0-27919678.2f5b64b",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@vueuse/nuxt": "^9.12.0",
-    "nuxt": "^3.1.2"
+    "nuxt": "^3.2.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",

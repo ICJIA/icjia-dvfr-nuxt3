@@ -10,8 +10,6 @@ const _ = require("lodash");
 const yaml = require("yaml");
 
 const contentDir = path.join(__dirname, "../content");
-// fsExtra.emptyDirSync(contentDir);
-// console.log("Content directory cleared");
 
 const SITE_URL = process.env.NUXT_PUBLIC_BASE_URL;
 const API = process.env.NUXT_PUBLIC_API_BASE_URL;
@@ -23,15 +21,16 @@ const query = `query {
         attributes {
           title
           slug
-          summary
-          body
           hideFromSearch
           hideFromSitemap
           showTableOfContents
+          summary
+          body
+          section
           createdAt
           updatedAt
           publishedAt
-         
+          searchMeta
           
         }
       }
@@ -54,11 +53,11 @@ axios
     },
   })
   .then((res) => {
-    const posts = res.data.data.posts.data;
+    const items = res.data.data.meetings.data;
 
     let section;
-    const site = posts.map((post) => {
-      const obj = { ...post };
+    const site = items.map((item) => {
+      const obj = { ...page };
       let rawText;
 
       rawText = obj.attributes?.body
@@ -67,25 +66,43 @@ axios
       rawText = rawText.replace(/\s\s+/g, " ");
       obj.attributes.rawText = rawText.toLowerCase();
       obj.attributes.draft = false;
-      // obj.attributes.description = post.attributes.summary;
-      obj.attributes.navigation = true;
-      // if (post.attributes.section !== "root") {
-      //   section = post.attributes.section.toLowerCase();
-      //   obj.attributes.path = `/${section}/${post.attributes.slug}`;
-      //   obj.attributes.url = `${SITE_URL}${obj.attributes.path}`;
-      // } else {
-      //   obj.attributes.path = `/${post.attributes.slug}`;
-      //   obj.attributes.url = `${SITE_URL}${obj.attributes.path}`;
-      // }
 
-      if (post.attributes.slug === "index") {
-        obj.attributes.path = `/`;
-        obj.attributes.url = `${SITE_URL}`;
+      obj.attributes.navigation = true;
+      if (item.attributes.section !== "root") {
+        section = item.attributes.section.toLowerCase();
+        obj.attributes.path = `/${section}/${item.attributes.slug}`;
+        obj.attributes.url = `${SITE_URL}${obj.attributes.path}`;
+      } else {
+        obj.attributes.path = `/${item.attributes.slug}`;
+        obj.attributes.url = `${SITE_URL}${obj.attributes.path}`;
       }
 
-      console.log("Markdown meetings content created: ", obj.attributes.path);
+      // if (page.attributes.slug === "index") {
+      //   obj.attributes.path = `/`;
+      //   obj.attributes.url = `${SITE_URL}`;
+      // }
+
+      console.log("Markdown content created: ", obj.attributes.path);
       return obj;
     });
+
+    const pageRoutes = site.map((item) => {
+      if (item.attributes.slug !== "index") {
+        return `/${item.attributes.slug}`;
+      } else {
+        return `/`;
+      }
+    });
+
+    jsonfile.writeFileSync(
+      `./public/routesMeetings.json`,
+      pageRoutes,
+      function (err) {
+        if (err) {
+          console.error(err);
+        }
+      }
+    );
 
     jsonfile.writeFileSync(`./public/meetings.json`, site, function (err) {
       if (err) {
@@ -94,36 +111,21 @@ axios
       console.log("meetings.json created in /public/");
     });
 
-    const meetingRoutes = site.map((post) => {
-      return `/meetings/${post.attributes.slug}`;
-    });
-
-    jsonfile.writeFileSync(
-      `./public/meetingRoutes.json`,
-      meetingRoutes,
-      function (err) {
-        if (err) {
-          console.error(err);
-        }
-      }
-    );
-
-    site.forEach((post) => {
-      if (post.attributes.section === "root") {
+    site.forEach((item) => {
+      if (item.attributes.section === "root") {
         section = "";
       } else {
-        section = post.attributes.section.toLowerCase();
+        section = item.attributes.section.toLowerCase();
       }
 
-      const basename = post.attributes.slug;
+      const basename = item.attributes.slug;
       const filePath = path.join(contentDir, `${section}/${basename}.md`);
       const directoryPath = path.join(contentDir, `${section}`);
       if (!fs.existsSync(directoryPath)) {
         fs.mkdirSync(directoryPath);
       }
 
-      const content = formatMarkdown(post.attributes);
-      // console.log(content);
+      const content = formatMarkdown(item.attributes);
       fs.writeFileSync(filePath, content);
     });
   });

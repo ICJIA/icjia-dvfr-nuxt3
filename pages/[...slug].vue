@@ -98,8 +98,9 @@ useHead({
             min-height: 110vh !important;
             background: #fafafa;
             margin-top: 12px;
-            margin-bottom: -35px;
-            border-left: 1px solid #ddd;
+            margin-bottom: -105px;
+            border: 1px solid #ddd;
+
             z-index: 1;
             margin-left: -20px;
             margin-right: 0;
