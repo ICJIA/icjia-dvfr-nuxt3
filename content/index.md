@@ -4,68 +4,35 @@ slug: index
 hideFromSearch: false
 hideFromSitemap: false
 showTableOfContents: false
-summary: >-
-  Lorem markdownum casuraque in nisi, cursus est circumlitus antiquam Venerisque
-  fidem pietate hostemque aequoris, moribundo Diana. Cum et forte, muneribusque
-  imbris coeamus estque? Parte ubi, par rabies Libye fuit talibus ea orat
-  repperit annis.
-
-  Corpora tegmina, Troiae congestos sedibus furentem nam est postquam corona umbrosum.
+summary: DVFR Home
 section: root
 createdAt: 2023-02-06T17:29:48.970Z
-updatedAt: 2023-02-06T17:33:10.224Z
+updatedAt: 2023-02-16T03:15:26.408Z
 publishedAt: 2023-02-06T17:30:10.310Z
 searchMeta: "home "
-rawText: " grave illum maternos lorem markdownum casuraque in nisi cursus est
-  circumlitus antiquam venerisque fidem pietate hostemque aequoris moribundo
-  diana cum et forte muneribusque imbris coeamus estque parte ubi par rabies
-  libye fuit talibus ea orat repperit annis corpora tegmina troiae congestos
-  sedibus furentem nam est postquam corona umbrosum sinistro maior populi
-  praeteriti cupiens dignos in hanc hinc agris validoque saepe constitit leto
-  umbraque que procos furtim feriam durior mutata cuius conditaque moenia non
-  rore necem summaque versus inania incumbere refers vestis sceptri aera nec
-  canosque praepes tempora auro parte esse poplite pectore matre sereno utraque
-  inculpata ablata non artus sua teretesque iaculo armataque resupinus alta et
-  thebae in fecit in quae sed longus cognoscere formae traxit petebam habent
-  relictus paterno pende senemque femineae dedit bene postquam tuetur
-  inscripsere aura at tantis turres stirpe dum sinus velit sibi portabat sed
-  parentes meritorum stridente et cadunt virgam hoc ambit mihi opibus violenta
-  carpere cum sucis excipit si recenti soporem nam iove nox plagamque tristia
-  tumulo ignarus mentis numinis voce aurora mater roganti ego iacent gentis cura
-  puppis effugit gentibus virisque micat hostia adspiciens sit pararet pater
-  bellum vidit ulixes rata parte tamque nec sonanti herba ducentem quis at
-  curvavit partim faciat excutit refugerit circumstant forti et omne unum atque
-  quinque est duris genitor piceis cadit stet turba in graia oculorum terrebant
-  nescio cynthia intellectam dextra et concita eunti in spes hyadasque anxius
-  nil quoniam orant mea tuorum rogarem da daedalus hauriret quotiens quae secum
-  qua parte salutem domum inter virgultis murmur leves iter iam manat fluunt
-  dissuadere crimine sequuntur in dixit poscat velare sinamus portans eadem
-  iuratus sic moenia chori ad liquidum videntem tristis de colla non cum cantu
-  suos tenebras sine crines et virgo reus violentaque pictis timorque
-  praevalidusque spectabat moventem eueninae armos referre felixque meus quae
-  aut curvae traicit quater hunc tetigit aliorum tulit mali ilicet hae hebes
-  tectum canis "
+rawText: " all dummy content on this site taken from outline https dvfr icjia
+  api cloud uploads dvfr website outline draft 50c324b77e docx updated at 2023
+  02 16t02 56 36 891z i ve also indicated where additional work backend database
+  modelling is required here https dvfr icjia dev meetings here https dvfr icjia
+  dev publications and here https dvfr icjia dev news welcome message brief
+  description of program illinois domestic violence hotline 877 863 6338 "
 draft: false
 navigation: true
 path: /
 url: https://dvfr.icjia.dev
 ---
 
-## Grave illum maternos
+<div style="min-width: 100% !important; " class="text-center">
 
-Lorem markdownum casuraque in nisi, cursus est circumlitus antiquam Venerisque fidem pietate hostemque aequoris, moribundo Diana. Cum et forte, muneribusque imbris coeamus estque? Parte ubi, par rabies Libye fuit talibus ea orat repperit annis.
-Corpora tegmina, Troiae congestos sedibus furentem nam est postquam corona umbrosum? Sinistro maior populi praeteriti cupiens dignos. In hanc. Hinc agris validoque, saepe constitit leto.
+**All dummy content on this site [taken from outline](https://dvfr.icjia-api.cloud/uploads/DVFR_website_outline_draft_50c324b77e.docx?updated_at=2023-02-16T02:56:36.891Z)**
 
-Umbraque que procos furtim feriam durior mutata cuius conditaque moenia non, rore necem summaque. Versus inania incumbere, refers vestis sceptri aera nec canosque praepes tempora auro parte esse.
+I've also indicated where additional work -- backend database modelling -- is required. [Here](https://dvfr.icjia.dev/meetings), [here](https://dvfr.icjia.dev/publications), and [here](https://dvfr.icjia.dev/news).
 
-Poplite pectore matre sereno utraque inculpata ablata non artus sua teretesque iaculo armataque resupinus alta: et Thebae in. Fecit in quae, sed longus cognoscere formae traxit petebam habent relictus paterno. Pende senemque femineae dedit bene postquam tuetur inscripsere aura at tantis turres stirpe, dum? Sinus velit sibi portabat sed parentes meritorum stridente et cadunt, virgam, hoc ambit mihi opibus.
+</div>
 
-## Violenta carpere
+- Welcome message
+- Brief description of program
+- Illinois Domestic Violence Hotline
+    - (877)863-6338
 
-Cum sucis excipit si recenti soporem nam. Iove nox plagamque tristia tumulo ignarus mentis numinis voce Aurora, Mater? Roganti ego iacent gentis, cura puppis; effugit gentibus. Virisque micat hostia adspiciens sit pararet pater bellum vidit, Ulixes rata parte tamque nec sonanti herba. Ducentem quis at curvavit partim faciat, excutit refugerit circumstant forti, et omne unum.
-
-Atque quinque est duris genitor piceis cadit stet turba in Graia oculorum terrebant nescio Cynthia intellectam dextra et. Concita eunti in spes Hyadasque anxius: nil quoniam orant: mea: tuorum rogarem! Da daedalus hauriret quotiens quae secum qua parte salutem domum inter. Virgultis murmur, leves iter iam manat fluunt dissuadere crimine sequuntur in dixit poscat velare.
-
-Sinamus portans eadem iuratus, sic moenia. Chori ad, liquidum videntem tristis, de colla: non cum: cantu suos. Tenebras sine crines et virgo, reus, violentaque pictis timorque praevalidusque spectabat moventem Eueninae armos. Referre felixque meus, quae aut, curvae traicit quater.
-Hunc tetigit aliorum: tulit mali ilicet? Hae hebes tectum canis.
  

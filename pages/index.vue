@@ -11,7 +11,7 @@
         <template #not-found>Document not found</template>
       </ContentDoc>
     </div>
-    <div class="text-center" style="margin-top: 100px">
+    <!-- <div class="text-center" style="margin-top: 100px">
       <v-btn
         style="color: #000 !important"
         color="grey-lighten-3"
@@ -20,7 +20,7 @@
           >mdi-download</v-icon
         ></v-btn
       >
-    </div>
+    </div> -->
   </div>
 </template>
 

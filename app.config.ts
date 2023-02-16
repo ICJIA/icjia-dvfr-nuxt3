@@ -14,17 +14,28 @@ export default defineAppConfig({
       link: "/about",
     },
     {
-      main: "Meetings",
-      link: "/meetings",
-    },
-
-    {
       main: "Contact",
       link: "/contact",
     },
     {
+      main: "Meetings",
+      link: "/meetings",
+    },
+    {
+      main: "News",
+      link: "/news",
+    },
+    {
       main: "Privacy",
       link: "/privacy",
+    },
+    {
+      main: "Publications",
+      link: "/publications",
+    },
+    {
+      main: "Resources",
+      link: "/resources",
     },
 
     {
@@ -34,23 +45,31 @@ export default defineAppConfig({
   ],
 
   navMenu: [
-    {
-      main: "Home",
-      link: "/",
-      nudgeLeft: "78px",
-    },
+    // {
+    //   main: "Home",
+    //   link: "/",
+    //   nudgeLeft: "78px",
+    // },
     {
       main: "About",
       link: "/about",
     },
     {
-      main: "Meetings",
-      link: "/meetings",
+      main: "Publications",
+      link: "/publications",
     },
 
     {
-      main: "Contact",
-      link: "/contact",
+      main: "Resources",
+      link: "/resources",
+    },
+    {
+      main: "Meetings",
+      link: "/meetings",
+    },
+    {
+      main: "News",
+      link: "/news",
     },
   ],
 });
