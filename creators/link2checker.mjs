@@ -1,3 +1,4 @@
+import urlExist from "url-exist";
 import jsonfile from "jsonfile";
 
 const links = [

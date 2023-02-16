@@ -1,12 +1,12 @@
 const request = require("request");
-
+const urlExist = require("url-exist");
 // const links = [
 //   {
 //     title:
 //       "Guiding Officers to Deflect Citizens to Treatment: An Examination of Police Department Policies in Illinois",
 //     publicationDate: "2023-02-10",
 //     fileURL:
-//       "https://researchhub.icjia-api.cloud/uploads/PDF%20policy%20paper-230210T21141657.pdf",
+//       "https://researchhub.icjia-api.cloud/uploads/PDF%20policy%20paper-230210T21141657.pdf1",
 //   },
 //   {
 //     title:
@@ -23,57 +23,6 @@ const request = require("request");
 //       "https://researchhub.icjia-api.cloud/uploads/FINAL%20PDF%20FOR%20POSTING-230207T17003598.pdf",
 //   },
 // ];
-
-// const linkChecker = (url, callback) => {
-//   request(url, (error, response) => {
-//     if (error) {
-//       callback(false);
-//     } else {
-//       callback(response.statusCode === 200);
-//     }
-//   });
-// };
-
-// links.forEach((link) => {
-//   linkChecker(link.fileURL, (result) => {
-//     console.log("-----------------");
-//     console.log(link.title);
-//     console.log(link.fileURL);
-//     console.log(result);
-//     console.log("-----------------");
-//   });
-// });
-
-// remove spaces from files in a directory
-
-// const fs = require("fs");
-// const path = require("path");
-
-// const directoryPath = path.join(__dirname, "test");
-
-// fs.readdir(directoryPath, (err, files) => {
-//   if (err) {
-//     return console.log("Unable to scan directory: " + err);
-//   }
-
-//   files.forEach((file) => {
-//     const newFile = file.replace(/ /g, "");
-//     fs.renameSync(
-//       path.join(directoryPath, file),
-//       path.join(directoryPath, newFile)
-//     );
-//     console.log("Renaming " + file + " to " + newFile);
-//   });
-// });
-
-// query
-// {
-// 	publications (sort: "publicationDate:desc", limit:100) {
-//     title
-//     publicationDate
-//     fileURL
-//   }
-// }
 
 /* eslint-disable no-unused-vars */
 const fs = require("fs");
@@ -108,29 +57,23 @@ const init = async () => {
     let obj = {};
     obj.title = p.title;
     obj.publicationDate = p.publicationDate;
-    obj.fileURL = p.fileURL;
+    obj.fileURL = p.fileURL.replace(/ /g, "%20");
     return obj;
   });
   let content = [...publications];
   content = _.orderBy(content, ["publicationDate"], ["desc"]);
-  const linkChecker = (url, callback) => {
-    request(url, (error, response) => {
-      if (error) {
-        callback(false);
-      } else {
-        callback(response.statusCode === 200);
+  Promise.all(
+    content.map(async (item) => {
+      const result = await urlExist(item.fileURL);
+      return { status: result, item };
+    })
+  ).then((res) => {
+    jsonfile.writeFileSync(`./links.json`, res, function (err) {
+      if (err) {
+        console.error(err);
       }
     });
-  };
-
-  content.forEach((link) => {
-    linkChecker(link.fileURL, (result) => {
-      console.log("-----------------");
-      console.log(link.title);
-      console.log(link.fileURL);
-      console.log(result);
-      console.log("-----------------");
-    });
+    console.log("link file written --> ./links.json");
   });
 };
 
