@@ -7,7 +7,7 @@ showTableOfContents: false
 summary: DVFR Publications
 section: root
 createdAt: 2023-02-16T02:09:45.291Z
-updatedAt: 2023-02-16T02:40:39.281Z
+updatedAt: 2023-02-16T03:21:13.640Z
 publishedAt: 2023-02-16T02:09:46.237Z
 searchMeta: null
 rawText: " annual and biennial reports coming march 2023 forms case
@@ -29,7 +29,6 @@ url: https://dvfr.icjia.dev/publications
     
 - Publication #1
 - Publication #2
-- 
 
 (Database work is needed in order to store the publications.)
 
