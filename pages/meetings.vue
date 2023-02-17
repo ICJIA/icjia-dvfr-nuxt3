@@ -9,7 +9,15 @@ const { data } = await useAsyncData(`content-${path}`, async () => {
   return post;
 });
 
-const desc = ref(data.value.summary);
+const constructURL = (url: string) => {
+  const myURL = "https://dvfr.icjia-api.cloud/uploads/" + url;
+  return myURL;
+};
+
+const formatDate = (dateString) => {
+  const options = { year: "numeric", month: "long", day: "numeric" };
+  return new Date(dateString).toLocaleDateString(undefined, options);
+};
 
 useHead({
   meta: [
@@ -32,12 +40,12 @@ useHead({
     {
       hid: "description",
       name: "description",
-      content: desc,
+      content: "DVFR meeting information and attachments.",
     },
     {
       hid: "og-desc",
       property: "og:description",
-      content: desc,
+      content: "DVFR meeting information and attachments.",
     },
   ],
 });
@@ -45,8 +53,9 @@ useHead({
 
 <template>
   <div class="pb-12" data-aos="fade-in">
-    <v-container fluid
-      ><v-row
+    <v-container fluid>
+      <h1>Meetings</h1>
+      <!-- <v-row
         ><v-col cols="12" md="12">
           <div v-if="data" class="mt-6">
             <h1>{{ data.title.toUpperCase() }}</h1>
@@ -56,22 +65,26 @@ useHead({
             </ContentDoc>
           </div>
         </v-col>
-      </v-row>
+      </v-row> -->
       <v-row>
         <v-col cols="12" md="12">
           <ContentList :query="query" v-slot="{ list }">
             <div v-for="meeting in list" :key="meeting._path">
               <v-card
-                class="markdown-body px-5 py-5 mb-5"
+                class="markdown-body px-5 py-0 elevation-0 mb-0"
                 style="background: #fff"
               >
                 <nuxt-link :to="meeting.path">
-                  <h3>{{ meeting.title }} / {{ meeting.start }}</h3></nuxt-link
+                  <h3 style="font-size: 1.1em">
+                    {{ meeting.title }} | {{ formatDate(meeting.start) }}
+                  </h3></nuxt-link
                 >
 
-                <details>
+                <details class="pl-5">
                   <summary>Details</summary>
-                  <div class="mt-3">{{ meeting.summary }}</div>
+                  <div class="mt-3 px-5 py-0" v-if="meeting.summary.length">
+                    {{ meeting.summary }}
+                  </div>
                   <div class="markdown-body mt-3">
                     <div
                       v-if="meeting.attachments.data.length"
@@ -97,13 +110,21 @@ useHead({
                             :key="attachment.url"
                           >
                             <td>
-                              {{
-                                meeting.attachments.data[
-                                  index
-                                ].attributes.name.replace(/\.[^/.]+$/, "")
-                              }}{{
-                                meeting.attachments.data[index].attributes.ext
-                              }}
+                              <a
+                                :href="
+                                  'https://dvfr.icjia-api.cloud' +
+                                  meeting.attachments.data[index].attributes.url
+                                "
+                                target="_blank"
+                              >
+                                {{
+                                  meeting.attachments.data[
+                                    index
+                                  ].attributes.name.replace(/\.[^/.]+$/, "")
+                                }}{{
+                                  meeting.attachments.data[index].attributes.ext
+                                }}
+                              </a>
                             </td>
                             <td>
                               {{
@@ -120,7 +141,9 @@ useHead({
                         </tbody>
                       </v-table>
                     </div>
-                    <div v-else class="pl-5">Attachments forthcoming.</div>
+                    <div v-else class="pl-4">
+                      <strong>Attachments forthcoming.</strong>
+                    </div>
                   </div>
                 </details>
               </v-card>

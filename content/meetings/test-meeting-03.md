@@ -3,6 +3,7 @@ title: Test Meeting 03
 slug: test-meeting-03
 start: 2023-02-28T15:00:00.000Z
 end: 2023-02-28T22:00:00.000Z
+category: regular
 hideFromSearch: false
 hideFromSitemap: false
 showTableOfContents: false

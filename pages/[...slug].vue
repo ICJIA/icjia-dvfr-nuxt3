@@ -1,7 +1,4 @@
 <script setup>
-// definePageMeta({
-//   middleware: ["is-valid-content"],
-// });
 import appRoutes from "assets/json/appRoutes.json";
 const { path } = useRoute();
 const router = useRouter();
@@ -50,7 +47,7 @@ onBeforeMount(() => {
     }
   });
 
-const desc = ref(data.value.summary);
+const desc = data.value.summary ? data.value.summary : data.value.title;
 
 useHead({
   meta: [

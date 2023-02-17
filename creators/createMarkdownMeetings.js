@@ -23,6 +23,7 @@ const query = `query {
           slug
           start
           end
+          category
           hideFromSearch
           hideFromSitemap
           showTableOfContents
