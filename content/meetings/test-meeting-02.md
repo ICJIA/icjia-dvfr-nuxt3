@@ -21,6 +21,7 @@ attachments:
         alternativeText: null
         url: /uploads/ARISFY_23_Expansion_Grants_NOFO_Instructions_547a9d0288_1ad3e33a5b.pdf
         ext: .pdf
+        size: 623.67
 rawText: this is the body for test meeting 01
 draft: false
 navigation: true

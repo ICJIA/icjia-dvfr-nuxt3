@@ -75,29 +75,50 @@ useHead({
                   <div class="markdown-body mt-3">
                     <div
                       v-if="meeting.attachments.data.length"
-                      style="background: #f8f8f8"
-                      class="px-5 py-5"
+                      style="background: #fff"
+                      class="px-5 py-0"
                     >
-                      <ul class="pl-5">
-                        <li
-                          v-for="(attachment, index) in meeting.attachments
-                            .data"
-                          :key="attachment.url"
-                          class="mb-2"
-                        >
-                          <nuxt-link
-                            :href="`https://dvfr.icjia-api.cloud${meeting.attachments.data[index].attributes.url}`"
+                      <h4>Attachments</h4>
+                      <v-table
+                        class="markdown-body dataTable"
+                        density="compact"
+                      >
+                        <thead>
+                          <tr>
+                            <th class="text-left">Filename</th>
+                            <th class="text-left">Last Updated</th>
+                            <th class="text-left">Size</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr
+                            v-for="(attachment, index) in meeting.attachments
+                              .data"
+                            :key="attachment.url"
                           >
-                            {{
-                              meeting.attachments.data[
-                                index
-                              ].attributes.name.replace(/\.[^/.]+$/, "")
-                            }}{{
-                              meeting.attachments.data[index].attributes.ext
-                            }}
-                          </nuxt-link>
-                        </li>
-                      </ul>
+                            <td>
+                              {{
+                                meeting.attachments.data[
+                                  index
+                                ].attributes.name.replace(/\.[^/.]+$/, "")
+                              }}{{
+                                meeting.attachments.data[index].attributes.ext
+                              }}
+                            </td>
+                            <td>
+                              {{
+                                meeting.attachments.data[index].attributes
+                                  .updatedAt
+                              }}
+                            </td>
+                            <td>
+                              {{
+                                meeting.attachments.data[index].attributes.size
+                              }}
+                            </td>
+                          </tr>
+                        </tbody>
+                      </v-table>
                     </div>
                     <div v-else class="pl-5">Attachments forthcoming.</div>
                   </div>
@@ -126,5 +147,22 @@ details {
 
 summary > * {
   display: inline;
+}
+
+.markdown-body.dataTable {
+  width: 100%;
+  font-size: 14px;
+}
+
+.markdown-body .dataTable th {
+  font-weight: 900;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.markdown-body.dataTable td {
+  font-weight: 400;
+  text-align: left;
+  fonti-size: 0.6rem;
 }
 </style>

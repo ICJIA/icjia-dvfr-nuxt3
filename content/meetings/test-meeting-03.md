@@ -21,6 +21,7 @@ attachments:
         alternativeText: null
         url: /uploads/DVFR_website_outline_draft_50c324b77e.docx
         ext: .docx
+        size: 21.87
     - attributes:
         createdAt: 2023-02-17T14:38:52.321Z
         updatedAt: 2023-02-17T18:00:17.886Z
@@ -28,6 +29,7 @@ attachments:
         alternativeText: null
         url: /uploads/ARISFY_23_Expansion_Grants_NOFO_Instructions_547a9d0288_1ad3e33a5b.pdf
         ext: .pdf
+        size: 623.67
 rawText: this is the body for test meeting 03
 draft: false
 navigation: true

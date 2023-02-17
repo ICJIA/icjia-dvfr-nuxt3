@@ -42,6 +42,7 @@ const query = `query {
                 alternativeText
                 url
                 ext
+                size
               }
           }
         }
