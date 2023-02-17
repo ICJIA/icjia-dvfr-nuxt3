@@ -21,7 +21,8 @@
     "create:local": "node ./creators/createLocalMeta.mjs",
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "scripts:local": "yarn create:local",
-    "scripts": "yarn create:contentDirectory && yarn create:pages && yarn create:searchIndex && yarn create:sitemap && yarn create:routes"
+    "scripts": "yarn create:contentDirectory && yarn create:pages && yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
+    "clear": "rm -rf .nuxt .output"
   },
   "devDependencies": {
     "@nuxt/content": "^2.4.3",
