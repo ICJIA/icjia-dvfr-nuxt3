@@ -12,6 +12,8 @@ createdAt: 2023-02-17T14:37:12.242Z
 updatedAt: 2023-02-17T15:41:07.260Z
 publishedAt: 2023-02-17T14:37:20.462Z
 searchMeta: null
+attachments:
+  data: []
 rawText: this is the body for test meeting 01
 draft: false
 navigation: true

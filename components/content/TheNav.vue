@@ -61,7 +61,7 @@
                 <v-btn
                   variant="text"
                   size="default"
-                  class="hidden-sm-and-down navItem"
+                  class="hidden-md-and-down navItem"
                   v-bind="props"
                 >
                   {{ menu.main }}

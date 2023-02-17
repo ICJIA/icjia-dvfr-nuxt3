@@ -33,6 +33,18 @@ const query = `query {
           updatedAt
           publishedAt
           searchMeta
+          attachments {
+            data {
+              attributes {
+                createdAt
+                updatedAt
+                name
+                alternativeText
+                url
+                ext
+              }
+          }
+        }
           
         }
       }

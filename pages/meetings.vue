@@ -1,40 +1,12 @@
-<script setup>
+<script setup lang="ts">
+import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
+const query: QueryBuilderParams = { path: "/meetings/", sort: { start: -1 } };
 const { path } = useRoute();
 const router = useRouter();
 
-const showTOC = ref(false);
-const cols = ref(12);
-
-let sections = ref([]);
-let myToc = [];
-
-// const error = useError();
 const { data } = await useAsyncData(`content-${path}`, async () => {
   const post = await queryContent().where({ _path: path }).findOne();
   return post;
-});
-const redirect = () => {
-  router.push("/404");
-};
-
-let myTocObj = {};
-
-onMounted(() => {
-  if (data.value.showTableOfContents) {
-    showTOC.value = true;
-    cols.value = 9;
-    console.log("showTOC", showTOC.value);
-    sections = Array.from(document.querySelectorAll("h2"));
-    myToc = sections.map((section) => {
-      return {
-        id: section.id,
-        depth: 2,
-        text: section.innerText,
-      };
-    });
-
-    myTocObj = { title: "", searchDepth: 2, depth: 2, links: myToc };
-  }
 });
 
 const desc = ref(data.value.summary);
@@ -73,40 +45,86 @@ useHead({
 
 <template>
   <div class="pb-12" data-aos="fade-in">
-    <v-container fluid style="margin: 0; padding: 0"
+    <v-container fluid
       ><v-row
-        ><v-col cols="12" :md="cols">
-          <div v-if="data" class="mt-6 px-5">
+        ><v-col cols="12" md="12">
+          <div v-if="data" class="mt-6">
             <h1>{{ data.title.toUpperCase() }}</h1>
             <ContentDoc :key="data?.title" :value="data" class="markdown-body">
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>
             </ContentDoc>
           </div>
-          <div v-else>{{ redirect() }}</div>
         </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12" md="12">
+          <ContentList :query="query" v-slot="{ list }">
+            <div v-for="meeting in list" :key="meeting._path">
+              <v-card
+                class="markdown-body px-5 py-5 mb-5"
+                style="background: #fff"
+              >
+                <nuxt-link :to="meeting.path">
+                  <h3>{{ meeting.title }} / {{ meeting.start }}</h3></nuxt-link
+                >
 
-        <v-col
-          v-if="showTOC"
-          cols="12"
-          md="3"
-          style="
-            min-height: 110vh !important;
-            background: #fafafa;
-            margin-top: 12px;
-            margin-bottom: -35px;
-            border-left: 1px solid #ddd;
-            z-index: 1;
-            margin-left: -20px;
-            margin-right: 0;
-            padding-right: 0;
-          "
-          class="hidden-sm-and-down elevation-0"
-        >
-          <!-- TOC HERE -->
-
-          <TheTableOfContents :data="myTocObj" class="toc" />
-        </v-col> </v-row
-    ></v-container>
+                <details>
+                  <summary>Details</summary>
+                  <div class="mt-3">{{ meeting.summary }}</div>
+                  <div class="markdown-body mt-3">
+                    <div
+                      v-if="meeting.attachments.data.length"
+                      style="background: #f8f8f8"
+                      class="px-5 py-5"
+                    >
+                      <ul class="pl-5">
+                        <li
+                          v-for="(attachment, index) in meeting.attachments
+                            .data"
+                          :key="attachment.url"
+                          class="mb-2"
+                        >
+                          <nuxt-link
+                            :href="`https://dvfr.icjia-api.cloud${meeting.attachments.data[index].attributes.url}`"
+                          >
+                            {{
+                              meeting.attachments.data[
+                                index
+                              ].attributes.name.replace(/\.[^/.]+$/, "")
+                            }}{{
+                              meeting.attachments.data[index].attributes.ext
+                            }}
+                          </nuxt-link>
+                        </li>
+                      </ul>
+                    </div>
+                    <div v-else class="pl-5">Attachments forthcoming.</div>
+                  </div>
+                </details>
+              </v-card>
+            </div>
+          </ContentList>
+        </v-col></v-row
+      ></v-container
+    >
   </div>
 </template>
+
+<style scoped>
+/* Summary/details */
+
+summary {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+details {
+  margin-top: 15px !important;
+  margin-bottom: 15px;
+}
+
+summary > * {
+  display: inline;
+}
+</style>

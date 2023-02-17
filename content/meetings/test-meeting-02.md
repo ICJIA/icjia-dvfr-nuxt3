@@ -12,6 +12,15 @@ createdAt: 2023-02-17T14:38:55.532Z
 updatedAt: 2023-02-17T15:41:14.015Z
 publishedAt: 2023-02-17T15:09:55.390Z
 searchMeta: null
+attachments:
+  data:
+    - attributes:
+        createdAt: 2023-02-17T14:38:52.321Z
+        updatedAt: 2023-02-17T18:00:17.886Z
+        name: ARISFY_23_Expansion_Grants_NOFO_Instructions.pdf
+        alternativeText: null
+        url: /uploads/ARISFY_23_Expansion_Grants_NOFO_Instructions_547a9d0288_1ad3e33a5b.pdf
+        ext: .pdf
 rawText: this is the body for test meeting 01
 draft: false
 navigation: true
