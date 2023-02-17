@@ -19,16 +19,6 @@ const formatDate = (dateString) => {
   return new Date(dateString).toLocaleDateString(undefined, options);
 };
 
-// const units = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
-// const niceBytes = (x) => {
-//   let l = 0,
-//     n = parseInt(x, 10) || 0;
-//   while (n >= 1024 && ++l) {
-//     n = n / 1024;
-//   }
-//   return n.toFixed(n < 10 && l > 0 ? 1 : 0) + " " + units[l];
-// };
-
 const niceBytes = (bytes, si = false, dp = 1) => {
   const thresh = si ? 1000 : 1024;
 

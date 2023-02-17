@@ -42,9 +42,7 @@ const { data } = await useAsyncData(`content-home`, async () => {
   const post = await queryContent().where({ _path: "/" }).findOne();
   return post;
 });
-// const redirect = () => {
-//   router.push("/404");
-// };
+
 
 onMounted(() => {
   isMounted.value = true;

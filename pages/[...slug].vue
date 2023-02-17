@@ -24,8 +24,8 @@ onBeforeMount(() => {
   const currentPath = router.currentRoute.value.path;
   // console.log("Current route path: ", router.currentRoute.value.path);
   // console.table(appRoutes);
-  const validRoute = appRoutes.includes(currentPath);
-  if (!validRoute) {
+  const isValidRoute = appRoutes.includes(currentPath);
+  if (!isValidRoute) {
     throw showError({ statusCode: 404, statusMessage: "Page Not Found" });
   }
 }),
