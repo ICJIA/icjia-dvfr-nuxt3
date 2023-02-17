@@ -1,8 +1,4 @@
 <script setup>
-definePageMeta({
-  middleware: ["is-valid-content"],
-});
-
 const { path } = useRoute();
 const router = useRouter();
 

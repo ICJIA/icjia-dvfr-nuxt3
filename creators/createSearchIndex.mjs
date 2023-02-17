@@ -3,12 +3,12 @@ const require = createRequire(import.meta.url);
 const { v4: uuidv4 } = require("uuid");
 const jsonfile = require("jsonfile");
 const pages = require("../public/pages.json");
-// const posts = require("../public/posts.json");
+const meetings = require("../public/meetings.json");
 // const site = [...pages, ...posts];
 
 //TODO: Add dynamic pages to search index
 
-const site = [...pages];
+const site = [...pages, ...meetings];
 
 const searchIndex = site.map((item) => {
   // console.log(item.attributes);

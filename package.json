@@ -13,6 +13,7 @@
     "postinstall": "nuxt prepare",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore . --fix",
     "lint": "npm run lint:js",
+    "create:meetings": "node ./creators/createMarkdownMeetings.js",
     "create:news": "node ./creators/createMarkdownNews.js",
     "create:routes": "node ./creators/createSiteRoutes.mjs",
     "create:pages": "node ./creators/createMarkdownPages.js",
@@ -21,7 +22,7 @@
     "create:local": "node ./creators/createLocalMeta.mjs",
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "scripts:local": "yarn create:local",
-    "scripts": "yarn create:contentDirectory && yarn create:pages && yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
+    "scripts": "yarn create:contentDirectory && yarn create:meetings && yarn create:pages && yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
     "clear": "rm -rf .nuxt .output"
   },
   "devDependencies": {

@@ -1,16 +1,18 @@
-<template>
-  <div style="background: #eee">
-    <div class="v-container v-container--fluid">
-      <div class="v-row">
-        <div class="v-col-md-6 v-col-12">col 1</div>
-        <div class="v-col-md-6 v-col-12">col 2</div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-export default {};
+<script setup lang="ts">
+import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
+const query: QueryBuilderParams = { path: "/meetings/", sort: { start: -1 } };
 </script>
-
-<style lang="scss" scoped></style>
+<template>
+  <main>
+    <ContentList :query="query" v-slot="{ list }">
+      <div v-for="meeting in list" :key="meeting._path">
+        <nuxt-link :to="meeting.path">
+          <h3>{{ meeting.title }} / {{ meeting.start }}</h3></nuxt-link
+        >
+        <div>
+          {{ meeting }}
+        </div>
+      </div>
+    </ContentList>
+  </main>
+</template>

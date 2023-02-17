@@ -4,13 +4,16 @@ const require = createRequire(import.meta.url);
 const { v4: uuidv4 } = require("uuid");
 const jsonfile = require("jsonfile");
 const pageRoutes = require("../public/routesPages.json");
+const meetingRoutes = require("../public/routesMeetings.json");
 
 dotenv.config();
 
 // const myManualRoutes = ["/search", "/translate", "/contact"];
 const myManualRoutes = JSON.parse(process.env.NUXT_MANUAL_ROUTES);
 
-const appRoutes = Array.from(new Set([...pageRoutes, ...myManualRoutes]));
+const appRoutes = Array.from(
+  new Set([...pageRoutes, ...meetingRoutes, ...myManualRoutes])
+);
 
 jsonfile.writeFileSync(`public/appRoutes.json`, appRoutes, function (err) {
   if (err) {

@@ -21,6 +21,8 @@ const query = `query {
         attributes {
           title
           slug
+          start
+          end
           hideFromSearch
           hideFromSitemap
           showTableOfContents
@@ -57,7 +59,7 @@ axios
 
     let section;
     const site = items.map((item) => {
-      const obj = { ...page };
+      const obj = { ...item };
       let rawText;
 
       rawText = obj.attributes?.body
@@ -88,7 +90,7 @@ axios
 
     const pageRoutes = site.map((item) => {
       if (item.attributes.slug !== "index") {
-        return `/${item.attributes.slug}`;
+        return `/meetings/${item.attributes.slug}`;
       } else {
         return `/`;
       }

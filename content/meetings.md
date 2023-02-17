@@ -7,16 +7,16 @@ showTableOfContents: false
 summary: DVFR Meeting information
 section: root
 createdAt: 2023-02-06T17:46:28.366Z
-updatedAt: 2023-02-16T03:11:37.980Z
+updatedAt: 2023-02-16T13:00:18.878Z
 publishedAt: 2023-02-06T17:46:29.636Z
 searchMeta: null
-rawText: "database work is needed in order to store the minutes agendas materials "
+rawText: "meeting info here "
 draft: false
 navigation: true
 path: /meetings
 url: https://dvfr.icjia.dev/meetings
 ---
 
-Database work is needed in order to store the minutes/agendas/materials.
+Meeting info here.
 
 

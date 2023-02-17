@@ -1,8 +1,8 @@
 <script setup>
-definePageMeta({
-  middleware: ["is-valid-content"],
-});
-
+// definePageMeta({
+//   middleware: ["is-valid-content"],
+// });
+import appRoutes from "assets/json/appRoutes.json";
 const { path } = useRoute();
 const router = useRouter();
 
@@ -23,23 +23,32 @@ const redirect = () => {
 
 let myTocObj = {};
 
-onMounted(() => {
-  if (data.value.showTableOfContents) {
-    showTOC.value = true;
-    cols.value = 9;
-    console.log("showTOC", showTOC.value);
-    sections = Array.from(document.querySelectorAll("h2"));
-    myToc = sections.map((section) => {
-      return {
-        id: section.id,
-        depth: 2,
-        text: section.innerText,
-      };
-    });
-
-    myTocObj = { title: "", searchDepth: 2, depth: 2, links: myToc };
+onBeforeMount(() => {
+  const currentPath = router.currentRoute.value.path;
+  console.log("Current route path: ", router.currentRoute.value.path);
+  console.table(appRoutes);
+  const validRoute = appRoutes.includes(currentPath);
+  if (!validRoute) {
+    throw showError({ statusCode: 404, statusMessage: "Page Not Found" });
   }
-});
+}),
+  onMounted(() => {
+    if (data.value.showTableOfContents) {
+      showTOC.value = true;
+      cols.value = 9;
+      console.log("showTOC", showTOC.value);
+      sections = Array.from(document.querySelectorAll("h2"));
+      myToc = sections.map((section) => {
+        return {
+          id: section.id,
+          depth: 2,
+          text: section.innerText,
+        };
+      });
+
+      myTocObj = { title: "", searchDepth: 2, depth: 2, links: myToc };
+    }
+  });
 
 const desc = ref(data.value.summary);
 
