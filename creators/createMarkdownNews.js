@@ -18,25 +18,39 @@ const API = process.env.NUXT_PUBLIC_API_BASE_URL;
 
 const query = `query {
     posts {
-      data {
-        id
-        attributes {
-          title
-          slug
-          hideFromSearch
-          hideFromSitemap
-          summary
-          body
-          showTableOfContents
-          section
-          createdAt
-          updatedAt
-          publishedAt
-          searchMeta
-          
+    data {
+      id
+      attributes {
+        title
+        slug
+        dateOverride
+        category
+        hideFromSearch
+        hideFromSitemap
+        showTableOfContents
+        summary
+        body
+        section
+        createdAt
+        updatedAt
+        publishedAt
+        searchMeta
+        attachments {
+          data {
+            attributes {
+              createdAt
+              updatedAt
+              name
+              alternativeText
+              url
+              ext
+              size
+            }
+          }
         }
       }
     }
+  }
   }`;
 
 function formatMarkdown(content) {
@@ -60,6 +74,9 @@ axios
     let section;
     const site = posts.map((post) => {
       const obj = { ...post };
+      obj.attributes.postDate = obj.attributes.dateOverride
+        ? new Date(obj.attributes.dateOverride)
+        : obj.attributes.publishedAt;
       let rawText;
 
       rawText = obj.attributes?.body
@@ -68,6 +85,7 @@ axios
       rawText = rawText.replace(/\s\s+/g, " ");
       obj.attributes.rawText = rawText.toLowerCase();
       obj.attributes.draft = false;
+
       // obj.attributes.description = post.attributes.summary;
       obj.attributes.navigation = true;
       if (post.attributes.section !== "root") {
@@ -100,7 +118,7 @@ axios
     });
 
     jsonfile.writeFileSync(
-      `./public/routesNews.json`,
+      `./public/routesPosts.json`,
       newsRoutes,
       function (err) {
         if (err) {
@@ -109,21 +127,21 @@ axios
       }
     );
 
-    site.forEach((post) => {
-      if (post.attributes.section === "root") {
+    site.forEach((item) => {
+      if (item.attributes.section === "root") {
         section = "";
       } else {
-        section = post.attributes.section.toLowerCase();
+        section = item.attributes.section.toLowerCase();
       }
 
-      const basename = post.attributes.slug;
+      const basename = item.attributes.slug;
       const filePath = path.join(contentDir, `${section}/${basename}.md`);
       const directoryPath = path.join(contentDir, `${section}`);
       if (!fs.existsSync(directoryPath)) {
         fs.mkdirSync(directoryPath);
       }
 
-      const content = formatMarkdown(post.attributes);
+      const content = formatMarkdown(item.attributes);
       // console.log(content);
       fs.writeFileSync(filePath, content);
     });

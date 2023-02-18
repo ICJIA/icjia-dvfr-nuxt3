@@ -2,13 +2,9 @@
 //
 // https://v3.nuxtjs.org/api/configuration/nuxt.config\
 
-// import newsRoutes from "./public/routesNews.json";
 import vuetify from "vite-plugin-vuetify";
 import appRoutes from "./public/appRoutes.json";
 
-// const siteRoutes = [...newsRoutes, ...pageRoutes];
-// const siteRoutes = [...pageRoutes];
-// console.log("Generated routes:", siteRoutes);
 export default defineNuxtConfig({
   app: {
     // baseURL: "/dvfr/",
@@ -52,7 +48,7 @@ export default defineNuxtConfig({
         //   defer: true,
         // },
         // {
-        //   src: "https://www.googletagmanager.com/gtag/js?id=G-DVJ6R097SW",
+        //   src: "https://www.googletagmanager.com/gtag/js?id=G-xxxxxxx",
         //   async: true,
         // },
         // {

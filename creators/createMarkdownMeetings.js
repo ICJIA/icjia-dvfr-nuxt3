@@ -102,7 +102,7 @@ axios
       return obj;
     });
 
-    const pageRoutes = site.map((item) => {
+    const routes = site.map((item) => {
       if (item.attributes.slug !== "index") {
         return `/meetings/${item.attributes.slug}`;
       } else {
@@ -112,7 +112,7 @@ axios
 
     jsonfile.writeFileSync(
       `./public/routesMeetings.json`,
-      pageRoutes,
+      routes,
       function (err) {
         if (err) {
           console.error(err);
@@ -133,7 +133,6 @@ axios
       } else {
         section = item.attributes.section.toLowerCase();
       }
-
       const basename = item.attributes.slug;
       const filePath = path.join(contentDir, `${section}/${basename}.md`);
       const directoryPath = path.join(contentDir, `${section}`);
