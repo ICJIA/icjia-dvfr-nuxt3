@@ -1,13 +1,18 @@
 <script setup lang="ts">
-import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
-const query: QueryBuilderParams = { path: "/meetings/", sort: { start: -1 } };
+// import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
+// const query: QueryBuilderParams = { path: "/meetings/", sort: { start: -1 } };
+import moment from "moment";
 const { path } = useRoute();
 const router = useRouter();
 
-const { data } = await useAsyncData(`content-${path}`, async () => {
-  const post = await queryContent().where({ _path: path }).findOne();
-  return post;
-});
+// const { data } = await useAsyncData(`content-${path}`, async () => {
+//   const post = await queryContent().where({ _path: path }).findOne();
+//   return post;
+// });
+
+const { data: query } = await useAsyncData("home", () =>
+  queryContent("/meetings/").sort({ start: -1 }).find()
+);
 
 const constructURL = (url: string) => {
   const myURL = "https://dvfr.icjia-api.cloud/uploads/" + url;
@@ -41,6 +46,16 @@ const niceBytes = (bytes, si = false, dp = 1) => {
   );
 
   return bytes.toFixed(dp) + " " + units[u];
+};
+
+// write function to capitalize first letter of sentence
+const capitalize = (s) => {
+  if (typeof s !== "string") return "";
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
+
+const getTime = (date) => {
+  return moment(date).format("hh:mm A");
 };
 
 useHead({
@@ -79,108 +94,88 @@ useHead({
   <div class="pb-12" data-aos="fade-in">
     <v-container fluid>
       <h1>Meetings</h1>
-      <!-- <v-row
-        ><v-col cols="12" md="12">
-          <div v-if="data" class="mt-6">
-            <h1>{{ data.title.toUpperCase() }}</h1>
-            <ContentDoc :key="data?.title" :value="data" class="markdown-body">
-              <template #empty>Document not found</template>
-              <template #not-found>Document not found</template>
-            </ContentDoc>
-          </div>
-        </v-col>
-      </v-row> -->
-      <v-row>
-        <v-col cols="12" md="12">
-          <ContentList :query="query" v-slot="{ list }">
-            <div v-for="meeting in list" :key="meeting._path">
-              <v-card
-                class="markdown-body px-5 py-0 elevation-0 mb-0"
-                style="background: #fff"
+      <div v-for="meeting in query" :key="meeting._path">
+        <v-card
+          class="markdown-body px-5 py-0 elevation-0 mb-0"
+          style="background: #fff"
+        >
+          <details class="pl-5">
+            <summary>
+              {{ formatDate(meeting.start) }} |
+              <span style="color: #666">
+                {{ meeting.title }}, {{ getTime(meeting.start) }} -
+                {{ getTime(meeting.end) }}</span
               >
-                <nuxt-link :to="meeting.path">
-                  <h3 style="font-size: 1.1em">
-                    {{ meeting.title }} | {{ formatDate(meeting.start) }}
-                  </h3></nuxt-link
+            </summary>
+            <div>
+              <div class="mt-3 px-5 py-0" v-if="meeting.summary.length">
+                {{ meeting.summary }}
+              </div>
+              <div class="markdown-body mt-3">
+                <div
+                  v-if="meeting.attachments.data.length"
+                  style="background: #fff"
+                  class="px-5 py-0"
                 >
-
-                <details class="pl-5">
-                  <summary>Details</summary>
-                  <div class="mt-3 px-5 py-0" v-if="meeting.summary.length">
-                    {{ meeting.summary }}
-                  </div>
-                  <div class="markdown-body mt-3">
-                    <div
-                      v-if="meeting.attachments.data.length"
-                      style="background: #fff"
-                      class="px-5 py-0"
-                    >
-                      <h4>Attachments</h4>
-                      <v-table
-                        class="markdown-body dataTable"
-                        density="compact"
+                  <h4>Attachments</h4>
+                  <v-table class="markdown-body dataTable" density="compact">
+                    <thead>
+                      <tr>
+                        <th class="text-left">Filename</th>
+                        <th class="text-left">Last Updated</th>
+                        <th class="text-left">Size</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr
+                        v-for="(attachment, index) in meeting.attachments.data"
+                        :key="attachment.url"
                       >
-                        <thead>
-                          <tr>
-                            <th class="text-left">Filename</th>
-                            <th class="text-left">Last Updated</th>
-                            <th class="text-left">Size</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr
-                            v-for="(attachment, index) in meeting.attachments
-                              .data"
-                            :key="attachment.url"
+                        <td>
+                          <a
+                            :href="
+                              'https://dvfr.icjia-api.cloud' +
+                              meeting.attachments.data[index].attributes.url
+                            "
+                            target="_blank"
                           >
-                            <td>
-                              <a
-                                :href="
-                                  'https://dvfr.icjia-api.cloud' +
-                                  meeting.attachments.data[index].attributes.url
-                                "
-                                target="_blank"
-                              >
-                                {{
-                                  meeting.attachments.data[
-                                    index
-                                  ].attributes.name.replace(/\.[^/.]+$/, "")
-                                }}{{
-                                  meeting.attachments.data[index].attributes.ext
-                                }}
-                              </a>
-                            </td>
-                            <td>
-                              {{
-                                formatDate(
-                                  meeting.attachments.data[index].attributes
-                                    .updatedAt
-                                )
-                              }}
-                            </td>
-                            <td>
-                              {{
-                                niceBytes(
-                                  meeting.attachments.data[index].attributes
-                                    .size
-                                )
-                              }}
-                            </td>
-                          </tr>
-                        </tbody>
-                      </v-table>
-                    </div>
-                    <div v-else class="pl-4">
-                      <strong>Attachments forthcoming.</strong>
-                    </div>
-                  </div>
-                </details>
-              </v-card>
+                            {{
+                              meeting.attachments.data[
+                                index
+                              ].attributes.name.replace(/\.[^/.]+$/, "")
+                            }}{{
+                              meeting.attachments.data[index].attributes.ext
+                            }}
+                          </a>
+                        </td>
+                        <td>
+                          {{
+                            formatDate(
+                              meeting.attachments.data[index].attributes
+                                .updatedAt
+                            )
+                          }}
+                        </td>
+                        <td>
+                          {{
+                            niceBytes(
+                              meeting.attachments.data[index].attributes.size
+                            )
+                          }}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </v-table>
+                </div>
+                <div v-else class="pl-4">
+                  <strong>Attachments forthcoming.</strong>
+                </div>
+              </div>
             </div>
-          </ContentList>
-        </v-col></v-row
-      ></v-container
-    >
+          </details>
+        </v-card>
+      </div>
+    </v-container>
   </div>
 </template>
 
@@ -190,6 +185,7 @@ useHead({
 summary {
   cursor: pointer;
   font-weight: 900;
+  font-size: 16px;
 }
 
 details {

@@ -21,6 +21,7 @@
 </template>
 
 <script setup>
+//TODO: properly set up to divide URLs into breadcrumbs
 const route = useRoute();
 // put html entity in string
 const htmlEntity = (entity) => {
