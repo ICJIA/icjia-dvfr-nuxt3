@@ -4,7 +4,7 @@
     :height="650"
     aspect-ratio="1"
     cover
-    src="/splash-grey-fill.jpg"
+    src="/splash-dvfr-02.jpg"
     lazy-src="/splash-grey-fill.jpg"
     style="margin-top: 0px"
   >
@@ -80,7 +80,7 @@ onMounted(() => {
   width: 100%;
   background: rgba(79, 80, 79, 0.7);
   padding: 30px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .bg {
