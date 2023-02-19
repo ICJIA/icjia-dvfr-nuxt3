@@ -5,7 +5,7 @@
     aspect-ratio="1"
     cover
     src="/splash-dvfr-02.jpg"
-    lazy-src="/splash-grey-fill.jpg"
+    lazy-src="/splash-dvfr-02_thumb.jpg"
     style="margin-top: 0px"
   >
     <template #placeholder>
