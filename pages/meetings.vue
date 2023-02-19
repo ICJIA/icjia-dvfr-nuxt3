@@ -120,7 +120,16 @@ useHead({
                   <!-- <div style="font-size: 14px" class="mt-1 mb-1">
                     ATTACHMENTS
                   </div> -->
-                  <v-table class="markdown-body dataTable" density="compact">
+                  <div class="text-right">
+                    <v-btn size="x-small" variant="text" :to="meeting.path"
+                      ><v-icon left>mdi-link</v-icon>&nbsp;&nbsp;meeting
+                      permalink</v-btn
+                    >
+                  </div>
+                  <v-table
+                    class="markdown-body dataTable mt-2"
+                    density="compact"
+                  >
                     <thead>
                       <tr>
                         <th class="text-left">Filename</th>
@@ -213,6 +222,6 @@ summary > * {
 .markdown-body.dataTable td {
   font-weight: 400;
   text-align: left;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
 }
 </style>
