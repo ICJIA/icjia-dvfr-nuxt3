@@ -14,7 +14,7 @@
     <span style="color: #fff; font-weight: 900"
       >&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</span
     >
-    <span style="color: white; font-weight: 700; font-size: 12px">{{
+    <span style="color: white; font-weight: 700">{{
       makeTitle(route.path.toUpperCase())
     }}</span>
   </div>
@@ -22,6 +22,10 @@
 
 <script setup>
 const route = useRoute();
+// put html entity in string
+const htmlEntity = (entity) => {
+  return String.fromCharCode(entity);
+};
 
 const makeTitle = (slug) => {
   // remove initial slash
@@ -32,7 +36,9 @@ const makeTitle = (slug) => {
     const word = words[i];
     words[i] = word.charAt(0).toUpperCase() + word.slice(1);
   }
-
-  return words.join(" ");
+  let breadcrumbURL = words
+    .join(" ")
+    .replace(/\//g, " " + htmlEntity(187) + " ");
+  return breadcrumbURL;
 };
 </script>
