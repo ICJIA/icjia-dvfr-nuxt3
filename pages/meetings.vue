@@ -117,7 +117,9 @@ useHead({
                   style="background: #fff"
                   class="px-5 py-0"
                 >
-                  <h4>Attachments</h4>
+                  <!-- <div style="font-size: 14px" class="mt-1 mb-1">
+                    ATTACHMENTS
+                  </div> -->
                   <v-table class="markdown-body dataTable" density="compact">
                     <thead>
                       <tr>
@@ -211,6 +213,6 @@ summary > * {
 .markdown-body.dataTable td {
   font-weight: 400;
   text-align: left;
-  fonti-size: 0.6rem;
+  font-size: 0.7rem;
 }
 </style>
