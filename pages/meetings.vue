@@ -120,14 +120,14 @@ useHead({
                   <!-- <div style="font-size: 14px" class="mt-1 mb-1">
                     ATTACHMENTS
                   </div> -->
-                  <div class="text-right">
-                    <v-btn size="x-small" variant="text" :to="meeting.path"
-                      ><v-icon left>mdi-link</v-icon>&nbsp;&nbsp;meeting
-                      permalink</v-btn
+                  <div class="text-right mb-1">
+                    <v-btn size="x-small" variant="outlined" :to="meeting.path"
+                      ><v-icon left>mdi-link</v-icon>&nbsp;&nbsp;full
+                      information</v-btn
                     >
                   </div>
                   <v-table
-                    class="markdown-body dataTable mt-2"
+                    class="markdown-body dataTable mt-4"
                     density="compact"
                   >
                     <thead>
