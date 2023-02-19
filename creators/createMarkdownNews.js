@@ -86,6 +86,12 @@ axios
       obj.attributes.rawText = rawText.toLowerCase();
       obj.attributes.draft = false;
 
+      if (post.attributes.searchMeta) {
+        obj.attributes.searchMeta = "news " + post.attributes.searchMeta;
+      } else {
+        obj.attributes.searchMeta = "news ";
+      }
+
       // obj.attributes.description = post.attributes.summary;
       obj.attributes.navigation = true;
       if (post.attributes.section !== "root") {

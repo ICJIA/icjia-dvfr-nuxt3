@@ -11,7 +11,7 @@ section: news
 createdAt: 2023-02-18T18:18:15.190Z
 updatedAt: 2023-02-18T18:18:16.372Z
 publishedAt: 2023-02-18T18:18:16.364Z
-searchMeta: null
+searchMeta: "news "
 attachments:
   data:
     - attributes:

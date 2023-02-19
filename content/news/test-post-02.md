@@ -9,9 +9,9 @@ showTableOfContents: false
 summary: this is the summary for test post 02
 section: news
 createdAt: 2023-02-18T18:17:18.044Z
-updatedAt: 2023-02-18T18:48:07.480Z
+updatedAt: 2023-02-19T22:53:41.556Z
 publishedAt: 2023-02-18T18:17:26.029Z
-searchMeta: null
+searchMeta: "news icjia chri "
 attachments:
   data:
     - attributes:
