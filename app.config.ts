@@ -63,12 +63,12 @@ export default defineAppConfig({
       link: "/news",
     },
     {
-      main: "Resources",
-      link: "/resources",
-    },
-    {
       main: "Publications",
       link: "/publications",
+    },
+    {
+      main: "Resources",
+      link: "/resources",
     },
   ],
 });

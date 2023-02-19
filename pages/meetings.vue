@@ -91,9 +91,9 @@ useHead({
 </script>
 
 <template>
-  <div class="pb-12" data-aos="fade-in">
+  <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
     <v-container fluid>
-      <h1>Meetings</h1>
+      <h1>MEETINGS</h1>
       <div v-for="meeting in query" :key="meeting._path">
         <v-card
           class="markdown-body px-5 py-0 elevation-0 mb-0"
