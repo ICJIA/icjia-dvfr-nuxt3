@@ -119,47 +119,11 @@ useHead({
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>
             </ContentDoc>
-          </div>
-          <div
-            v-if="data.attachments.data.length"
-            style="background: #fff"
-            class="px-5 py-0 mt-10"
-          >
-            <strong>Meeting Materials</strong>
-            <v-table class="markdown-body dataTable mt-3" density="compact">
-              <thead>
-                <tr>
-                  <th class="text-left">Filename</th>
-                  <th class="text-left">Last Updated</th>
-                  <th class="text-left">Size</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr
-                  v-for="(attachment, index) in data.attachments.data"
-                  :key="attachment.url"
-                >
-                  <td>
-                    <a
-                      :href="
-                        'https://dvfr.icjia-api.cloud' +
-                        attachment.attributes.url
-                      "
-                      target="_blank"
-                    >
-                      {{ attachment.attributes.name.replace(/\.[^/.]+$/, "")
-                      }}{{ attachment.attributes.ext }}
-                    </a>
-                  </td>
-                  <td>
-                    {{ formatDate(attachment.attributes.updatedAt) }}
-                  </td>
-                  <td>
-                    {{ niceBytes(attachment.attributes.size) }}
-                  </td>
-                </tr>
-              </tbody>
-            </v-table>
+            <the-attachment-table
+              :attachments="data.attachments.data"
+              heading="Meeting Materials"
+              class="mt-6"
+            />
           </div>
         </v-col>
 

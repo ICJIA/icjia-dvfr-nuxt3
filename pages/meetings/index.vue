@@ -117,65 +117,11 @@ useHead({
                   style="background: #fff"
                   class="px-5 py-0"
                 >
-                  <!-- <div style="font-size: 14px" class="mt-1 mb-1">
-                    ATTACHMENTS
-                  </div> -->
-                  <div class="text-right mb-1">
-                    <v-btn size="x-small" variant="text" :to="meeting.path"
-                      >full information&nbsp;&raquo;</v-btn
-                    >
-                  </div>
-                  <v-table
-                    class="markdown-body dataTable mt-3"
-                    density="compact"
-                  >
-                    <thead>
-                      <tr>
-                        <th class="text-left">Filename</th>
-                        <th class="text-left">Last Updated</th>
-                        <th class="text-left">Size</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr
-                        v-for="(attachment, index) in meeting.attachments.data"
-                        :key="attachment.url"
-                      >
-                        <td>
-                          <a
-                            :href="
-                              'https://dvfr.icjia-api.cloud' +
-                              meeting.attachments.data[index].attributes.url
-                            "
-                            target="_blank"
-                          >
-                            {{
-                              meeting.attachments.data[
-                                index
-                              ].attributes.name.replace(/\.[^/.]+$/, "")
-                            }}{{
-                              meeting.attachments.data[index].attributes.ext
-                            }}
-                          </a>
-                        </td>
-                        <td>
-                          {{
-                            formatDate(
-                              meeting.attachments.data[index].attributes
-                                .updatedAt
-                            )
-                          }}
-                        </td>
-                        <td>
-                          {{
-                            niceBytes(
-                              meeting.attachments.data[index].attributes.size
-                            )
-                          }}
-                        </td>
-                      </tr>
-                    </tbody>
-                  </v-table>
+                  <the-attachment-table
+                    :attachments="meeting.attachments.data"
+                    heading="Meeting Materials"
+                    class="mt-6"
+                  />
                 </div>
                 <div v-else class="pl-4">
                   <strong>Attachments forthcoming.</strong>
