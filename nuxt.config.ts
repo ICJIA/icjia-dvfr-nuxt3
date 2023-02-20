@@ -57,7 +57,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  //   plugins: [{ src: "~/plugins/aos", mode: "client" }],
+  plugins: [{ src: "~/plugins/aos", mode: "client" }],
   css: [
     "vuetify/lib/styles/main.sass",
     "@mdi/font/css/materialdesignicons.min.css",

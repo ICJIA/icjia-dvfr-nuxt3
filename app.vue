@@ -8,7 +8,7 @@
 
     <v-main class="markdown-body" style="min-height: 90vh !important">
       <TheBreadcrumbBar v-if="!isHome"></TheBreadcrumbBar>
-      <NuxtPage></NuxtPage>
+      <NuxtPage data-aos="fade-in"></NuxtPage>
       <div></div>
     </v-main>
     <div style="height: 75px"></div>
@@ -35,7 +35,7 @@ useHead({
 });
 
 const page = useCurrentPage({ slug: "slug-here" });
-console.log(page);
+// console.log(page);
 </script>
 <style>
 .page-enter-active,

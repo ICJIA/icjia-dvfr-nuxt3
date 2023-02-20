@@ -43,7 +43,6 @@ const { data } = await useAsyncData(`content-home`, async () => {
   return post;
 });
 
-
 onMounted(() => {
   isMounted.value = true;
 });
