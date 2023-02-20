@@ -47,6 +47,35 @@ onBeforeMount(() => {
 
 const desc = data.value.summary ? data.value.summary : data.value.title;
 
+const niceBytes = (bytes, si = false, dp = 1) => {
+  const thresh = si ? 1000 : 1024;
+
+  if (Math.abs(bytes) < thresh) {
+    return bytes + " B";
+  }
+
+  const units = si
+    ? ["kB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"]
+    : ["KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"];
+  let u = -1;
+  const r = 10 ** dp;
+
+  do {
+    bytes /= thresh;
+    ++u;
+  } while (
+    Math.round(Math.abs(bytes) * r) / r >= thresh &&
+    u < units.length - 1
+  );
+
+  return bytes.toFixed(dp) + " " + units[u];
+};
+
+const formatDate = (dateString) => {
+  const options = { year: "numeric", month: "long", day: "numeric" };
+  return new Date(dateString).toLocaleDateString(undefined, options);
+};
+
 useHead({
   meta: [
     {
@@ -90,9 +119,48 @@ useHead({
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>
             </ContentDoc>
-            {{ data.attachments.data }}
           </div>
-          <div v-else>LOADING...</div>
+          <div
+            v-if="data.attachments.data.length"
+            style="background: #fff"
+            class="px-5 py-0 mt-10"
+          >
+            <strong>Meeting Materials</strong>
+            <v-table class="markdown-body dataTable mt-3" density="compact">
+              <thead>
+                <tr>
+                  <th class="text-left">Filename</th>
+                  <th class="text-left">Last Updated</th>
+                  <th class="text-left">Size</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  v-for="(attachment, index) in data.attachments.data"
+                  :key="attachment.url"
+                >
+                  <td>
+                    <a
+                      :href="
+                        'https://dvfr.icjia-api.cloud' +
+                        attachment.attributes.url
+                      "
+                      target="_blank"
+                    >
+                      {{ attachment.attributes.name.replace(/\.[^/.]+$/, "")
+                      }}{{ attachment.attributes.ext }}
+                    </a>
+                  </td>
+                  <td>
+                    {{ formatDate(attachment.attributes.updatedAt) }}
+                  </td>
+                  <td>
+                    {{ niceBytes(attachment.attributes.size) }}
+                  </td>
+                </tr>
+              </tbody>
+            </v-table>
+          </div>
         </v-col>
 
         <v-col
@@ -120,3 +188,22 @@ useHead({
     ></v-container>
   </div>
 </template>
+
+<style scoped>
+.markdown-body.dataTable {
+  width: 100%;
+  font-size: 14px;
+}
+
+.markdown-body .dataTable th {
+  font-weight: 900;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.markdown-body.dataTable td {
+  font-weight: 400;
+  text-align: left;
+  font-size: 0.65rem;
+}
+</style>
