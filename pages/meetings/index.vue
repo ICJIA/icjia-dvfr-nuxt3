@@ -120,11 +120,17 @@ useHead({
                   <the-attachment-table
                     :attachments="meeting.attachments.data"
                     heading="Meeting Materials"
-                    class="mt-6"
+                    class="mt-2"
                   />
                 </div>
+
                 <div v-else class="pl-4">
                   <strong>Attachments forthcoming.</strong>
+                </div>
+                <div class="text-right px-5" style="margin-top: -15px">
+                  <v-btn size="x-small" variant="text" :to="meeting.path"
+                    >full meeting information&nbsp;&raquo;</v-btn
+                  >
                 </div>
               </div>
             </div>
