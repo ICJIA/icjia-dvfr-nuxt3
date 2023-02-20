@@ -1,16 +1,9 @@
 <script setup lang="ts">
-// import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
-// const query: QueryBuilderParams = { path: "/meetings/", sort: { start: -1 } };
 import moment from "moment";
 const { path } = useRoute();
 const router = useRouter();
 
-// const { data } = await useAsyncData(`content-${path}`, async () => {
-//   const post = await queryContent().where({ _path: path }).findOne();
-//   return post;
-// });
-
-const { data: query } = await useAsyncData("home", () =>
+const { data: query } = await useAsyncData("meetings", () =>
   queryContent("/meetings/").sort({ start: -1 }).find()
 );
 
@@ -48,7 +41,6 @@ const niceBytes = (bytes, si = false, dp = 1) => {
   return bytes.toFixed(dp) + " " + units[u];
 };
 
-// write function to capitalize first letter of sentence
 const capitalize = (s) => {
   if (typeof s !== "string") return "";
   return s.charAt(0).toUpperCase() + s.slice(1);
