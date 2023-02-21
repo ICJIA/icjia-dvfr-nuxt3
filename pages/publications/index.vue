@@ -108,7 +108,7 @@ useHead({
                 >
                   <attachments
                     :attachments="item.attachments.data"
-                    :links="item.links"
+                    :links="item.link"
                     :showTableDisplay="false"
                     class="mt-2"
                   />

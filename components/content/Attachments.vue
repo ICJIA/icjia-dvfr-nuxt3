@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="pl-2">
     <div v-if="props.showTableDisplay">
-      <strong>{{ props.heading }}</strong>
+      <strong>{{ props.attachmentHeading }}</strong>
       <v-table class="markdown-body dataTable mt-3" density="compact">
         <thead>
           <tr>
@@ -35,13 +35,46 @@
           </tr>
         </tbody>
       </v-table>
+      <div v-if="props.links.length">
+        <strong>{{ props.linkHeading }}</strong>
+
+        <ul class="mt-2">
+          <li v-for="(link, index) in props.links" :key="link.url">
+            <a :href="link.url" target="_blank">
+              {{ link.title }}
+            </a>
+            <div v-if="link.summary">{{ link.summary }}</div>
+          </li>
+        </ul>
+      </div>
     </div>
     <div v-else>
-      <strong>Display attachments and external links here</strong>
-      <br />
-      {{ props.attachments }}
-      <br />
-      {{ props.links }}
+      <strong>Attachments:</strong>
+      <ul class="mt-2">
+        <li
+          v-for="(attachment, index) in props.attachments"
+          :key="attachment.attributes.url"
+        >
+          <a
+            :href="'https://dvfr.icjia-api.cloud' + attachment.attributes.url"
+            target="_blank"
+          >
+            {{ attachment.attributes.name }}
+          </a>
+        </li>
+      </ul>
+      <div v-if="props.links.length">
+        <strong>External links:</strong>
+
+        <ul class="mt-2">
+          <li v-for="(link, index) in props.links" :key="link.url">
+            <a :href="link.url" target="_blank">
+              {{ link.title }}
+            </a>
+            <div v-if="link.summary">{{ link.summary }}</div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -59,11 +92,11 @@ const props = defineProps({
   },
   attachmentHeading: {
     type: String,
-    default: "",
+    default: "Attachments:",
   },
   linkHeading: {
     type: String,
-    default: "External Links",
+    default: "External Links:",
   },
   showTableDisplay: {
     type: Boolean,
