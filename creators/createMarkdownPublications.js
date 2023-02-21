@@ -35,7 +35,7 @@ const query = `query {
         updatedAt
         publishedAt
         searchMeta
-        link {
+        links:link {
           id
           title
           url

@@ -121,7 +121,7 @@ useHead({
             </ContentDoc>
             <attachments
               :attachments="data.attachments.data"
-              heading="Meeting Materials"
+              attachmentHeading="Meeting Materials"
               class="mt-6"
             />
           </div>

@@ -57,9 +57,13 @@ const props = defineProps({
     type: Array,
     default: [],
   },
-  heading: {
+  attachmentHeading: {
     type: String,
-    default: "Attachments",
+    default: "",
+  },
+  linkHeading: {
+    type: String,
+    default: "External Links",
   },
   showTableDisplay: {
     type: Boolean,
