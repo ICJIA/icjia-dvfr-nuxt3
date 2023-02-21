@@ -119,7 +119,7 @@ useHead({
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>
             </ContentDoc>
-            <the-attachment-table
+            <attachments
               :attachments="data.attachments.data"
               heading="Meeting Materials"
               class="mt-6"

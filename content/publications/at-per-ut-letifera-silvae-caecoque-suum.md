@@ -10,11 +10,32 @@ summary: Violentior candida Cereris quis dixit, reparatque, insidiisque; fui.
   Posse Phoebi laudavit quid vatum; quondam cantare vocavit.
 section: publications
 createdAt: 2023-02-19T20:34:28.879Z
-updatedAt: 2023-02-19T20:35:41.817Z
+updatedAt: 2023-02-21T15:24:23.254Z
 publishedAt: 2023-02-19T20:34:32.844Z
 searchMeta: "publication "
+link:
+  - id: "7"
+    title: Sample Link Here 01
+    url: https://www.amazon.com
+    summary: This is a sample smmary for link 01
 attachments:
-  data: []
+  data:
+    - attributes:
+        createdAt: 2023-02-18T04:54:32.003Z
+        updatedAt: 2023-02-18T04:54:32.003Z
+        name: ICJIA Violence Prevention Ad Hoc Committee Meeting 2-23-23.pdf
+        alternativeText: null
+        url: /uploads/ICJIA_Violence_Prevention_Ad_Hoc_Committee_Meeting_2_23_23_454d733c52.pdf
+        ext: .pdf
+        size: 144.19
+    - attributes:
+        createdAt: 2023-02-18T04:54:31.984Z
+        updatedAt: 2023-02-18T04:54:31.984Z
+        name: ICJIA VP Committee Meeting Minutes 2-10-22.pdf
+        alternativeText: null
+        url: /uploads/ICJIA_VP_Committee_Meeting_Minutes_2_10_22_9ec30c5f06.pdf
+        ext: .pdf
+        size: 78.83
 postDate: 2023-02-02T00:00:00.000Z
 rawText: "enipeus primum saxumque terribiles tum dictis opto armento rapta esse
   et preces colorem auraeque dicente valet fera sidera sed emathiis istae

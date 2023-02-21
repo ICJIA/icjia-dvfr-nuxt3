@@ -15,9 +15,22 @@ summary: >
   Pleuronius praedator. Cursus inde sponte, non in nec te Arcades nihil.
 section: publications
 createdAt: 2023-02-19T20:29:25.127Z
-updatedAt: 2023-02-19T20:35:27.758Z
+updatedAt: 2023-02-21T15:24:49.335Z
 publishedAt: 2023-02-19T20:29:26.770Z
 searchMeta: "publication "
+link:
+  - id: "3"
+    title: Test Link 01
+    url: https://www.amazon.com
+    summary: This is a sample smmary for link 01
+  - id: "4"
+    title: Test Link 02
+    url: https://www.amazon.com
+    summary: This is a sample smmary for link 02
+  - id: "5"
+    title: Test Link 03
+    url: https://www.amazon.com
+    summary: This is a sample smmary for link 03
 attachments:
   data:
     - attributes:

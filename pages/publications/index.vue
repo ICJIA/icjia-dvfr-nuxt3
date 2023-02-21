@@ -106,16 +106,18 @@ useHead({
                   style="background: #fff"
                   class="px-5 py-0"
                 >
-                  <the-attachment-table
+                  <attachments
                     :attachments="item.attachments.data"
+                    :links="item.link"
                     heading="Attachments & Links"
+                    :showTableDisplay="false"
                     class="mt-2"
                   />
                 </div>
 
-                <div v-else class="pl-4">
+                <!-- <div v-else class="pl-4">
                   <strong>No additional information.</strong>
-                </div>
+                </div> -->
                 <div class="text-right px-5" style="margin-top: -15px">
                   <v-btn size="x-small" variant="text" :to="item.path"
                     >full information&nbsp;&raquo;</v-btn

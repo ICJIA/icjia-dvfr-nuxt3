@@ -35,6 +35,12 @@ const query = `query {
         updatedAt
         publishedAt
         searchMeta
+        link {
+          id
+          title
+          url
+          summary
+        }
         attachments {
           data {
             attributes {
@@ -78,11 +84,16 @@ axios
         ? new Date(obj.attributes.dateOverride)
         : obj.attributes.publishedAt;
       let rawText;
-      rawText = obj.attributes?.body
-        ?.replace(/<[^>]*>?/gm, "")
-        .replace(/[^a-z0-9]/gi, " ");
-      rawText = rawText.replace(/\s\s+/g, " ");
-      obj.attributes.rawText = rawText.toLowerCase();
+      if (obj.attributes.body) {
+        rawText = obj.attributes?.body
+          ?.replace(/<[^>]*>?/gm, "")
+          .replace(/[^a-z0-9]/gi, " ");
+        rawText = rawText.replace(/\s\s+/g, " ");
+        obj.attributes.rawText = rawText.toLowerCase();
+      } else {
+        obj.attributes.rawText = "";
+      }
+
       obj.attributes.draft = false;
       if (item.attributes.searchMeta) {
         obj.attributes.searchMeta = "publication " + item.attributes.searchMeta;

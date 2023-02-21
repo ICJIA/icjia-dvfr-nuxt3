@@ -109,9 +109,10 @@ useHead({
                   style="background: #fff"
                   class="px-5 py-0"
                 >
-                  <the-attachment-table
+                  <attachments
                     :attachments="meeting.attachments.data"
                     heading="Meeting Materials"
+                    :showTableDisplay="true"
                     class="mt-2"
                   />
                 </div>
