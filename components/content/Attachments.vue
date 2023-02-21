@@ -1,5 +1,10 @@
 <template>
   <div class="pl-2">
+    <!-- <div>Props</div>
+    <div>{{ props.attachments }}</div>
+    <div>links:</div>
+    <div>{{ props.links }}</div> -->
+
     <div v-if="props.showTableDisplay">
       <strong>{{ props.attachmentHeading }}</strong>
       <v-table class="markdown-body dataTable mt-3" density="compact">
@@ -49,20 +54,22 @@
       </div>
     </div>
     <div v-else>
-      <strong>Attachments:</strong>
-      <ul class="mt-2">
-        <li
-          v-for="(attachment, index) in props.attachments"
-          :key="attachment.attributes.url"
-        >
-          <a
-            :href="'https://dvfr.icjia-api.cloud' + attachment.attributes.url"
-            target="_blank"
+      <div v-if="props.attachments.length">
+        <strong>Attachments:</strong>
+        <ul class="mt-2">
+          <li
+            v-for="(attachment, index) in props.attachments"
+            :key="attachment.attributes.url"
           >
-            {{ attachment.attributes.name }}
-          </a>
-        </li>
-      </ul>
+            <a
+              :href="'https://dvfr.icjia-api.cloud' + attachment.attributes.url"
+              target="_blank"
+            >
+              {{ attachment.attributes.name }}
+            </a>
+          </li>
+        </ul>
+      </div>
       <div v-if="props.links.length">
         <strong>External links:</strong>
 

@@ -35,7 +35,7 @@ attachments:
   data:
     - attributes:
         createdAt: 2023-02-18T04:54:32.289Z
-        updatedAt: 2023-02-18T04:54:32.289Z
+        updatedAt: 2023-02-21T18:12:14.569Z
         name: ICJIA Violence Prevention Committee Meeting Minutes 9-8-22.pdf
         alternativeText: null
         url: /uploads/ICJIA_Violence_Prevention_Committee_Meeting_Minutes_9_8_22_ad81760508.pdf

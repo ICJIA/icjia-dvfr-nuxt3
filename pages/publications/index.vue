@@ -101,11 +101,7 @@ useHead({
                 {{ item.summary }}
               </div>
               <div class="markdown-body mt-3">
-                <div
-                  v-if="item.attachments.data.length"
-                  style="background: #fff"
-                  class="px-5 py-0"
-                >
+                <div style="background: #fff" class="px-5 py-0">
                   <attachments
                     :attachments="item.attachments.data"
                     :links="item.link"
