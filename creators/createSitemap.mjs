@@ -8,7 +8,6 @@ dotenv.config();
 const require = createRequire(import.meta.url);
 const siteIndex = require("../public/siteMeta.json");
 
-// const myManualRoutes = ["/search", "/translate", "/contact"];
 const myManualRoutes = JSON.parse(process.env.NUXT_MANUAL_ROUTES);
 const sitemap = new SitemapStream({
   hostname: `${process.env.NUXT_PUBLIC_BASE_URL}`,

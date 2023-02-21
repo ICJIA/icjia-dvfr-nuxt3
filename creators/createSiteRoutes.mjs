@@ -6,13 +6,20 @@ const jsonfile = require("jsonfile");
 const pageRoutes = require("../public/routesPages.json");
 const meetingRoutes = require("../public/routesMeetings.json");
 const postRoutes = require("../public/routesPosts.json");
+const publicationRoutes = require("../public/routesPublications.json");
 dotenv.config();
 
 // const myManualRoutes = ["/search", "/translate", "/contact"];
 const myManualRoutes = JSON.parse(process.env.NUXT_MANUAL_ROUTES);
 
 const appRoutes = Array.from(
-  new Set([...pageRoutes, ...meetingRoutes, ...postRoutes, ...myManualRoutes])
+  new Set([
+    ...pageRoutes,
+    ...meetingRoutes,
+    ...postRoutes,
+    ...publicationRoutes,
+    ...myManualRoutes,
+  ])
 );
 
 jsonfile.writeFileSync(`public/appRoutes.json`, appRoutes, function (err) {

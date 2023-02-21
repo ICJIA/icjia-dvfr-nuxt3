@@ -17,12 +17,13 @@
     "create:news": "node ./creators/createMarkdownNews.js",
     "create:routes": "node ./creators/createSiteRoutes.mjs",
     "create:pages": "node ./creators/createMarkdownPages.js",
+    "create:publications": "node ./creators/createMarkdownPublications.js",
     "create:searchIndex": "node  ./creators/createSearchIndex.mjs",
     "create:contentDirectory": "node ./creators/createContentDirectory.js",
     "create:local": "node ./creators/createLocalMeta.mjs",
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "scripts:local": "yarn create:local",
-    "scripts": "yarn create:contentDirectory && yarn create:news && yarn create:meetings && yarn create:pages && yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
+    "scripts": "yarn create:contentDirectory && yarn create:news && yarn create:meetings && yarn create:pages && yarn create:publications && yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
     "clear": "rm -rf .nuxt .output"
   },
   "devDependencies": {

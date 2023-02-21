@@ -17,7 +17,13 @@ const PUBLIC_FILES_TO_REMOVE = [
   "sitemap.xml",
   "siteMeta.json",
   "routesPages.json",
+  "routesPosts.json",
+  "routesMeetings.json",
+  "routesPublications.json",
   "pages.json",
+  "posts.json",
+  "publications.json",
+  "meetings.json",
 ];
 
 PUBLIC_FILES_TO_REMOVE.forEach((fileName) => {
