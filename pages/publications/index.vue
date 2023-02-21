@@ -71,12 +71,12 @@ useHead({
     {
       hid: "description",
       name: "description",
-      content: "DVFR meeting information and attachments.",
+      content: "DVFR mpublications.",
     },
     {
       hid: "og-desc",
       property: "og:description",
-      content: "DVFR meeting information and attachments.",
+      content: "DVFR publications.",
     },
   ],
 });
@@ -86,42 +86,39 @@ useHead({
   <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
     <v-container fluid>
       <h1>Publications</h1>
-      <div v-for="meeting in query" :key="meeting._path">
+      <div v-for="item in query" :key="item._path">
         <v-card
           class="markdown-body px-5 py-0 elevation-0 mb-0"
           style="background: #fff"
         >
           <details class="pl-5">
             <summary>
-              {{ formatDate(meeting.start) }} |
-              <span style="color: #666">
-                {{ meeting.title }}, {{ getTime(meeting.start) }} -
-                {{ getTime(meeting.end) }}</span
-              >
+              {{ item.category.toUpperCase() }} |
+              <span style="color: #666"> {{ item.title }}</span>
             </summary>
             <div>
-              <div class="mt-3 px-5 py-0" v-if="meeting.summary.length">
-                {{ meeting.summary }}
+              <div class="mt-3 px-5 py-0" v-if="item.summary.length">
+                {{ item.summary }}
               </div>
               <div class="markdown-body mt-3">
                 <div
-                  v-if="meeting.attachments.data.length"
+                  v-if="item.attachments.data.length"
                   style="background: #fff"
                   class="px-5 py-0"
                 >
                   <the-attachment-table
-                    :attachments="meeting.attachments.data"
-                    heading="Meeting Materials"
+                    :attachments="item.attachments.data"
+                    heading="Attachments & Links"
                     class="mt-2"
                   />
                 </div>
 
                 <div v-else class="pl-4">
-                  <strong>Attachments forthcoming.</strong>
+                  <strong>No additional information.</strong>
                 </div>
                 <div class="text-right px-5" style="margin-top: -15px">
-                  <v-btn size="x-small" variant="text" :to="meeting.path"
-                    >full meeting information&nbsp;&raquo;</v-btn
+                  <v-btn size="x-small" variant="text" :to="item.path"
+                    >full information&nbsp;&raquo;</v-btn
                   >
                 </div>
               </div>
