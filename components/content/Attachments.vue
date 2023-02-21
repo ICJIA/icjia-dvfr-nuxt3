@@ -111,6 +111,9 @@ const props = defineProps({
   },
 });
 
+// const sorted = _.orderBy(props.attachments, ["category"]);
+// console.table(sorted);
+
 const niceBytes = (bytes, si = false, dp = 1) => {
   const thresh = si ? 1000 : 1024;
 

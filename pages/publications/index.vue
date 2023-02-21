@@ -4,8 +4,12 @@ const { path } = useRoute();
 const router = useRouter();
 
 const { data: query } = await useAsyncData("publications", () =>
-  queryContent("/publications/").sort({ start: -1 }).find()
+  queryContent("/publications/")
+    .sort([{ category: 1 }])
+    .find()
 );
+
+// console.log(query);
 
 const constructURL = (url: string) => {
   const myURL = "https://dvfr.icjia-api.cloud/uploads/" + url;

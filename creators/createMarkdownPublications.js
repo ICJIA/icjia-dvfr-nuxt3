@@ -17,10 +17,10 @@ const SITE_URL = process.env.NUXT_PUBLIC_BASE_URL;
 const API = process.env.NUXT_PUBLIC_API_BASE_URL;
 
 const query = `query {
-    publications {
+    publications{
     data {
       id
-      attributes {
+      attributes{
         title
         slug
         dateOverride
@@ -120,6 +120,13 @@ axios
       );
       return obj;
     });
+
+    // sort result by category
+    // const sorted = _.orderBy(site, ["attributes.category"]);
+    // sorted.forEach((item) => {
+    //   console.log(item.attributes.category);
+    // });
+
     jsonfile.writeFileSync(`./public/publications.json`, site, function (err) {
       if (err) {
         console.error(err);
