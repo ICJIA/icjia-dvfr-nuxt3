@@ -118,7 +118,12 @@ useHead({
             </summary>
             <div>
               <div class="mt-3 px-5 py-0" v-if="item.summary.length">
-                {{ item.summary }}
+                {{ item.summary }} |
+                <span class="text-left" style="margin-top: -0px">
+                  <v-btn size="x-small" variant="text" :to="item.path"
+                    >Link<v-icon right>mdi-link</v-icon></v-btn
+                  >
+                </span>
               </div>
               <div class="markdown-body mt-3">
                 <div style="background: #fff" class="px-5 py-0">
@@ -128,12 +133,6 @@ useHead({
                     :showTableDisplay="false"
                     class="mt-2"
                   />
-                </div>
-
-                <div class="text-right px-5" style="margin-top: -15px">
-                  <v-btn size="x-small" variant="text" :to="item.path"
-                    >full information&nbsp;&raquo;</v-btn
-                  >
                 </div>
               </div>
             </div>

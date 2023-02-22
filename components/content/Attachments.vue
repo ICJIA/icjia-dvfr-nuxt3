@@ -75,9 +75,7 @@
 
         <ul class="mt-2">
           <li v-for="(link, index) in props.links" :key="link.url">
-            <a :href="link.url" target="_blank">
-              {{ link.title }}
-            </a>
+            <a :href="link.url" target="_blank"> {{ link.title }} </a>
             <div v-if="link.summary">{{ link.summary }}</div>
           </li>
         </ul>
