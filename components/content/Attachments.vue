@@ -55,7 +55,7 @@
     </div>
     <div v-else>
       <div v-if="props.attachments.length">
-        <strong>Attachments:</strong>
+        <strong v-if="attachmentHeading">{{ attachmentHeading }}</strong>
         <ul class="mt-2">
           <li
             v-for="(attachment, index) in props.attachments"
@@ -99,7 +99,7 @@ const props = defineProps({
   },
   attachmentHeading: {
     type: String,
-    default: "Attachments:",
+    default: "",
   },
   linkHeading: {
     type: String,

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import moment from "moment";
+import _ from "lodash";
 const { path } = useRoute();
 const router = useRouter();
 
@@ -54,6 +55,20 @@ const getTime = (date) => {
   return moment(date).format("hh:mm A");
 };
 
+let _sorted;
+let sorted = ref([]);
+
+console.log("mounted");
+
+console.log(query.value.length);
+_sorted = query.value.map((item) => {
+  let obj = { ...item };
+  return obj;
+});
+sorted = _.orderBy(_sorted, ["category", "title"], ["asc", "asc"]);
+// console.log(sorted[0].url);
+//console.dir(sorted);
+
 useHead({
   meta: [
     {
@@ -90,6 +105,7 @@ useHead({
   <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
     <v-container fluid>
       <h1>Publications</h1>
+
       <div v-for="item in query" :key="item._path">
         <v-card
           class="markdown-body px-5 py-0 elevation-0 mb-0"
@@ -114,9 +130,6 @@ useHead({
                   />
                 </div>
 
-                <!-- <div v-else class="pl-4">
-                  <strong>No additional information.</strong>
-                </div> -->
                 <div class="text-right px-5" style="margin-top: -15px">
                   <v-btn size="x-small" variant="text" :to="item.path"
                     >full information&nbsp;&raquo;</v-btn
