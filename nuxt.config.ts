@@ -7,7 +7,7 @@ import appRoutes from "./public/appRoutes.json";
 
 export default defineNuxtConfig({
   app: {
-    baseURL: "/dvfr/",
+    // baseURL: "/dvfr/",
     // pageTransition: { name: "page", mode: "out-in" },
     head: {
       charset: "utf-8",
