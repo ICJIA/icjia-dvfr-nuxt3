@@ -4,13 +4,20 @@
       <v-row>
         <v-col>
           <h1>LATEST NEWS</h1>
-          <div v-for="item in query" :key="item._path">
-            <v-card
-              class="markdown-body px-5 py-0 elevation-0 mb-0"
-              style="background: #fff"
-              ><NewsCard :item="item"></NewsCard><br /><br />
-            </v-card>
-          </div>
+
+          <v-container fluid>
+            <v-row align="stretch">
+              <v-col
+                v-for="item in query"
+                :key="item._path"
+                class="mb-8"
+                cols="12"
+                md="6"
+                style="display: flex; flex-direction: column"
+              >
+                <NewsCard :item="item"></NewsCard
+              ></v-col> </v-row
+          ></v-container>
         </v-col>
       </v-row>
     </v-container>
@@ -30,4 +37,8 @@ const { data: query } = await useAsyncData("news", () =>
 );
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.v-card-text {
+  flex-grow: 1 !important;
+}
+</style>

@@ -1,5 +1,7 @@
 <template>
-  <div class="pl-2">{{ props.item }}</div>
+  <v-card class="px-5 py-5" style="width: 100%; flex-grow: 1 !important">
+    {{ props.item }}</v-card
+  >
 </template>
 
 <script setup>
