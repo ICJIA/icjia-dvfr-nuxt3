@@ -4,7 +4,7 @@
     :height="650"
     aspect-ratio="1"
     cover
-    src="/splash-dvfr-03.jpg`"
+    src="/splash-dvfr-03.jpg"
     lazy-src="/splash-dvfr-03_thumb.jpg"
     style="margin-top: 0px"
   >

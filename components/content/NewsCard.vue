@@ -6,7 +6,7 @@
 const navigation = ref(null);
 const props = defineProps({
   item: {
-    type: Array,
+    type: Object,
     default: [],
   },
 });
