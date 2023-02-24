@@ -1,7 +1,7 @@
 <template>
   <v-card
     class="px-5 py-5 info-card"
-    style="width: 100%; flex-grow: 1 !important"
+    style="width: 100%; flex-grow: 1 !important; background: #fafafa"
     @click="navigateTo(props.item.path)"
   >
     <div style="font-size: 12px">
