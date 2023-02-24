@@ -71,7 +71,7 @@
         </ul>
       </div>
       <div v-if="props.links.length">
-        <strong>External links:</strong>
+        <strong>{{ props.linkHeading }}</strong>
 
         <ul class="mt-2">
           <li v-for="(link, index) in props.links" :key="link.url">

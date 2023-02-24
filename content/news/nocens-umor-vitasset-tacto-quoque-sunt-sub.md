@@ -1,6 +1,6 @@
 ---
-title: Test Post 01
-slug: test-post-01
+title: Nocens umor, vitasset tacto, quoque, sunt sub
+slug: nocens-umor-vitasset-tacto-quoque-sunt-sub
 dateOverride: 2023-01-04
 category: news
 hideFromSearch: false
@@ -9,9 +9,10 @@ showTableOfContents: false
 summary: this is the summary for test post 01
 section: news
 createdAt: 2023-02-18T18:16:37.878Z
-updatedAt: 2023-02-24T18:02:40.087Z
+updatedAt: 2023-02-24T20:00:27.208Z
 publishedAt: 2023-02-18T18:17:22.523Z
 searchMeta: "news "
+link: []
 splash:
   ? data
 attachments:
@@ -67,8 +68,8 @@ rawText: " vocem iamiam lorem markdownum aditus clauduntur facto penates
   "
 draft: false
 navigation: true
-path: /news/test-post-01
-url: https://dvfr.icjia.dev/news/test-post-01
+path: /news/nocens-umor-vitasset-tacto-quoque-sunt-sub
+url: https://dvfr.icjia.dev/news/nocens-umor-vitasset-tacto-quoque-sunt-sub
 ---
 
 ## Vocem iamiam

@@ -1,6 +1,6 @@
 ---
-title: Test Post 02
-slug: test-post-02
+title: Virides Numam Aetolius disiecit pontus plurimus Romana calculus mediis
+slug: virides-numam-aetolius-disiecit-pontus-plurimus-romana-calculus-mediis
 dateOverride: 2023-02-01
 category: news
 hideFromSearch: false
@@ -9,9 +9,10 @@ showTableOfContents: false
 summary: this is the summary for test post 02
 section: news
 createdAt: 2023-02-18T18:17:18.044Z
-updatedAt: 2023-02-24T19:52:35.218Z
+updatedAt: 2023-02-24T20:00:10.568Z
 publishedAt: 2023-02-18T18:17:26.029Z
 searchMeta: "news icjia chri "
+link: []
 splash:
   data:
     id: "12"
@@ -121,8 +122,8 @@ rawText: " quod fama mollibus lorem markdownum cutem abantiades aequore profecto
   supersunt ardor terga hominem femina "
 draft: false
 navigation: true
-path: /news/test-post-02
-url: https://dvfr.icjia.dev/news/test-post-02
+path: /news/virides-numam-aetolius-disiecit-pontus-plurimus-romana-calculus-mediis
+url: https://dvfr.icjia.dev/news/virides-numam-aetolius-disiecit-pontus-plurimus-romana-calculus-mediis
 ---
 
 ## Quod Fama mollibus

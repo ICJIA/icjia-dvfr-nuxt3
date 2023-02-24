@@ -118,8 +118,10 @@ useHead({
 
             <div v-if="data && data.splash && data.splash.data" class="mb-10">
               <v-img
+                cover
                 :src="`https://dvfr.icjia-api.cloud${data.splash.data.attributes.formats.medium.url}`"
                 :lazy-src="`https://dvfr.icjia-api.cloud${data.splash.data.attributes.formats.thumbnail.url}`"
+                max-height="550"
               />
               <div style="font-size: 12px; color: #666" class="mt-2">
                 {{ data.splash.data.attributes.caption }}
@@ -130,11 +132,13 @@ useHead({
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>
             </ContentDoc>
+
             <attachments
               :attachments="data.attachments.data"
               :links="data.link"
-              :showTableDisplay="true"
+              :showTableDisplay="false"
               class="mt-6"
+              style="font-size: 14px"
             />
           </div>
         </v-col>

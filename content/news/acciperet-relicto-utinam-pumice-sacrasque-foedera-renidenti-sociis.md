@@ -1,6 +1,6 @@
 ---
-title: Test Post 03
-slug: test-post-03
+title: Acciperet relicto utinam; pumice sacrasque foedera renidenti sociis
+slug: acciperet-relicto-utinam-pumice-sacrasque-foedera-renidenti-sociis
 dateOverride: null
 category: outreach
 hideFromSearch: false
@@ -9,9 +9,14 @@ showTableOfContents: true
 summary: this is the summary for test post 03
 section: news
 createdAt: 2023-02-18T18:18:15.190Z
-updatedAt: 2023-02-24T19:55:02.508Z
+updatedAt: 2023-02-24T20:07:01.457Z
 publishedAt: 2023-02-18T18:18:16.364Z
 searchMeta: "news "
+link:
+  - id: "12"
+    title: Amazon
+    url: https://www.amazon.com
+    summary: This is a sample link
 splash:
   data:
     id: "11"
@@ -95,8 +100,8 @@ rawText: " arma mihi meo canoro semper lorem markdownum tori si mersa at poteram
   metus nostri monstra tegitur petentem poenarum proles "
 draft: false
 navigation: true
-path: /news/test-post-03
-url: https://dvfr.icjia.dev/news/test-post-03
+path: /news/acciperet-relicto-utinam-pumice-sacrasque-foedera-renidenti-sociis
+url: https://dvfr.icjia.dev/news/acciperet-relicto-utinam-pumice-sacrasque-foedera-renidenti-sociis
 ---
 
 ## Arma mihi meo canoro semper

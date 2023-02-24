@@ -35,6 +35,12 @@ const query = `query {
         updatedAt
         publishedAt
         searchMeta
+        link {
+          id
+          title
+          url
+          summary
+        }
         splash {
           data {
             id
