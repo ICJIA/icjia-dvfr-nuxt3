@@ -35,6 +35,16 @@ const query = `query {
         updatedAt
         publishedAt
         searchMeta
+        splash {
+          data {
+            id
+            attributes {
+              caption
+              name
+              formats
+            }
+          }
+        }
         attachments {
           data {
             attributes {

@@ -9,9 +9,56 @@ showTableOfContents: false
 summary: this is the summary for test post 02
 section: news
 createdAt: 2023-02-18T18:17:18.044Z
-updatedAt: 2023-02-24T18:02:30.002Z
+updatedAt: 2023-02-24T19:52:35.218Z
 publishedAt: 2023-02-18T18:17:26.029Z
 searchMeta: "news icjia chri "
+splash:
+  data:
+    id: "12"
+    attributes:
+      caption: This is a test caption. Test. Test.
+      name: francesco-ungaro-7ab5yyanbfy-unsplash-min.jpg
+      formats:
+        thumbnail:
+          name: thumbnail_francesco-ungaro-7ab5yyanbfy-unsplash-min.jpg
+          hash: thumbnail_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 234
+          height: 156
+          size: 9.04
+          url: /uploads/thumbnail_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c.jpg
+        small:
+          name: small_francesco-ungaro-7ab5yyanbfy-unsplash-min.jpg
+          hash: small_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 500
+          height: 333
+          size: 33.01
+          url: /uploads/small_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c.jpg
+        large:
+          name: large_francesco-ungaro-7ab5yyanbfy-unsplash-min.jpg
+          hash: large_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 1000
+          height: 667
+          size: 110.75
+          url: /uploads/large_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c.jpg
+        medium:
+          name: medium_francesco-ungaro-7ab5yyanbfy-unsplash-min.jpg
+          hash: medium_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 750
+          height: 500
+          size: 65.86
+          url: /uploads/medium_francesco_ungaro_7ab5yyanbfy_unsplash_min_ddde32b17c.jpg
 attachments:
   data:
     - attributes:

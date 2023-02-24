@@ -9,9 +9,56 @@ showTableOfContents: true
 summary: this is the summary for test post 03
 section: news
 createdAt: 2023-02-18T18:18:15.190Z
-updatedAt: 2023-02-24T18:04:01.470Z
+updatedAt: 2023-02-24T19:55:02.508Z
 publishedAt: 2023-02-18T18:18:16.364Z
 searchMeta: "news "
+splash:
+  data:
+    id: "11"
+    attributes:
+      caption: Test caption image 03
+      name: fineas-anton-vv_atjlknla-unsplash-min.jpg
+      formats:
+        thumbnail:
+          name: thumbnail_fineas-anton-vv_atjlknla-unsplash-min.jpg
+          hash: thumbnail_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 235
+          height: 156
+          size: 10.74
+          url: /uploads/thumbnail_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f.jpg
+        small:
+          name: small_fineas-anton-vv_atjlknla-unsplash-min.jpg
+          hash: small_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 500
+          height: 333
+          size: 44.45
+          url: /uploads/small_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f.jpg
+        medium:
+          name: medium_fineas-anton-vv_atjlknla-unsplash-min.jpg
+          hash: medium_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 750
+          height: 499
+          size: 99.68
+          url: /uploads/medium_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f.jpg
+        large:
+          name: large_fineas-anton-vv_atjlknla-unsplash-min.jpg
+          hash: large_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f
+          ext: .jpg
+          mime: image/jpeg
+          path: null
+          width: 1000
+          height: 666
+          size: 177.12
+          url: /uploads/large_fineas_anton_vv_atjlknla_unsplash_min_01b2c69a3f.jpg
 attachments:
   data:
     - attributes:

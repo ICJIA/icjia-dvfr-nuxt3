@@ -115,6 +115,17 @@ useHead({
         ><v-col cols="12" :md="cols">
           <div v-if="data" class="mt-6 px-5">
             <h1>{{ data.title.toUpperCase() }}</h1>
+
+            <div v-if="data && data.splash && data.splash.data" class="mb-10">
+              <v-img
+                :src="`https://dvfr.icjia-api.cloud${data.splash.data.attributes.formats.medium.url}`"
+                :lazy-src="`https://dvfr.icjia-api.cloud${data.splash.data.attributes.formats.thumbnail.url}`"
+              />
+              <div style="font-size: 12px; color: #666" class="mt-2">
+                {{ data.splash.data.attributes.caption }}
+              </div>
+            </div>
+
             <ContentDoc :key="data?.title" :value="data" class="markdown-body">
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>

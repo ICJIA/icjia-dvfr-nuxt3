@@ -12,6 +12,8 @@ createdAt: 2023-02-18T18:16:37.878Z
 updatedAt: 2023-02-24T18:02:40.087Z
 publishedAt: 2023-02-18T18:17:22.523Z
 searchMeta: "news "
+splash:
+  ? data
 attachments:
   data:
     - attributes:
