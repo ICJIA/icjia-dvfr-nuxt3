@@ -8,12 +8,14 @@
       <span style="font-weight: 900">{{
         formatDate(props.item.postDate)
       }}</span>
-      |
-      {{ props.item.category.toUpperCase() }}
     </div>
     <h2 style="border: 0">{{ props.item.title }}</h2>
-    <p>{{ props.item.summary }}</p></v-card
-  >
+    <p>{{ props.item.summary }}</p>
+    <div style="font-size: 12px; font-weight: 700" class="mt-5 text-right">
+      {{ props.item.category.toUpperCase() }} |
+      <span>{{ readingTime(props.item) }}</span>
+    </div>
+  </v-card>
 </template>
 
 <script setup>
@@ -55,5 +57,21 @@ const niceBytes = (bytes, si = false, dp = 1) => {
 const formatDate = (dateString) => {
   const options = { year: "numeric", month: "long", day: "numeric" };
   return new Date(dateString).toLocaleDateString(undefined, options);
+};
+
+const readingTime = (item) => {
+  let text;
+  if (item.description.length > 0) {
+    text = item.description;
+  } else {
+    text = item.summary;
+  }
+
+  console.log(text);
+  const wordsPerMinute = 200;
+  const noOfWords = text.split(/\s/g).length;
+  const minutes = noOfWords / wordsPerMinute;
+  const readTime = Math.ceil(minutes);
+  return readTime + " min read";
 };
 </script>
