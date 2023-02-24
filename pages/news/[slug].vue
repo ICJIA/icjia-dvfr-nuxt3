@@ -122,7 +122,7 @@ useHead({
             <attachments
               :attachments="data.attachments.data"
               :links="data.link"
-              :showTableDisplay="false"
+              :showTableDisplay="true"
               class="mt-6"
             />
           </div>
