@@ -10,6 +10,7 @@ createdAt: 2023-02-16T02:07:30.063Z
 updatedAt: 2023-02-17T17:02:14.820Z
 publishedAt: 2023-02-16T02:07:31.228Z
 searchMeta: null
+category: page
 rawText: " program partners illinois coalition against domestic violence the
   illinois coalition against domestic violence is a statewide voice for
   survivors of domestic violence and their children icadv s member organizations

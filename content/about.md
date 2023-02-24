@@ -10,6 +10,7 @@ createdAt: 2023-02-06T17:32:54.095Z
 updatedAt: 2023-02-16T02:54:49.763Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia "
+category: page
 rawText: " overview illinois domestic violence fatality review act 750 ilcs 62
   20 10200sb0685enr direct ilga link illinois domestic violence act 750 ilcs 60
   https www ilga gov legislation ilcs ilcs5 asp actid 2100 statewide dvfr

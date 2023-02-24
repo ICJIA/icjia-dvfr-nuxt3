@@ -67,7 +67,7 @@ const readingTime = (item) => {
     text = item.summary;
   }
 
-  console.log(text);
+  // console.log(text);
   const wordsPerMinute = 200;
   const noOfWords = text.split(/\s/g).length;
   const minutes = noOfWords / wordsPerMinute;

@@ -96,7 +96,7 @@ const options = {
   useExtendedSearch: false,
   ignoreLocation: false,
   ignoreFieldNorm: false,
-  keys: ["title", "slug", "summary", "searchMeta", "rawText"],
+  keys: ["title", "slug", "summary", "searchMeta", "rawText", "category"],
 };
 const query = ref("");
 

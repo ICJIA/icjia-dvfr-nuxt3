@@ -10,6 +10,7 @@ createdAt: 2023-02-06T17:29:48.970Z
 updatedAt: 2023-02-16T13:00:49.136Z
 publishedAt: 2023-02-06T17:30:10.310Z
 searchMeta: "home "
+category: page
 rawText: " all dummy content on this site taken from outline https dvfr icjia
   api cloud uploads dvfr website outline draft 50c324b77e docx updated at 2023
   02 16t02 56 36 891z welcome message brief description of program illinois

@@ -11,6 +11,7 @@ createdAt: 2023-02-06T17:36:01.722Z
 updatedAt: 2023-02-10T13:55:31.746Z
 publishedAt: 2023-02-06T17:36:02.857Z
 searchMeta: "cookies analytics tracking "
+category: page
 rawText: "access to the state of illinois websites is provided subject to the
   following terms and conditions please read these terms carefully as use of
   these sites constitutes acceptance of all of the following terms and

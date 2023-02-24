@@ -58,6 +58,7 @@ axios
     let section;
     const site = pages.map((page) => {
       const obj = { ...page };
+      obj.attributes.category = "page";
       let rawText;
 
       rawText = obj.attributes?.body
