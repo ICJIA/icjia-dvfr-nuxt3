@@ -1,6 +1,18 @@
 <template>
-  <v-card class="px-5 py-5" style="width: 100%; flex-grow: 1 !important">
-    {{ props.item }}</v-card
+  <v-card
+    class="px-5 py-5 info-card"
+    style="width: 100%; flex-grow: 1 !important"
+    @click="navigateTo(props.item.path)"
+  >
+    <div style="font-size: 12px">
+      <span style="font-weight: 900">{{
+        formatDate(props.item.postDate)
+      }}</span>
+      |
+      {{ props.item.category.toUpperCase() }}
+    </div>
+    <h2 style="border: 0">{{ props.item.title }}</h2>
+    <p>{{ props.item.summary }}</p></v-card
   >
 </template>
 
