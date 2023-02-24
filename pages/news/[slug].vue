@@ -76,6 +76,11 @@ const formatDate = (dateString) => {
   return new Date(dateString).toLocaleDateString(undefined, options);
 };
 
+const capitalize = (s) => {
+  if (typeof s !== "string") return "";
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
+
 useHead({
   meta: [
     {
@@ -115,13 +120,20 @@ useHead({
         ><v-col cols="12" :md="cols">
           <div v-if="data" class="mt-6 px-5">
             <h1>{{ data.title.toUpperCase() }}</h1>
+            <div style="margin-top: -35px; margin-bottom: 45px">
+              <span style="font-weight: 900">{{
+                formatDate(data.postDate)
+              }}</span>
+              |
+              {{ capitalize(data.category) }}
+            </div>
 
             <div v-if="data && data.splash && data.splash.data" class="mb-10">
               <v-img
                 cover
                 :src="`https://dvfr.icjia-api.cloud${data.splash.data.attributes.formats.medium.url}`"
                 :lazy-src="`https://dvfr.icjia-api.cloud${data.splash.data.attributes.formats.thumbnail.url}`"
-                max-height="550"
+                height="550"
               />
               <div style="font-size: 12px; color: #666" class="mt-2">
                 {{ data.splash.data.attributes.caption }}
