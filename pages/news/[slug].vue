@@ -120,7 +120,7 @@ useHead({
         ><v-col cols="12" :md="cols">
           <div v-if="data" class="mt-6 px-5">
             <h1>{{ data.title.toUpperCase() }}</h1>
-            <div style="margin-top: -35px; margin-bottom: 45px">
+            <div style="margin-top: -30px; margin-bottom: 45px">
               <span style="font-weight: 900">{{
                 formatDate(data.postDate)
               }}</span>
