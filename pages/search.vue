@@ -102,8 +102,8 @@ const router = useRouter();
 
 const query = ref("");
 const route = useRoute();
-console.log("route params: ", route.query.q);
-if (route.query.q) {
+// console.log("route params: ", route.query.q);
+if (route.query && route.query.q) {
   query.value = route.query.q;
 } else {
   query.value = "";
@@ -129,7 +129,7 @@ watch(query, (val) => {
 });
 
 const navigateTo = (item) => {
-  console.log("navigateTo: ", item?.path);
+  // console.log("navigateTo: ", item?.path);
   router.push({ path: item.path });
 };
 
