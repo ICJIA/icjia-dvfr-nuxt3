@@ -5,14 +5,24 @@
     @click="navigateTo(props.item.path)"
   >
     <div style="font-size: 12px">
-      <span style="font-weight: 900">{{
-        formatDate(props.item.postDate)
-      }}</span>
+      <span style="font-weight: 900"
+        >{{ formatDate(props.item.postDate) }} |
+        <nuxt-link
+          :to="`/search?q=${props.item.category.toLowerCase()}`"
+          class="search-link"
+          >{{ props.item.category.toUpperCase() }}</nuxt-link
+        ></span
+      >
     </div>
     <h2 style="border: 0">{{ props.item.title }}</h2>
     <p>{{ props.item.summary }}</p>
     <div style="font-size: 12px; font-weight: 700" class="mt-5 text-right">
-      {{ props.item.category.toUpperCase() }} |
+      <nuxt-link
+        :to="`/search?q=${props.item.category.toLowerCase()}`"
+        class="search-link"
+        >{{ props.item.category.toUpperCase() }}</nuxt-link
+      >
+      |
       <span>{{ readingTime(props.item) }}</span>
     </div>
   </v-card>
@@ -75,3 +85,9 @@ const readingTime = (item) => {
   return readTime + " min read";
 };
 </script>
+
+<style>
+.search-link {
+  color: #333 !important;
+}
+</style>

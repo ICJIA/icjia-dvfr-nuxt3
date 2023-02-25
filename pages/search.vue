@@ -98,7 +98,16 @@ const options = {
   ignoreFieldNorm: false,
   keys: ["title", "slug", "summary", "searchMeta", "rawText", "category"],
 };
+const router = useRouter();
+
 const query = ref("");
+const route = useRoute();
+console.log("route params: ", route.query.q);
+if (route.query.q) {
+  query.value = route.query.q;
+} else {
+  query.value = "";
+}
 
 const fuse = new Fuse(searchIndex, options);
 
@@ -119,7 +128,6 @@ watch(query, (val) => {
   }
 });
 
-const router = useRouter();
 const navigateTo = (item) => {
   console.log("navigateTo: ", item?.path);
   router.push({ path: item.path });
@@ -136,6 +144,7 @@ const clearAll = () => {
 onMounted(() => {
   const el = document.getElementById("textfield");
   el.focus();
+  instantSearch();
 });
 </script>
 

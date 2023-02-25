@@ -125,7 +125,11 @@ useHead({
                 formatDate(data.postDate)
               }}</span>
               |
-              {{ capitalize(data.category) }}
+              <nuxt-link
+                :to="`/search?q=${data.category.toLowerCase()}`"
+                class="search-link"
+                >{{ data.category.toUpperCase() }}</nuxt-link
+              >
             </div>
 
             <div v-if="data && data.splash && data.splash.data" class="mb-10">
