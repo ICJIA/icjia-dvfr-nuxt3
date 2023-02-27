@@ -6,13 +6,8 @@ const path = require("path");
 const axios = require("axios");
 const jsonfile = require("jsonfile");
 const _ = require("lodash");
-
 const yaml = require("yaml");
-
 const contentDir = path.join(__dirname, "../content");
-// fsExtra.emptyDirSync(contentDir);
-// console.log("Content directory cleared");
-
 const SITE_URL = process.env.NUXT_PUBLIC_BASE_URL;
 const API = process.env.NUXT_PUBLIC_API_BASE_URL;
 
