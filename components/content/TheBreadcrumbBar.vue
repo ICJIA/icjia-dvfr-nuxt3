@@ -3,13 +3,17 @@
     style="
       background: #401b60;
       border-bottom: 1px solid #aaa;
-      font-size: 11px;
+      font-size: 13px;
+      font-family: 'Oswald', sans-serif;
       z-index: 99999;
     "
     class="text-left pr-5 pl-5 py-1 elevation-0"
   >
-    <nuxt-link to="/" class="breadcrumb-link" style="color: white"
-      >DVFR HOME</nuxt-link
+    <nuxt-link
+      to="/"
+      class="breadcrumb-link"
+      style="color: white; font-family: 'Oswald', sans-serif !important"
+      >HOME</nuxt-link
     >
     <span style="color: #fff; font-weight: 900"
       >&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</span
