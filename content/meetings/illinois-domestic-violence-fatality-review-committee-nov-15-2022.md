@@ -1,6 +1,6 @@
 ---
-title: "ILLINOIS DOMESTIC VIOLENCE FATALITY REVIEW COMMITTEE: Nov 11, 2022"
-slug: illinois-domestic-violence-fatality-review-committee-nov-11-2022
+title: "ILLINOIS DOMESTIC VIOLENCE FATALITY REVIEW COMMITTEE: Nov 15, 2022"
+slug: illinois-domestic-violence-fatality-review-committee-nov-15-2022
 start: 2022-11-15T19:00:00.000Z
 end: 2022-11-15T20:30:00.000Z
 category: regular
@@ -16,7 +16,7 @@ summary: >-
   opportunity for public comment
 section: meetings
 createdAt: 2023-03-02T13:13:46.352Z
-updatedAt: 2023-03-02T13:13:49.072Z
+updatedAt: 2023-03-02T16:26:38.118Z
 publishedAt: 2023-03-02T13:13:49.067Z
 searchMeta: null
 attachments:
@@ -43,8 +43,8 @@ rawText: public notice is hereby given that the illinois domestic violence
   opportunity for public comment
 draft: false
 navigation: true
-path: /meetings/illinois-domestic-violence-fatality-review-committee-nov-11-2022
-url: https://dvfr.icjia.dev/meetings/illinois-domestic-violence-fatality-review-committee-nov-11-2022
+path: /meetings/illinois-domestic-violence-fatality-review-committee-nov-15-2022
+url: https://dvfr.icjia.dev/meetings/illinois-domestic-violence-fatality-review-committee-nov-15-2022
 ---
 
 Public notice is hereby given that the Illinois Domestic Violence Fatality Review Committee will conduct a public
