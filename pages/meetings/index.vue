@@ -51,6 +51,7 @@ const getTime = (date) => {
 };
 
 useHead({
+  title: "Meetings",
   meta: [
     {
       hid: "og-image",
