@@ -7,7 +7,7 @@
         tile
         width="100%"
         class="text-center markdown-body pb-4"
-        style="background: #0e4474"
+        style="background: #401b60"
       >
         <v-container class="mt-0" fill-height>
           <v-row align="center" justify="center">
@@ -19,9 +19,9 @@
             >
               <div>
                 <img
-                  src="/icjia-logo.png"
+                  src="/dvfr-splash-text-01.jpg"
                   alt="Footer logo"
-                  width="120"
+                  width="250"
                   style="border: 0px solid #ddd; display: inline"
                   class="hover"
                   @click="

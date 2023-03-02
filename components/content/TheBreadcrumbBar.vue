@@ -1,7 +1,7 @@
 <template>
   <div
     style="
-      background: #143b89;
+      background: #401b60;
       border-bottom: 1px solid #aaa;
       font-size: 13px;
       z-index: 99999;

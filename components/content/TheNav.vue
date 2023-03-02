@@ -6,7 +6,7 @@
       color="white"
       density="default"
       style="z-index: 50; width: 100%"
-      size="90"
+      size="150px"
       elevation="3"
       class="pl-5 pr-5"
     >
@@ -27,13 +27,13 @@
         <div style="font-size: 10px; font-weight: 900">CLOSE</div>
       </div>
       <v-spacer class="hidden-md-and-up"></v-spacer>
-      <img
+      <!-- <img
         alt="DVFR Logo"
         class="hover ml-4 mr-4"
-        src="/icjia-logo.png"
-        height="50"
+        src="/dvfr-splash-text-01_thumb.jpg"
+        height="80"
         @click="$router.push('/')"
-      />
+      /> -->
       <div class="hover hidden-sm-and-down">
         <span
           style="
