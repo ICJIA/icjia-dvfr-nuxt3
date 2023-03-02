@@ -1,8 +1,7 @@
 <template>
   <v-img
     width="100%"
-    max-height="750"
-    :aspect-ratio="16 / 9"
+    max-height="700"
     cover
     src="/dvfr-splash-text-01.jpg"
     lazy-src="/dvfr-splash-text-01_thumb.jpg"

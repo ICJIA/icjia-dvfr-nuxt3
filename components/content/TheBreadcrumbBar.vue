@@ -32,6 +32,20 @@ const htmlEntity = (entity) => {
   return String.fromCharCode(entity);
 };
 
+const truncate = function (str, length = 25, ending = "...") {
+  // if (length == null) {
+  //   length = 100;
+  // }
+  // if (ending == null) {
+  //   ending = "...";
+  // }
+  if (str.length > length) {
+    return str.substring(0, length - ending.length) + ending;
+  } else {
+    return str;
+  }
+};
+
 const makeTitle = (slug) => {
   // remove initial slash
   slug = slug.replace(/^\/+/, "");
