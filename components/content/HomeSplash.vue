@@ -20,7 +20,7 @@
   </v-img>
   <v-img
     width="100%"
-    max-height="850"
+    max-height="780"
     cover
     src="/dvfr-splash-text-01_xl.jpg"
     lazy-src="/dvfr-splash-text-01_thumb.jpg"
