@@ -106,27 +106,6 @@ onMounted(() => {
   };
 });
 
-// const observerOptions = {
-//   rootMargin: "10px",
-//   threshold: 1.0,
-// };
-
-// const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-// function observerCallback(entries, observer) {
-//   entries.forEach((entry) => {
-//     if (entry.isIntersecting) {
-//       console.log("entry: ", entry.target, entry.isIntersecting);
-//     }
-//   });
-// }
-// const target = "H2";
-// document.querySelectorAll(target).forEach((i) => {
-//   if (i) {
-//     observer.observe(i);
-//   }
-// });
-
 onUnmounted(() => {
   window.onscroll = null;
 });
@@ -187,28 +166,4 @@ onUnmounted(() => {
 .tocItem:hover {
   text-decoration: underline;
 }
-
-/* ul.toc-list {
-  list-style-type: none;
-}
-
-ul.toc-list li {
-  color: #333;
-  padding: 2px 5px 2px 5px;
-  cursor: pointer;
-  margin-bottom: 3px;
-  font-size: 14px;
-}
-
-ul.toc-list li:hover {
-  color: #aaa;
-  background: #eee;
-}
-
-.tocListItem {
-  margin-left: -20px !important;
-} */
-
-/* .tocItem {
-} */
 </style>
