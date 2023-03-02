@@ -31,7 +31,7 @@
         alt="DVFR Logo"
         class="hover ml-4 mr-4"
         src="/dvfr-logo-notext-01.jpg"
-        width="50"
+        width="45"
         @click="$router.push('/')"
       />
       <div class="hover hidden-sm-and-down">
