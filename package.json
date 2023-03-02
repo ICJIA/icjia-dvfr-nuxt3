@@ -3,7 +3,7 @@
   "scripts": {
     "build": "rm -rf .nuxt && yarn scripts && nuxt build",
     "build:serve": "rm -rf .nuxt && npm run scripts && nuxt build && node .output/server/index.mjs ",
-    "dev": "rm -rf .nuxt .output && yarn scripts && nuxt dev --port=8000 -o",
+    "dev": "yarn clear:cache && yarn scripts && nuxt dev --port=8000 -o",
     "dev:local": "yarn scripts:local && nuxt dev --port=8000 -o",
     "generate:local": "yarn scripts:local && nuxt generate",
     "generate": "yarn scripts && nuxt generate",
@@ -24,7 +24,7 @@
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "scripts:local": "yarn create:local",
     "scripts": "yarn create:contentDirectory && yarn create:meetings && yarn create:pages &&  yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
-    "clear": "rm -rf .nuxt .output"
+    "clear:cache": "rm -rf .nuxt .output"
   },
   "devDependencies": {
     "@nuxt/content": "^2.4.3",
