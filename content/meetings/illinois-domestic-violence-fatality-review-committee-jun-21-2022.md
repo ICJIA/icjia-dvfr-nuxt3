@@ -31,7 +31,7 @@ attachments:
         size: 35.08
     - attributes:
         createdAt: 2023-03-02T14:51:43.465Z
-        updatedAt: 2023-03-02T14:51:43.465Z
+        updatedAt: 2023-03-02T16:49:36.358Z
         name: June 21, 2022 Meeting minutes.pdf
         alternativeText: null
         url: /uploads/June_21_2022_Meeting_minutes_312417caf6.pdf
