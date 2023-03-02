@@ -49,7 +49,7 @@
                   >
                   <h2 id="our-approach" class="boxHeader">Contact Us</h2>
                   <p style="color: #fff; font-size: 20px">
-                    Contact i2i for more information.
+                    Contact DVFR for more information.
                   </p></v-col
                 >
               </v-row>

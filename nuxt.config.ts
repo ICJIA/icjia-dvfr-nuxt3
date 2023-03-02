@@ -33,7 +33,7 @@ export default defineNuxtConfig({
         {
           hid: "og-image",
           property: "og:image",
-          content: "https://dvfr.icjia.dev/i2iSmallFB.png",
+          content: "https://dvfr.icjia.dev/dvfr-splash-text-01.jpg",
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

@@ -81,8 +81,7 @@ useHead({
     {
       hid: "og-image",
       property: "og:image",
-      content:
-        "https://i2i.icjia-api.cloud/uploads/thumbnail_i2i_logo_text_small_3c874143bd.png?updated_at=2022-12-06T17:57:54.755Z",
+      content: "https://dvfr.icjia.dev/dvfr-splash-text-01.jpg",
     },
     {
       hid: "og-image-width",
