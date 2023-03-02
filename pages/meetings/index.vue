@@ -51,12 +51,16 @@ const getTime = (date) => {
 };
 
 let displayYear = ref("");
+let isYearDisplayed = ref(true);
 
 const displayYearHeading = (date) => {
   const year = moment(date).format("YYYY");
   if (year !== displayYear) {
     displayYear = year;
-    return year + " Meetings";
+    isYearDisplayed = true;
+    return `${year} Meetings`;
+  } else {
+    isYearDisplayed = false;
   }
 };
 
@@ -98,7 +102,16 @@ useHead({
       <h1>MEETINGS</h1>
 
       <div v-for="meeting in query" :key="meeting._path" class="pl-3">
-        <h3>{{ displayYearHeading(meeting.start) }}</h3>
+        <div
+          style="
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 10px;
+            margin-top: 10px;
+          "
+          v-html="displayYearHeading(meeting.start)"
+        ></div>
+
         <v-card
           class="markdown-body px-2 py-0 elevation-0 mb-0"
           style="background: #fff"
