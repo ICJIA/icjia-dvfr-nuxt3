@@ -135,6 +135,9 @@ export default defineNuxtConfig({
         wght: [100, 400, 900],
         ital: [100],
       },
+      Oswald: {
+        wght: [100, 400, 900],
+      },
     },
   },
 

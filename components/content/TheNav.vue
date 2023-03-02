@@ -38,7 +38,8 @@
         <span
           style="
             font-weight: 900 !important;
-            font-size: 22px;
+            font-size: 28px;
+            font-family: 'Oswald', sans-serif !important;
             letter-spacing: 0.004em;
           "
           class="agency app-title"
@@ -108,7 +109,11 @@
               variant="text"
               size="default"
               class="hidden-sm-and-down navItem"
-              style="font-weight: 900 !important; font-size: 16px"
+              style="
+                font-weight: 900 !important;
+                font-size: 18px;
+                font-family: 'Oswald', sans-serif !important;
+              "
               >{{ menu.main }}&nbsp;
               <v-icon v-if="menu.icon" right small color="black">{{
                 menu.icon
