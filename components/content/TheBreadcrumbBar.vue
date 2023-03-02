@@ -3,7 +3,7 @@
     style="
       background: #401b60;
       border-bottom: 1px solid #aaa;
-      font-size: 13px;
+      font-size: 11px;
       z-index: 99999;
     "
     class="text-left pr-5 pl-5 py-1 elevation-0"
@@ -14,7 +14,7 @@
     <span style="color: #fff; font-weight: 900"
       >&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</span
     >
-    <span style="color: white; font-weight: 700">{{
+    <span style="color: white; font-weight: 400">{{
       makeTitle(route.path.toUpperCase())
     }}</span>
   </div>
