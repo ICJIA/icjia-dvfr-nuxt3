@@ -27,13 +27,13 @@
         <div style="font-size: 10px; font-weight: 900">CLOSE</div>
       </div>
       <v-spacer class="hidden-md-and-up"></v-spacer>
-      <!-- <img
+      <img
         alt="DVFR Logo"
         class="hover ml-4 mr-4"
-        src="/dvfr-splash-text-01_thumb.jpg"
-        height="80"
+        src="/dvfr-logo-notext-01.jpg"
+        width="50"
         @click="$router.push('/')"
-      /> -->
+      />
       <div class="hover hidden-sm-and-down">
         <span
           style="
