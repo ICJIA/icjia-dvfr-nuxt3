@@ -1,11 +1,31 @@
 <template>
   <v-img
     width="100%"
-    max-height="700"
+    max-height="650"
     cover
     src="/dvfr-splash-text-01.jpg"
     lazy-src="/dvfr-splash-text-01_thumb.jpg"
     style="margin-top: 0px"
+    class="hidden-lg-and-up"
+  >
+    <template #placeholder>
+      <v-row class="fill-height ma-0" align="center" justify="center">
+        <v-progress-circular
+          indeterminate
+          color="blue darken-3"
+          aria-label="Progress bar: Loading"
+        ></v-progress-circular>
+      </v-row>
+    </template>
+  </v-img>
+  <v-img
+    width="100%"
+    max-height="850"
+    cover
+    src="/dvfr-splash-text-01_xl.jpg"
+    lazy-src="/dvfr-splash-text-01_thumb.jpg"
+    style="margin-top: 0px"
+    class="hidden-md-and-down"
   >
     <template #placeholder>
       <v-row class="fill-height ma-0" align="center" justify="center">
