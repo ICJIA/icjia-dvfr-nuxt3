@@ -21,18 +21,12 @@ export default defineAppConfig({
       main: "Meetings",
       link: "/meetings",
     },
-    {
-      main: "News",
-      link: "/news",
-    },
+
     {
       main: "Privacy",
       link: "/privacy",
     },
-    {
-      main: "Publications",
-      link: "/publications",
-    },
+
     {
       main: "Resources",
       link: "/resources",
@@ -58,14 +52,7 @@ export default defineAppConfig({
       main: "Meetings",
       link: "/meetings",
     },
-    {
-      main: "News",
-      link: "/news",
-    },
-    {
-      main: "Publications",
-      link: "/publications",
-    },
+
     {
       main: "Resources",
       link: "/resources",

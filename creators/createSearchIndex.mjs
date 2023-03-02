@@ -4,13 +4,15 @@ const { v4: uuidv4 } = require("uuid");
 const jsonfile = require("jsonfile");
 const pages = require("../public/pages.json");
 const meetings = require("../public/meetings.json");
-const posts = require("../public/posts.json");
-const publications = require("../public/publications.json");
+// const posts = require("../public/posts.json");
+// const publications = require("../public/publications.json");
 // const site = [...pages, ...posts];
 
 //TODO: Add dynamic pages to search index
 
-const site = [...pages, ...meetings, ...posts, ...publications];
+// const site = [...pages, ...meetings, ...posts, ...publications];
+
+const site = [...pages, ...meetings];
 
 const searchIndex = site.map((item) => {
   // console.log(item.attributes);
