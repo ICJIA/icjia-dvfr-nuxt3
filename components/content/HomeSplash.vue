@@ -1,12 +1,11 @@
 <template>
   <v-img
     width="100%"
-    max-height="650"
+    max-height="500"
     cover
-    src="/dvfr-splash-text-01.jpg"
+    src="/dvfr-splash-text-02_xl.jpg"
     lazy-src="/dvfr-splash-text-01_thumb.jpg"
     style="margin-top: 0px"
-    class="hidden-lg-and-up"
   >
     <template #placeholder>
       <v-row class="fill-height ma-0" align="center" justify="center">
@@ -18,7 +17,7 @@
       </v-row>
     </template>
   </v-img>
-  <v-img
+  <!-- <v-img
     width="100%"
     max-height="780"
     cover
@@ -36,7 +35,7 @@
         ></v-progress-circular>
       </v-row>
     </template>
-  </v-img>
+  </v-img> -->
 </template>
 
 <script setup lang="ts">
