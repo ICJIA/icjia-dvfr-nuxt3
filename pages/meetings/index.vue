@@ -137,7 +137,7 @@ useHead({
                   <attachments
                     :attachments="meeting.attachments.data"
                     attachmentHeading="Meeting Materials"
-                    :showTableDisplay="true"
+                    :showTableDisplay="false"
                     class="mt-2"
                   />
                 </div>
