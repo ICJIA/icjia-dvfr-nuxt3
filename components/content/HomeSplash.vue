@@ -1,7 +1,7 @@
 <template>
   <v-img
     width="100%"
-    max-height="500"
+    max-height="600"
     cover
     src="/dvfr-splash-text-02_xl.jpg"
     lazy-src="/dvfr-splash-text-01_thumb.jpg"
