@@ -44,8 +44,21 @@
           "
           class="agency app-title"
           @click="$router.push('/')"
-          >DOMESTIC VIOLENCE FATALITY REVIEW<span class="hidden-md-and-down">
-          </span
+          >DOMESTIC VIOLENCE FATALITY REVIEW
+          <span class="hidden-md-and-down"> </span
+        ></span>
+      </div>
+      <div class="hover hidden-md-and-up">
+        <span
+          style="
+            font-weight: 900 !important;
+            font-size: 28px;
+            font-family: 'Oswald', sans-serif !important;
+            letter-spacing: 0.004em;
+          "
+          class="agency app-title"
+          @click="$router.push('/')"
+          >DVFR <span class="hidden-md-and-down"> </span
         ></span>
       </div>
 
