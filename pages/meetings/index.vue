@@ -100,6 +100,14 @@ useHead({
   <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
     <v-container fluid>
       <h1>MEETINGS</h1>
+      <p>
+        The Statewide Domestic Violence Fatality Review Committee holds meetings
+        on the third Tuesday of every other month and special topic meetings
+        when applicable. All meetings are open to the public, however portions
+        of meetings where it may be necessary to discuss confidential or
+        identifying information may be closed for executive session.
+      </p>
+      <div class="mb-2">&nbsp;</div>
 
       <div v-for="meeting in query" :key="meeting._path" class="pl-3">
         <div
