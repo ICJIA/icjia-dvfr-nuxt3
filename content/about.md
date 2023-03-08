@@ -4,76 +4,176 @@ slug: about
 hideFromSearch: false
 hideFromSitemap: false
 showTableOfContents: true
-summary: About DVFR
+summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
+  signed into law in August 2021 creating a process to establish domestic
+  violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-02-16T02:54:49.763Z
+updatedAt: 2023-03-08T15:05:52.701Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia "
 category: page
-rawText: " overview illinois domestic violence fatality review act 750 ilcs 62
-  20 10200sb0685enr direct ilga link illinois domestic violence act 750 ilcs 60
-  https www ilga gov legislation ilcs ilcs5 asp actid 2100 statewide dvfr
-  committee dr megan alderdan co chair dr alderdan is the director of
-  criminology at depaul university in chicago sara block co chair sara is the
-  director of advocacy and jenny schoenwetter secretary jenny is the executive
-  director at harbor house in bourbonnais illinois and the executive director of
-  the kankakee coalition against domestic violence member 1 member 2 member 3
-  regional dvfr teams location 1 tbd location 2 tbd location 3 tbd location 4
-  tbd location 5 tbd location 6 tbd staff director of fatality review samantha a
-  gaddy director xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx program
-  coordinator stacey smith program coordinator
-  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+rawText: " the domestic violence fatality review act public act 102 0520 was
+  signed into law in august 2021 creating a process to establish domestic
+  violence fatality review dvfr teams across illinois what is fatality review
+  fatality reviews consist of multi disciplinary multi agency teams of
+  stakeholders working together to examine data from a variety of sources to
+  piece together the days months and years leading up to a person s death
+  domestic violence fatality review aims to prevent future domestic violence
+  related fatalities and near fatalities and reduce the severity and frequency
+  of domestic violence this process is accomplished by looking at both strengths
+  and vulnerabilities in various intervention that may lead to adverse outcomes
+  for survivors victims and their families fatality review teams have been
+  established in other fields including those specific to fatalities involving
+  child victims elderly abuse and neglect aviation and more recently deaths
+  related to the opioid epidemic statewide dvfr committee the statewide domestic
+  violence fatality review committee is responsible for overseeing the formation
+  of regional domestic violence review teams across illinois and providing
+  technical assistance and support to those teams the statewide committee will
+  gather policy and system recommendations from each regional review team and
+  make collective recommendations the committee will serve as a statewide
+  resource for addressing domestic violence related fatalities and near
+  fatalities officers megan alderdan ph d co chair dr megan alderdan is an
+  associate professor of criminology at depaul university her areas of expertise
+  include research methods and program evaluation victimology and policing she
+  was a co investigator on two national institute of justice funded projects
+  examining the impact of forensic evidence on police and prosecutorial
+  decisions and court outcomes in sexual assault cases currently she is a co
+  investigator on a federally funded project that focuses on educating and
+  training laypersons practitioners and mental health professionals on how to
+  identify and prevent targeted violence she is the lead evaluator for a
+  federally funded research project that aims to support and link recently
+  incarcerated individuals with job training and employment she is the board
+  president for the justice research and statistics association and the co chair
+  of the illinois domestic violence fatality review commission prior to joining
+  depaul university she was the associate director of research with the illinois
+  criminal justice information authority icjia a state agency dedicated to
+  improving the administration of justice in illinois as the icjia research
+  director she oversaw a wide portfolio of research projects that spanned from
+  victim services to effective correctional practices and policies sara block co
+  chair sara block is the managing director of advocacy and partnerships at
+  ascend justice where she focuses on policy and systemic reform that impact
+  families experiencing domestic violence sara is also the academic director for
+  child and family law programs at loyola university chicago school of law in
+  the master of jurisprudence in child law program at loyola sara teaches child
+  welfare law and policy and juvenile justice law policy sara was a skadden
+  fellow at the legal assistance foundation of metropolitan chicago with a
+  fellowship focusing on the intersection of domestic violence and child welfare
+  sara was awarded the chicago metropolitan battered women s network s
+  outstanding partnership award the family defense center s major litigation
+  award for her involvement in julie q v dcfs and the jewish united fund s 36
+  under 36 award sara received her j d magna cum laude from loyola university
+  chicago school of law in 2007 where she was a child law fellow and the
+  features editor of the children s legal rights journal sara received her b a
+  degree with honors in american studies from northwestern university sara is
+  the author of the book entitled together unbroken stories law practice and
+  healing at the intersection of domestic violence and child welfare she has two
+  daughters and feels honored to be their mother jenny schoenwetter secretary
+  jenny schoenwetter pronounced shane wetter is the executive director and ceo
+  of harbor house the only domestic violence agency serving kankakee and
+  iroquois counties jenny is a certified domestic violence professional and
+  earned a master s in business administration degree jenny has received the
+  kankakee county chamber of commerce athena young professionals award in 2021
+  the daily journal s women in business honor in 2021 and united way s rookie of
+  the year award in 2016 jenny serves as a member of the illinois domestic
+  violence fatality review committee and is co chair of the illinois coalition
+  against domestic violence s funding oversight committee jenny served as a
+  board member for the united way of kankakee iroquois counties where she
+  developed and launched women united and the zonta club of kankakee she
+  regularly leads professional trainings serves on panels and facilitates
+  workshops and retreats locally and across the state committee members members
+  are appointed in accordance with terms of the domestic violence fatality
+  review act 750 ilcs 62 the membership of dvfrc is required to have racial
+  ethnic gender and geographic diversity committee member table here regional
+  dvfr teams regional domestic violence fatality review teams are responsible
+  for conducting a designated number of comprehensive individual case reviews
+  quarterly these cases will consist of fatalities and near fatalities that are
+  believed to be the result of domestic violence including overdoses and
+  suicides as part of these in depth case reviews teams will collect and review
+  a variety of records conduct interviews look at victim survivor abuser contact
+  with various systems and identify both vulnerabilities and strengths in the
+  intervention process teams will use their findings to identify opportunities
+  for improvement in domestic violence intervention strategies and systems
+  collaboration and make annual recommendations to the statewide committee teams
+  must be organized by circuit court boundaries but may be formed as county
+  jurisdiction beat or neighborhood specific the statewide dvfr committee is
+  actively recruiting stakeholder groups in illinois that are interested in
+  forming a domestic violence fatality review team in their area for more
+  information please email us at fatalityreview ilcadv org location 1 tbd coming
+  soon location 2 tbd location 3 tbd location 4 tbd "
 draft: false
 navigation: true
 path: /about
 url: https://dvfr.icjia.dev/about
 ---
 
-## Overview
-- Illinois Domestic Violence Fatality Review Act
-- 750 ILCS 62/20 10200SB0685enr
-    - direct ILGA link?
-- Illinois Domestic Violence Act
-    - 750 ILCS 60 
-    - https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=2100
+
+The Domestic Violence Fatality Review Act (Public Act 102-0520) was signed into law in August 2021 creating a process to establish domestic violence fatality review (DVFR) teams across Illinois.
+
+## What is fatality review?
+
+Fatality reviews consist of multi-disciplinary, multi-agency teams of stakeholders working together to examine data from a variety of sources to piece together the days, months, and years leading up to a person’s death.
+
+Domestic Violence Fatality Review aims to prevent future domestic violence related fatalities and near fatalities and reduce the severity and frequency of domestic violence. This process is accomplished by looking at both strengths and vulnerabilities in various intervention that may lead to adverse outcomes for survivors, victims, and their families.
+
+Fatality review teams have been established in other fields, including those specific to fatalities involving child victims, elderly abuse and neglect, aviation, and more recently, deaths related to the opioid epidemic.
 
 ## Statewide DVFR Committee
 
-**Dr. Megan Alderdan, Co-Chair**
+The Statewide Domestic Violence Fatality Review Committee is responsible for overseeing the formation of regional domestic violence review teams across Illinois and providing technical assistance and support to those teams. The Statewide Committee will gather policy and system recommendations from each regional review team and make collective recommendations The Committee will serve as a statewide resource for addressing domestic violence-related fatalities and near-fatalities.
 
-Dr. Alderdan is the Director of Criminology at DePaul University in Chicago.
+<div class='pl-8'>
 
+### Officers
+
+**Megan Alderdan, Ph.D., Co-Chair**
+
+Dr. Megan Alderdan is an Associate Professor of Criminology at DePaul University. Her areas of expertise include research methods and program evaluation, victimology, and policing. She was a co-Investigator on two National Institute of Justice funded projects examining the impact of forensic evidence on police and prosecutorial decisions and court outcomes in sexual assault cases. Currently, she is a co-investigator on a federally funded project that focuses on educating and training laypersons, practitioners, and mental health professionals on how to identify and prevent targeted violence. She is the lead evaluator for a federally funded research project that aims to support and link recently incarcerated individuals with job training and employment. She is the Board President for the Justice Research and Statistics Association and the co-chair of the Illinois Domestic Violence Fatality Review Commission.   
+
+Prior to joining DePaul University, she was the Associate Director of Research with the Illinois Criminal Justice Information Authority (ICJIA), a state agency dedicated to improving the administration of justice in Illinois. As the ICJIA Research Director, she oversaw a wide portfolio of research projects that spanned from victim services to effective correctional practices and policies.  
+	
 **Sara Block, Co-Chair**
 
-Sara is the Director of Advocacy and … 
-	
+Sara Block is the Managing Director of Advocacy and Partnerships at Ascend Justice where she focuses on policy and systemic reform that impact families experiencing domestic violence. Sara is also the Academic Director for Child and Family Law Programs at Loyola University Chicago School of Law. In the Master of Jurisprudence in Child Law program at Loyola, Sara teaches Child Welfare Law and Policy, and Juvenile Justice Law Policy. Sara was a Skadden Fellow at the Legal Assistance Foundation of Metropolitan Chicago with a fellowship focusing on the intersection of domestic violence and child welfare. Sara was awarded the Chicago Metropolitan Battered Women’s Network’s Outstanding Partnership Award, the Family Defense Center’s Major Litigation Award for her involvement in Julie Q. v. DCFS, and the Jewish United Fund’s “36 Under 36” award. Sara received her J.D., magna cum laude, from Loyola University Chicago School of Law in 2007, where she was a Child Law Fellow and the Features Editor of the Children’s Legal Rights Journal. Sara received her B.A. degree with honors in American Studies from Northwestern University. Sara is the author of the book entitled Together Unbroken: Stories, Law, Practice and Healing at the Intersection of Domestic Violence and Child Welfare. She has two daughters and feels honored to be their mother.  
+
 **Jenny Schoenwetter, Secretary**
 
-Jenny Is the Executive Director at Harbor House in Bourbonnais, Illinois and the Executive Director of the Kankakee Coalition Against Domestic Violence.
-	
-- Member 1
-- Member 2
-- Member 3
+Jenny Schoenwetter (pronounced “shane-wetter”) is the executive director and CEO of Harbor House, the only domestic violence agency serving Kankakee and Iroquois Counties. Jenny is a Certified Domestic Violence Professional and earned a Master’s in Business Administration degree. Jenny has received the Kankakee County Chamber of Commerce ATHENA Young Professionals Award in 2021, the Daily Journal’s Women in Business Honor in 2021, and United Way’s Rookie of the Year Award in 2016.  
+   
+Jenny serves as a member of the Illinois Domestic Violence Fatality Review Committee and is co-chair of the Illinois Coalition Against Domestic Violence’s Funding Oversight Committee. Jenny served as a board member for the United Way of Kankakee & Iroquois Counties where she developed and launched Women United and the Zonta Club of Kankakee. She regularly leads professional trainings, serves on panels, and facilitates workshops and retreats locally and across the state. 
 
-## Regional DVFR Teams
-- Location 1 TBD
-- Location 2 TBD
+### Committee Members
+
+Members are appointed in accordance with terms of the Domestic Violence Fatality Review Act, 750 ILCS 62. The membership of DVFRC is required to have racial, ethnic, gender, and geographic diversity.  
+
+**Committee member table here**
+
+</div>
+
+## Regional DVFR Teams 
+
+Regional Domestic Violence Fatality Review Teams are responsible for conducting a designated number of comprehensive individual case reviews quarterly. These cases will consist of fatalities and near-fatalities that are believed to be the result of domestic violence, including overdoses and suicides. As part of these in-depth case reviews, teams will collect and review a variety of records, conduct interviews, look at victim/survivor/abuser contact with various systems, and identify both vulnerabilities and strengths in the intervention process.
+
+Teams will use their findings to identify opportunities for improvement in domestic violence intervention strategies and systems collaboration and make annual recommendations to the Statewide Committee. 
+
+Teams must be organized by circuit court boundaries but may be formed as county, jurisdiction, beat, or neighborhood specific. 
+
+The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us at fatalityreview.ilcadv.org.
+
+
+- Location 1 TBD (coming soon)
+
+-  Location 2 TBD
+
 - Location 3 TBD
+
 - Location 4 TBD
-- Location 5 TBD
-- Location 6 TBD
 
-## Staff
-**Director of Fatality Review**
 
-Samantha A. Gaddy, Director
 
-Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-**Program Coordinator**
 
-Stacey Smith, Program Coordinator
 
-Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
 

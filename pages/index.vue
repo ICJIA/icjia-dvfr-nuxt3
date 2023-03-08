@@ -1,6 +1,7 @@
 <template>
   <div>
     <HomeSplash></HomeSplash>
+    <!-- <HomeBoxes></HomeBoxes> -->
     <div
       v-if="data && isMounted"
       style="margin-bottom: -45px !important"

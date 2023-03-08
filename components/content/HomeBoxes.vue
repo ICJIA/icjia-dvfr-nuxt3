@@ -2,9 +2,9 @@
   <div>
     <v-container fluid style="margin: 0 !important; padding: 0 !important">
       <v-row no-gutters>
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="4">
           <v-card
-            color="#3B5984"
+            color="#552c82"
             style="height: 300px"
             class="py-5 px-2 text-center info-card hover"
             :class="{ boxGutter: gutter }"
@@ -30,7 +30,7 @@
           </v-card></v-col
         >
 
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="4">
           <v-card
             color="#10366B"
             style="height: 300px"
@@ -56,7 +56,7 @@
             </v-container>
           </v-card>
         </v-col>
-        <!-- <v-col cols="12" md="4">
+        <v-col cols="12" md="4">
           <v-card
             color="#3B5984"
             style="height: 300px"
@@ -81,7 +81,7 @@
               </v-row>
             </v-container>
           </v-card>
-        </v-col> -->
+        </v-col>
       </v-row>
     </v-container>
   </div>
