@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-08T16:20:29.645Z
+updatedAt: 2023-03-08T16:29:03.082Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia "
 category: page
@@ -91,26 +91,27 @@ rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   are appointed in accordance with terms of the domestic violence fatality
   review act 750 ilcs 62 the membership of dvfrc is required to have racial
   ethnic gender and geographic diversity dr megan alderden co chair associate
-  professor of criminology depaul university content content content content
+  professor of criminology depaul university hon robert j anderson judge retired
+  18th judicial circuit court content content content content content content
   content content content content content content content content content
   content content content content content content content content content
-  content content content content content content content regional dvfr teams
-  regional domestic violence fatality review teams are responsible for
-  conducting a designated number of comprehensive individual case reviews
-  quarterly these cases will consist of fatalities and near fatalities that are
-  believed to be the result of domestic violence including overdoses and
-  suicides as part of these in depth case reviews teams will collect and review
-  a variety of records conduct interviews look at victim survivor abuser contact
-  with various systems and identify both vulnerabilities and strengths in the
-  intervention process teams will use their findings to identify opportunities
-  for improvement in domestic violence intervention strategies and systems
-  collaboration and make annual recommendations to the statewide committee teams
-  must be organized by circuit court boundaries but may be formed as county
-  jurisdiction beat or neighborhood specific the statewide dvfr committee is
-  actively recruiting stakeholder groups in illinois that are interested in
-  forming a domestic violence fatality review team in their area for more
-  information please email us at fatalityreview ilcadv org location 1 tbd coming
-  soon location 2 tbd location 3 tbd location 4 tbd "
+  content content content content regional dvfr teams regional domestic violence
+  fatality review teams are responsible for conducting a designated number of
+  comprehensive individual case reviews quarterly these cases will consist of
+  fatalities and near fatalities that are believed to be the result of domestic
+  violence including overdoses and suicides as part of these in depth case
+  reviews teams will collect and review a variety of records conduct interviews
+  look at victim survivor abuser contact with various systems and identify both
+  vulnerabilities and strengths in the intervention process teams will use their
+  findings to identify opportunities for improvement in domestic violence
+  intervention strategies and systems collaboration and make annual
+  recommendations to the statewide committee teams must be organized by circuit
+  court boundaries but may be formed as county jurisdiction beat or neighborhood
+  specific the statewide dvfr committee is actively recruiting stakeholder
+  groups in illinois that are interested in forming a domestic violence fatality
+  review team in their area for more information please email us at
+  fatalityreview ilcadv org location 1 tbd coming soon location 2 tbd location 3
+  tbd location 4 tbd "
 draft: false
 navigation: true
 path: /about
@@ -196,9 +197,9 @@ Jenny serves as a member of the Illinois Domestic Violence Fatality Review Commi
 
 Members are appointed in accordance with terms of the Domestic Violence Fatality Review Act, 750 ILCS 62. The membership of DVFRC is required to have racial, ethnic, gender, and geographic diversity.  
 
- <ul class="member-list text-center">
+<ul class="member-list text-center">
  
-  <li>
+ <li>
   
   **Dr. Megan Alderden, Co - Chair**
   
@@ -206,8 +207,16 @@ Members are appointed in accordance with terms of the Domestic Violence Fatality
   
   DePaul University
   
-  </li>
-              <li>content</li>
+</li>
+ <li>
+ 
+**Hon. Robert J. Anderson**
+  
+Judge, Retired
+
+18th Judicial Circuit Court
+
+</li>
               <li>content</li>
               <li>content</li>
               <li>content</li>
