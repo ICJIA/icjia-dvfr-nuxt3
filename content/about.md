@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-08T16:29:03.082Z
+updatedAt: 2023-03-08T18:33:43.377Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia "
 category: page
@@ -92,10 +92,11 @@ rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   review act 750 ilcs 62 the membership of dvfrc is required to have racial
   ethnic gender and geographic diversity dr megan alderden co chair associate
   professor of criminology depaul university hon robert j anderson judge retired
-  18th judicial circuit court content content content content content content
-  content content content content content content content content content
-  content content content content content content content content content
-  content content content content regional dvfr teams regional domestic violence
+  18th judicial circuit court willette benford survivor and director of re entry
+  city of chicago sara block co chair managing director of advocacy and
+  partnerships ascend justice jennifer cacciapaglia executive director mayor s
+  office of domestic violence and community violence prevention city of rockford
+  content content content regional dvfr teams regional domestic violence
   fatality review teams are responsible for conducting a designated number of
   comprehensive individual case reviews quarterly these cases will consist of
   fatalities and near fatalities that are believed to be the result of domestic
@@ -217,35 +218,56 @@ Judge, Retired
 18th Judicial Circuit Court
 
 </li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-              <li>content</li>
-            </ul>
+ <li>
+ 
+**Willette Benford**
+ 
+Survivor and Director of Re-Entry
+
+City of Chicago
+
+
+ 
+ </li>
+ <li>
+ 
+ **Sara Block, Co-Chair**
+ 
+Managing Director of Advocacy and Partnerships
+
+Ascend Justice
+
+ 
+ </li>
+ <li>
+ 
+**Jennifer Cacciapaglia**
+
+Executive Director
+
+Mayor’s Office of Domestic Violence and Community Violence Prevention
+
+City of Rockford
+
+ 
+ </li>
+ <li>
+ 
+ content
+ 
+ </li>
+  <li>
+ 
+ content
+ 
+ </li>
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+ </ul>
 
 </div>
 
