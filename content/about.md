@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-09T15:54:08.340Z
+updatedAt: 2023-03-09T16:21:09.775Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
@@ -115,25 +115,33 @@ rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   stacy l short associate deputy director child protection illinois department
   of child and family services vickie smith president and chief executive
   officer illinois coalition against domestic violence dr jacob stelter
-  attending emergency physician northshore university health system content
-  content content content content content content content content regional dvfr
-  teams regional domestic violence fatality review teams are responsible for
-  conducting a designated number of comprehensive individual case reviews
-  quarterly these cases will consist of fatalities and near fatalities that are
-  believed to be the result of domestic violence including overdoses and
-  suicides as part of these in depth case reviews teams will collect and review
-  a variety of records conduct interviews look at victim survivor abuser contact
-  with various systems and identify both vulnerabilities and strengths in the
-  intervention process teams will use their findings to identify opportunities
-  for improvement in domestic violence intervention strategies and systems
-  collaboration and make annual recommendations to the statewide committee teams
-  must be organized by circuit court boundaries but may be formed as county
-  jurisdiction beat or neighborhood specific the statewide dvfr committee is
-  actively recruiting stakeholder groups in illinois that are interested in
-  forming a domestic violence fatality review team in their area for more
-  information please email us at fatalityreview ilcadv org mailto fatalityreview
-  ilcadv org location 1 tbd coming soon location 2 tbd location 3 tbd location 4
-  tbd "
+  attending emergency physician northshore university health system cassandra
+  tanner miller survivor dv advocate and founder colton s legacy teresa l tudor
+  program administrator illinois department of human services sen sally j turner
+  caucus whip 44th district illinois senate jennifer vancil chief operating
+  officer quincy area network against domestic violence amanda l vasquez acting
+  research manager research analysis unit center for victim studies illinois
+  criminal justice information authority sen celina villanueva senator 12th
+  district illinois senate tom weitzel chief of police retired riverside police
+  department rep maurice a west ii representative 67th district illinois house
+  of representatives jeanine woods executive director cairo women s shelter inc
+  regional dvfr teams regional domestic violence fatality review teams are
+  responsible for conducting a designated number of comprehensive individual
+  case reviews quarterly these cases will consist of fatalities and near
+  fatalities that are believed to be the result of domestic violence including
+  overdoses and suicides as part of these in depth case reviews teams will
+  collect and review a variety of records conduct interviews look at victim
+  survivor abuser contact with various systems and identify both vulnerabilities
+  and strengths in the intervention process teams will use their findings to
+  identify opportunities for improvement in domestic violence intervention
+  strategies and systems collaboration and make annual recommendations to the
+  statewide committee teams must be organized by circuit court boundaries but
+  may be formed as county jurisdiction beat or neighborhood specific the
+  statewide dvfr committee is actively recruiting stakeholder groups in illinois
+  that are interested in forming a domestic violence fatality review team in
+  their area for more information please email us at fatalityreview ilcadv org
+  mailto fatalityreview ilcadv org location 1 tbd coming soon location 2 tbd
+  location 3 tbd location 4 tbd "
 draft: false
 navigation: true
 path: /about
@@ -487,55 +495,107 @@ Domestic Violence
  
   <li>
  
- content
+**Cassandra Tanner Miller**
+
+Survivor, DV Advocate and Founder
+
+Colton’s Legacy
+
  
  </li>
  
   <li>
  
- content
+**Teresa L. Tudor**
+
+Program Administrator
+
+Illinois Department of Human Services
+
  
  </li>
  
   <li>
  
- content
+**Sen. Sally J. Turner**
+
+Caucus Whip, 44th District
+
+Illinois Senate
+
  
  </li>
  
   <li>
  
- content
+**Jennifer Vancil**
+
+Chief Operating Officer
+
+Quincy Area Network Against Domestic Violence
+
  
  </li>
  
   <li>
  
- content
+**Amanda L. Vasquez**
+
+Acting Research Manager
+
+Research & Analysis Unit
+
+Center for Victim Studies
+
+Illinois Criminal Justice Information Authority
+
+
  
  </li>
  
   <li>
  
- content
+**Sen. Celina Villanueva**
+
+Senator, 12th District
+
+Illinois Senate
+
+
  
  </li>
  
   <li>
  
- content
+**Tom Weitzel**
+
+Chief of Police, Retired
+
+Riverside Police Department
+
  
  </li>
  
   <li>
  
- content
+**Rep. Maurice A. West II**
+
+Representative, 67th District
+
+Illinois House of Representatives
+
+
  
  </li>
  
   <li>
  
- content
+**Jeanine Woods**
+
+Executive Director
+
+Cairo Women’s Shelter, Inc. 
+
  
  </li>
  
