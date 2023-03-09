@@ -31,7 +31,8 @@
                   "
                 />
               </div>
-              <div class="pb-6">
+
+              <div class="pb-6" style="margin-top: -20px">
                 <v-btn
                   variant="text"
                   style="color: #fff !important; font-size: 20px"
@@ -81,6 +82,7 @@
                   ><v-icon>mdi-linkedin</v-icon></v-btn
                 >
               </div>
+
               <div style="font-size: 12px; font-weight: 400">
                 <strong
                   >&#169; 2023
@@ -114,6 +116,9 @@
                   </nuxt-link>
                 </span>
               </div>
+              <p class="mt-3" style="font-size: 13px; font-weight: 400">
+                Illinois Domestic Violence Hotline: 1-877-863-6338
+              </p>
             </v-col>
           </v-row>
         </v-container>

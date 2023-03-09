@@ -4,10 +4,10 @@ slug: resources
 hideFromSearch: false
 hideFromSitemap: false
 showTableOfContents: true
-summary: DVFR Resources
+summary: Publications and additional resources for DVFR
 section: root
 createdAt: 2023-02-16T02:07:30.063Z
-updatedAt: 2023-03-09T14:20:41.692Z
+updatedAt: 2023-03-09T14:29:15.548Z
 publishedAt: 2023-02-16T02:07:31.228Z
 searchMeta: null
 category: page

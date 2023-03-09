@@ -9,9 +9,9 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-08T18:33:43.377Z
+updatedAt: 2023-03-09T15:16:19.599Z
 publishedAt: 2023-02-06T17:32:55.127Z
-searchMeta: "icjia "
+searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
 rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   0 list style type none ul member list li list style position inside webkit
@@ -96,23 +96,26 @@ rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   city of chicago sara block co chair managing director of advocacy and
   partnerships ascend justice jennifer cacciapaglia executive director mayor s
   office of domestic violence and community violence prevention city of rockford
-  content content content regional dvfr teams regional domestic violence
-  fatality review teams are responsible for conducting a designated number of
-  comprehensive individual case reviews quarterly these cases will consist of
-  fatalities and near fatalities that are believed to be the result of domestic
-  violence including overdoses and suicides as part of these in depth case
-  reviews teams will collect and review a variety of records conduct interviews
-  look at victim survivor abuser contact with various systems and identify both
-  vulnerabilities and strengths in the intervention process teams will use their
-  findings to identify opportunities for improvement in domestic violence
-  intervention strategies and systems collaboration and make annual
-  recommendations to the statewide committee teams must be organized by circuit
-  court boundaries but may be formed as county jurisdiction beat or neighborhood
-  specific the statewide dvfr committee is actively recruiting stakeholder
-  groups in illinois that are interested in forming a domestic violence fatality
-  review team in their area for more information please email us at
-  fatalityreview ilcadv org location 1 tbd coming soon location 2 tbd location 3
-  tbd location 4 tbd "
+  wendy cohen senior policy advisor office of the illinois attorney general
+  patrick delfino director illinois state s attorney appellate prosecutor s
+  office content content content content content content content content
+  regional dvfr teams regional domestic violence fatality review teams are
+  responsible for conducting a designated number of comprehensive individual
+  case reviews quarterly these cases will consist of fatalities and near
+  fatalities that are believed to be the result of domestic violence including
+  overdoses and suicides as part of these in depth case reviews teams will
+  collect and review a variety of records conduct interviews look at victim
+  survivor abuser contact with various systems and identify both vulnerabilities
+  and strengths in the intervention process teams will use their findings to
+  identify opportunities for improvement in domestic violence intervention
+  strategies and systems collaboration and make annual recommendations to the
+  statewide committee teams must be organized by circuit court boundaries but
+  may be formed as county jurisdiction beat or neighborhood specific the
+  statewide dvfr committee is actively recruiting stakeholder groups in illinois
+  that are interested in forming a domestic violence fatality review team in
+  their area for more information please email us at fatalityreview ilcadv org
+  mailto fatalityreview ilcadv org location 1 tbd coming soon location 2 tbd
+  location 3 tbd location 4 tbd "
 draft: false
 navigation: true
 path: /about
@@ -190,8 +193,8 @@ Sara Block is the Managing Director of Advocacy and Partnerships at Ascend Justi
 
 **Jenny Schoenwetter, Secretary**
 
-Jenny Schoenwetter (pronounced “shane-wetter”) is the executive director and CEO of Harbor House, the only domestic violence agency serving Kankakee and Iroquois Counties. Jenny is a Certified Domestic Violence Professional and earned a Master’s in Business Administration degree. Jenny has received the Kankakee County Chamber of Commerce ATHENA Young Professionals Award in 2021, the Daily Journal’s Women in Business Honor in 2021, and United Way’s Rookie of the Year Award in 2016.  
-   
+Jenny Schoenwetter (pronounced “shane-wetter”) is the executive director and CEO of Harbor House, the only domestic violence agency serving Kankakee and Iroquois Counties. Jenny is a Certified Domestic Violence Professional and earned a Master’s in Business Administration degree. Jenny has received the Kankakee County Chamber of Commerce ATHENA Young Professionals Award in 2021, the Daily Journal’s Women in Business Honor in 2021, and United Way’s Rookie of the Year Award in 2016. 
+
 Jenny serves as a member of the Illinois Domestic Violence Fatality Review Committee and is co-chair of the Illinois Coalition Against Domestic Violence’s Funding Oversight Committee. Jenny served as a board member for the United Way of Kankakee & Iroquois Counties where she developed and launched Women United and the Zonta Club of Kankakee. She regularly leads professional trainings, serves on panels, and facilitates workshops and retreats locally and across the state. 
 
 ### Committee Members
@@ -253,7 +256,25 @@ City of Rockford
  </li>
  <li>
  
- content
+**Wendy Cohen**
+
+Senior Policy Advisor
+
+Office of the Illinois Attorney General
+
+
+ 
+ </li>
+  <li>
+ 
+**Patrick Delfino**
+
+Director
+
+Illinois State’s Attorney
+
+Appellate Prosecutor’s Office
+
  
  </li>
   <li>
@@ -261,7 +282,44 @@ City of Rockford
  content
  
  </li>
-  <li>
+ 
+   <li>
+ 
+ content
+ 
+ </li>
+ 
+   <li>
+ 
+ content
+ 
+ </li>
+ 
+   <li>
+ 
+ content
+ 
+ </li>
+ 
+   <li>
+ 
+ content
+ 
+ </li>
+ 
+   <li>
+ 
+ content
+ 
+ </li>
+ 
+   <li>
+ 
+ content
+ 
+ </li>
+ 
+   <li>
  
  content
  
@@ -279,7 +337,7 @@ Teams will use their findings to identify opportunities for improvement in domes
 
 Teams must be organized by circuit court boundaries but may be formed as county, jurisdiction, beat, or neighborhood specific. 
 
-The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us at fatalityreview.ilcadv.org.
+The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us at [fatalityreview.ilcadv.org](mailto:fatalityreview.ilcadv.org).
 
 
 - Location 1 TBD (coming soon)
