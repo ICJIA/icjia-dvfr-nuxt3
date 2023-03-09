@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-09T15:16:19.599Z
+updatedAt: 2023-03-09T15:54:08.340Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
@@ -98,24 +98,42 @@ rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   office of domestic violence and community violence prevention city of rockford
   wendy cohen senior policy advisor office of the illinois attorney general
   patrick delfino director illinois state s attorney appellate prosecutor s
-  office content content content content content content content content
-  regional dvfr teams regional domestic violence fatality review teams are
-  responsible for conducting a designated number of comprehensive individual
-  case reviews quarterly these cases will consist of fatalities and near
-  fatalities that are believed to be the result of domestic violence including
-  overdoses and suicides as part of these in depth case reviews teams will
-  collect and review a variety of records conduct interviews look at victim
-  survivor abuser contact with various systems and identify both vulnerabilities
-  and strengths in the intervention process teams will use their findings to
-  identify opportunities for improvement in domestic violence intervention
-  strategies and systems collaboration and make annual recommendations to the
-  statewide committee teams must be organized by circuit court boundaries but
-  may be formed as county jurisdiction beat or neighborhood specific the
-  statewide dvfr committee is actively recruiting stakeholder groups in illinois
-  that are interested in forming a domestic violence fatality review team in
-  their area for more information please email us at fatalityreview ilcadv org
-  mailto fatalityreview ilcadv org location 1 tbd coming soon location 2 tbd
-  location 3 tbd location 4 tbd "
+  office dr thomas golebiewski l c s w in private practice psychotherapy and
+  counseling adjunct professor at loyola university school of social work
+  jennifer greene director of policy and advocacy life span emily harwell policy
+  manager office of the illinois lt governor meg hefty associate director sarah
+  s inn sheriff andrew hires richland county sherriff carolyn klarquist
+  supervisor assistant defender office of the state appellate defender major dan
+  likens illinois state police division of criminal investigations jenna lopez
+  sexual assault legal advocacy program manager ywca sauk valley rep tony
+  mccombie house republican leader 89th district illinois house of
+  representatives michelle meyer chief executive officer mutual ground emily
+  miller senior advisor for policy legislative affairs office of the illinois
+  governor fawn pettet client support services manager land of lincoln legal aid
+  amanda pyron executive director the network advocating against domestic
+  violence jenny schoenwetter secretary executive director and ceo harbor house
+  stacy l short associate deputy director child protection illinois department
+  of child and family services vickie smith president and chief executive
+  officer illinois coalition against domestic violence dr jacob stelter
+  attending emergency physician northshore university health system content
+  content content content content content content content content regional dvfr
+  teams regional domestic violence fatality review teams are responsible for
+  conducting a designated number of comprehensive individual case reviews
+  quarterly these cases will consist of fatalities and near fatalities that are
+  believed to be the result of domestic violence including overdoses and
+  suicides as part of these in depth case reviews teams will collect and review
+  a variety of records conduct interviews look at victim survivor abuser contact
+  with various systems and identify both vulnerabilities and strengths in the
+  intervention process teams will use their findings to identify opportunities
+  for improvement in domestic violence intervention strategies and systems
+  collaboration and make annual recommendations to the statewide committee teams
+  must be organized by circuit court boundaries but may be formed as county
+  jurisdiction beat or neighborhood specific the statewide dvfr committee is
+  actively recruiting stakeholder groups in illinois that are interested in
+  forming a domestic violence fatality review team in their area for more
+  information please email us at fatalityreview ilcadv org mailto fatalityreview
+  ilcadv org location 1 tbd coming soon location 2 tbd location 3 tbd location 4
+  tbd "
 draft: false
 navigation: true
 path: /about
@@ -279,47 +297,243 @@ Appellate Prosecutor’s Office
  </li>
   <li>
  
- content
+**Dr. Thomas Golebiewski**
+
+L.C.S.W. in Private Practice Psychotherapy and Counseling
+
+Adjunct Professor at Loyola University School of Social Work
+
  
  </li>
  
    <li>
  
- content
+**Jennifer Greene**
+
+Director of Policy and Advocacy
+
+Life Span
+
+
  
  </li>
  
    <li>
  
- content
+**Emily Harwell**
+
+Policy Manager
+
+Office of the Illinois Lt. Governor
+
  
  </li>
  
    <li>
  
- content
+**Meg Hefty**
+
+Associate Director
+
+Sarah’s Inn   
+
  
  </li>
  
    <li>
  
- content
+**Sheriff Andrew Hires**
+
+Richland County Sherriff
+
+
  
  </li>
  
    <li>
  
- content
+**Carolyn Klarquist**
+
+Supervisor & Assistant Defender
+
+Office of the State Appellate Defender
+
  
  </li>
  
    <li>
  
- content
+**Major Dan Likens**
+
+Illinois State Police
+
+Division of Criminal Investigations
+
+
  
  </li>
  
    <li>
+ 
+**Jenna Lopez**
+
+Sexual Assault & Legal Advocacy Program Manager
+
+YWCA Sauk Valley
+
+ 
+ </li>
+ 
+ <li>
+ 
+**Rep. Tony McCombie**
+
+House Republican Leader, 89th District
+
+Illinois House of Representatives
+
+ 
+ </li>
+ 
+  <li>
+ 
+**Michelle Meyer**
+
+Chief Executive Officer
+
+Mutual Ground
+
+ 
+ </li>
+ 
+  <li>
+ 
+**Emily Miller**
+
+Senior Advisor for Policy & Legislative Affairs
+
+Office of the Illinois Governor
+
+ 
+ </li>
+ 
+  <li>
+ 
+**Fawn Pettet**
+
+Client Support Services Manager
+
+Land of Lincoln Legal Aid
+
+ 
+ </li>
+ 
+  <li>
+ 
+**Amanda Pyron**
+
+Executive Director
+
+The Network: Advocating Against Domestic Violence
+
+ 
+ </li>
+ 
+  <li>
+ 
+**Jenny Schoenwetter, Secretary**
+
+Executive Director and CEO
+
+Harbor House
+
+ 
+ </li>
+ 
+  <li>
+ 
+**Stacy L. Short**
+
+Associate Deputy Director
+
+Child Protection
+
+Illinois Department of Child and Family Services
+ 
+ </li>
+ 
+  <li>
+ 
+**Vickie Smith**
+
+President and Chief Executive Officer
+
+Illinois Coalition Against
+
+Domestic Violence
+
+ 
+ </li>
+ 
+  <li>
+  
+ **Dr. Jacob Stelter**
+ 
+ Attending Emergency Physician
+ 
+ Northshore University Health System
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
+ 
+ content
+ 
+ </li>
+ 
+  <li>
  
  content
  
