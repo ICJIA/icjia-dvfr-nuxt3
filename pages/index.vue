@@ -1,18 +1,18 @@
 <template>
   <div>
     <HomeSplash></HomeSplash>
-    <HomeText style="margin-bottom: -50px !important"></HomeText>
+    <!-- <HomeText style="margin-bottom: -50px !important"></HomeText> -->
     <!-- <HomeBoxes></HomeBoxes> -->
-    <!-- <div
+    <div
       v-if="data && isMounted"
-      style="margin-bottom: -45px !important"
-      class="px-10 py-5"
+      style="margin-bottom: -45px !important; margin-top: -20px"
+      class="py-5"
     >
       <ContentDoc :key="data?.title" :value="data" class="markdown-body">
         <template #empty>Document not found</template>
         <template #not-found>Document not found</template>
       </ContentDoc>
-    </div> -->
+    </div>
     <!-- <div class="text-center" style="margin-top: 100px">
       <v-btn
         style="color: #000 !important"

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import moment from "moment";
 const { path } = useRoute();
 const router = useRouter();
@@ -7,7 +7,7 @@ const { data: query } = await useAsyncData("meetings", () =>
   queryContent("/meetings/").sort({ start: -1 }).find()
 );
 
-const constructURL = (url: string) => {
+const constructURL = (url) => {
   const myURL = "https://dvfr.icjia-api.cloud/uploads/" + url;
   return myURL;
 };
@@ -99,7 +99,7 @@ useHead({
 <template>
   <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
     <v-container fluid>
-      <h1>MEETINGS</h1>
+      <h1 class="brand-color">MEETINGS</h1>
       <p>
         The Statewide Domestic Violence Fatality Review Committee holds meetings
         on the third Tuesday of every other month and special topic meetings

@@ -3,7 +3,7 @@
     <v-container fluid style="margin-top: -18px">
       <v-row>
         <v-col>
-          <h1>LATEST NEWS</h1>
+          <h1 class="brand-color">LATEST NEWS</h1>
 
           <v-container fluid>
             <v-row align="stretch">

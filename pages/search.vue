@@ -4,7 +4,7 @@
       <v-container class="mb-12"
         ><v-row
           ><v-col>
-            <h1>Search</h1>
+            <h1 class="brand-color">Search</h1>
             <div class="text-right">Found: {{ result.length }}</div>
 
             <v-form class="pl-2 mt-4" style="margin-top: -15px">
@@ -22,8 +22,9 @@
 
             <div class="text-center">
               <v-btn
-                class="mr-3"
-                color="blue-darken-4"
+                class="mr-3 brand-color"
+                style="color: #fff !important"
+                color="#391856"
                 @click.prevent="clearAll"
                 >Clear</v-btn
               >

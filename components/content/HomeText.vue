@@ -98,7 +98,5 @@
   font-family: "Lato", sans-serif;
 }
 
-.brand-color {
-  color: #391856;
-}
+
 </style>
