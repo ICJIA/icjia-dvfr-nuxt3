@@ -36,6 +36,10 @@ export default defineAppConfig({
       main: "Search",
       link: "/search",
     },
+    {
+      main: "Translate",
+      link: "/translate",
+    },
   ],
 
   navMenu: [
