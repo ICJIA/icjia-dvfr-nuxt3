@@ -50,7 +50,7 @@
             style="font-size: 50px; font-weight: 900"
             class="no-rule brand-color"
           >
-            Illinois Domestic Violence Hotline
+            Illinois Domestic Violence Crisis Hotline
           </h2>
           <p>
             The 24-Hour Illinois Domestic Violence Crisis Hotline can provide

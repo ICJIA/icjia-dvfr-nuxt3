@@ -117,7 +117,7 @@
                 </span>
               </div>
               <p class="mt-3" style="font-size: 13px; font-weight: 400">
-                Illinois Domestic Violence Hotline: 1-877-863-6338
+                Illinois Domestic Violence Crisis Hotline: 1-877-863-6338
               </p>
             </v-col>
           </v-row>
