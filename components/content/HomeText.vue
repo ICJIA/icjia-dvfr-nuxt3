@@ -23,11 +23,13 @@
                   <div>
                     The Domestic Violence Fatality Review Act created a process
                     to establish domestic violence fatality review (DVFR) teams
-                    across Illinois. Fatality reviews consist of
-                    multi-disciplinary, multi-agency teams of stakeholders
-                    working together to examine data from a variety of sources
-                    to piece together the days, months, and years leading up to
-                    a person’s death.
+                    across Illinois. Domestic Violence Fatality Review aims to
+                    prevent future domestic violence related fatalities and near
+                    fatalities and reduce the severity and frequency of domestic
+                    violence. This process is accomplished by looking at both
+                    strengths and vulnerabilities in various intervention that
+                    may lead to adverse outcomes for survivors, victims, and
+                    their families.
                   </div>
                   <div class="mt-4">
                     <nuxt-link to="/about">Read More&nbsp;&raquo;</nuxt-link>
@@ -97,6 +99,4 @@
   font-size: 18px;
   font-family: "Lato", sans-serif;
 }
-
-
 </style>
