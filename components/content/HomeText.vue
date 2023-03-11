@@ -21,15 +21,17 @@
               <v-row>
                 <v-col class="px-5 text-center">
                   <div>
-                    The Domestic Violence Fatality Review Act created a process
-                    to establish domestic violence fatality review (DVFR) teams
-                    across Illinois. Domestic Violence Fatality Review aims to
-                    prevent future domestic violence related fatalities and near
-                    fatalities and reduce the severity and frequency of domestic
-                    violence. This process is accomplished by looking at both
-                    strengths and vulnerabilities in various intervention that
-                    may lead to adverse outcomes for survivors, victims, and
-                    their families.
+                    The Domestic Violence Fatality Review Committee is as an Ad
+                    Hoc Committee of the Illinois Criminal Justice Information
+                    Authority Board. The Committee was established under the
+                    Illinois Domestic Violence Fatality Review Act in August
+                    2021 to serve as a statewide resource for addressing
+                    domestic violence-related fatalities and near-fatalities,
+                    establish regional domestic violence fatality review teams,
+                    and issue annual recommendations for systems change. The
+                    Statewide Fatality Review Committee began meeting in January
+                    2022 and continues to meet every other month to carry out
+                    its mission. All meetings are open to the public.
                   </div>
                   <div class="mt-4">
                     <nuxt-link to="/about">Read More&nbsp;&raquo;</nuxt-link>
@@ -50,22 +52,33 @@
           >
             Illinois Domestic Violence Hotline
           </h2>
+          <p>
+            The 24-Hour Illinois Domestic Violence Crisis Hotline can provide
+            support, information, and referral for a wide range of services. You
+            do not need to leave your abuser or your home to receive help. All
+            services are both free and confidential.
+          </p>
           <h3
             style="
-              font-size: 40px;
+              font-size: 48px;
               font-weight: 900;
               font-family: 'Lato', sans-serif !important;
             "
-            class="mb-8 brand-color"
+            class="mb-0 brand-color"
           >
-            1-877-863-6338
+            <div>1-877-TO END DV</div>
+            <div style="font-size: 18px; color: #555" class="mt-4">
+              1-877-863-6338 (Voice)
+            </div>
+            <div style="font-size: 14px" class="mt-4">
+              To find a local Domestic Violence Service, please
+              <a
+                target="_blank"
+                href="https://www.dhs.state.il.us/page.aspx?module=12&officetype=17&county="
+                >click here</a
+              >.
+            </div>
           </h3>
-          <p class="">
-            Lorem markdownum Abas. Fama unum pastorve novantur figuras voce nec
-            increvit iam quoque priori ipsa pruniceum quaerere. Causa retro
-            annos duo et, rura rector versi mittit prohibebant illi nymphae,
-            antra repressit.
-          </p>
         </v-col>
       </v-row></v-container
     >
