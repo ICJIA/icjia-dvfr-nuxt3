@@ -19,10 +19,7 @@ path: /
 url: https://dvfr.icjia.dev
 ---
 
-
 - Welcome message
 - Brief description of program
 - Illinois Domestic Violence Hotline
-    - (877)863-6338
-
- 
+  - (877)863-6338

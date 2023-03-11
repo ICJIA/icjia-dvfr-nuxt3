@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5">
+  <div>
     <div
       style="
         background: #f8f8f8;
@@ -19,15 +19,19 @@
           <v-col cols="12" md="8">
             <v-container fluid class="fill-height">
               <v-row>
-                <v-col class="d-flex justify-center px-5 text-center">
-                  The Domestic Violence Fatality Review Act (Public Act
-                  102-0520) was signed into law in August 2021 creating a
-                  process to establish domestic violence fatality review (DVFR)
-                  teams across Illinois. Fatality reviews consist of
-                  multi-disciplinary, multi-agency teams of stakeholders working
-                  together to examine data from a variety of sources to piece
-                  together the days, months, and years leading up to a person’s
-                  death.
+                <v-col class="px-5 text-center">
+                  <div>
+                    The Domestic Violence Fatality Review Act created a process
+                    to establish domestic violence fatality review (DVFR) teams
+                    across Illinois. Fatality reviews consist of
+                    multi-disciplinary, multi-agency teams of stakeholders
+                    working together to examine data from a variety of sources
+                    to piece together the days, months, and years leading up to
+                    a person’s death.
+                  </div>
+                  <div class="mt-4">
+                    <nuxt-link to="/about">Read More&nbsp;&raquo;</nuxt-link>
+                  </div>
                 </v-col>
               </v-row>
             </v-container></v-col
@@ -46,7 +50,7 @@
           </h2>
           <h3
             style="
-              font-size: 48px;
+              font-size: 40px;
               font-weight: 900;
               font-family: 'Lato', sans-serif !important;
             "
