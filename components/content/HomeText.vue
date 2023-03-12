@@ -12,10 +12,10 @@
           <v-col cols="12" md="4" class="rule home-about-main px-8 py-12">
             <!-- TODO: Make these classes dynamic -->
             <h2 class="no-rule text-right brand-color hidden-sm-and-down">
-              About Us
+              About the DVFR
             </h2>
             <h2 class="no-rule text-center brand-color hidden-md-and-up">
-              About Us
+              About the DVFR
             </h2>
             <h3 class="home-about-sub text-right hidden-sm-and-down">
               The Domestic Violence Fatality Review Committee is as an Ad Hoc
