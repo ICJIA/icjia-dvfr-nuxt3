@@ -3,11 +3,11 @@ title: Contact
 slug: contact
 hideFromSearch: false
 hideFromSitemap: false
-showTableOfContents: false
+showTableOfContents: true
 summary: DVFR Contact information
 section: root
 createdAt: 2023-02-16T02:10:40.943Z
-updatedAt: 2023-03-11T23:52:16.207Z
+updatedAt: 2023-03-12T21:56:31.440Z
 publishedAt: 2023-02-16T02:10:42.140Z
 searchMeta: "how to contact "
 category: page
