@@ -3,15 +3,24 @@
     <div
       style="
         background: #f8f8f8;
-        border-top: 1px solid #ddd;
+        border-top: 1px solid #aaa;
         border-bottom: 1px solid #ddd;
       "
     >
-      <v-container fluid style="min-height: 300px">
+      <v-container fluid style="min-height: 350px">
         <v-row class="py-5">
           <v-col cols="12" md="4" class="rule home-about-main px-5">
-            <h2 class="no-rule text-right brand-color">About Us</h2>
-            <h3 class="home-about-sub text-right">
+            <h2 class="no-rule text-right brand-color hidden-sm-and-down">
+              About Us
+            </h2>
+            <h2 class="no-rule text-center brand-color hidden-md-and-up">
+              About Us
+            </h2>
+            <h3 class="home-about-sub text-right hidden-sm-and-down">
+              The Domestic Violence Fatality Review Act (Public Act 102-0520)
+              was signed into law in August 2021.
+            </h3>
+            <h3 class="home-about-sub text-center hidden-md-and-up">
               The Domestic Violence Fatality Review Act (Public Act 102-0520)
               was signed into law in August 2021.
             </h3>
@@ -19,7 +28,7 @@
           <v-col cols="12" md="8">
             <v-container fluid class="fill-height">
               <v-row>
-                <v-col class="px-5 text-center">
+                <v-col class="px-0 text-center">
                   <div>
                     The Domestic Violence Fatality Review Committee is as an Ad
                     Hoc Committee of the Illinois Criminal Justice Information
@@ -43,8 +52,8 @@
         </v-row></v-container
       >
     </div>
-    <v-container fluid style="border-top: 1px solid #fff">
-      <v-row class="py-5 text-center">
+    <v-container fluid style="border-top: 1px solid #fff" class="mt-10">
+      <v-row class="py-2 text-center">
         <v-col>
           <h2
             style="font-size: 50px; font-weight: 900"
@@ -66,8 +75,8 @@
             "
             class="mb-0 brand-color"
           >
-            <div>1-877-TO END DV</div>
-            <div style="font-size: 18px; color: #555" class="mt-4">
+            <div class="py-8">1-877-TO END DV</div>
+            <div style="font-size: 18px; color: #555" class="mt-0">
               1-877-863-6338 (Voice)
             </div>
             <div style="font-size: 14px" class="mt-4">
