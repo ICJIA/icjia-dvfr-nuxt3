@@ -18,12 +18,14 @@
               About Us
             </h2>
             <h3 class="home-about-sub text-right hidden-sm-and-down">
-              The Domestic Violence Fatality Review Act (Public Act 102-0520)
-              was signed into law in August 2021.
+              The Domestic Violence Fatality Review Committee is as an Ad Hoc
+              Committee of the Illinois Criminal Justice Information Authority
+              Board.
             </h3>
             <h3 class="home-about-sub text-center hidden-md-and-up">
-              The Domestic Violence Fatality Review Act (Public Act 102-0520)
-              was signed into law in August 2021.
+              The Domestic Violence Fatality Review Committee is as an Ad Hoc
+              Committee of the Illinois Criminal Justice Information Authority
+              Board.
             </h3>
           </v-col>
           <v-col cols="12" md="8">
@@ -31,20 +33,32 @@
               <v-row>
                 <v-col class="px-2 text-center">
                   <div>
-                    The Domestic Violence Fatality Review Committee is as an Ad
-                    Hoc Committee of the Illinois Criminal Justice Information
-                    Authority Board. The Committee was established under the
-                    Illinois Domestic Violence Fatality Review Act in August
-                    2021 to serve as a statewide resource for addressing
-                    domestic violence-related fatalities and near-fatalities,
-                    establish regional domestic violence fatality review teams,
-                    and issue annual recommendations for systems change. The
-                    Statewide Fatality Review Committee began meeting in January
-                    2022 and continues to meet every other month to carry out
-                    its mission. All meetings are open to the public.
+                    The
+                    <a
+                      target="_blank"
+                      href="https://www.ilga.gov/ftp/Public%20Acts/102/102-0520.htm"
+                      >Domestic Violence Fatality Review Act (Public Act
+                      102-0520)</a
+                    >
+                    was signed into law in August 2021. The Committee was
+                    established under the Illinois Domestic Violence Fatality
+                    Review Act in August 2021 to serve as a statewide resource
+                    for addressing domestic violence-related fatalities and
+                    near-fatalities, establish regional domestic violence
+                    fatality review teams, and issue annual recommendations for
+                    systems change. The Statewide Fatality Review Committee
+                    began meeting in January 2022 and continues to meet every
+                    other month to carry out its mission. All meetings are open
+                    to the public.
                   </div>
-                  <div class="mt-4">
-                    <nuxt-link to="/about">Read More&nbsp;&raquo;</nuxt-link>
+                  <div class="mt-8">
+                    <v-btn
+                      size="small"
+                      variant="text"
+                      style="font-weight: 900 !important"
+                      to="/about"
+                      >Read More&nbsp;&raquo;</v-btn
+                    >
                   </div>
                 </v-col>
               </v-row>
@@ -121,5 +135,11 @@
 .home-about-sub {
   font-size: 18px;
   font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .rule {
+    border: none;
+  }
 }
 </style>

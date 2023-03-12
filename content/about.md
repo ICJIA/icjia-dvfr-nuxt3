@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-11T21:20:18.998Z
+updatedAt: 2023-03-12T16:30:50.398Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
@@ -611,7 +611,7 @@ Teams will use their findings to identify opportunities for improvement in domes
 
 Teams must be organized by circuit court boundaries but may be formed as county, jurisdiction, beat, or neighborhood specific. 
 
-The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us at [fatalityreview.ilcadv.org](mailto:fatalityreview.ilcadv.org).
+The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us at [fatalityreview@ilcadv.org](mailto:fatalityreview@ilcadv.org).
 
 
 - Location 1 TBD (coming soon)
