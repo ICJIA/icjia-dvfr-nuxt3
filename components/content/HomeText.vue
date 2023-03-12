@@ -9,7 +9,7 @@
     >
       <v-container fluid style="min-height: 350px">
         <v-row class="py-5">
-          <v-col cols="12" md="4" class="rule home-about-main px-5">
+          <v-col cols="12" md="4" class="rule home-about-main px-8 py-12">
             <!-- TODO: Make these classes dynamic -->
             <h2 class="no-rule text-right brand-color hidden-sm-and-down">
               About Us
@@ -29,7 +29,7 @@
           <v-col cols="12" md="8">
             <v-container fluid class="fill-height">
               <v-row>
-                <v-col class="px-0 text-center">
+                <v-col class="px-2 text-center">
                   <div>
                     The Domestic Violence Fatality Review Committee is as an Ad
                     Hoc Committee of the Illinois Criminal Justice Information
@@ -106,12 +106,12 @@
 
 .rule {
   border-right: 1px solid #aaa;
-  min-height: 280px;
+  min-height: 350px;
 }
 
 .rule-left {
   border-left: 1px solid #aaa;
-  min-height: 280px;
+  min-height: 350px;
 }
 
 .home-about-main {
