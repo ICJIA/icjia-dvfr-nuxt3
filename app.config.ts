@@ -43,11 +43,6 @@ export default defineAppConfig({
   ],
 
   navMenu: [
-    // {
-    //   main: "Home",
-    //   link: "/",
-    //   nudgeLeft: "78px",
-    // },
     {
       main: "About",
       link: "/about",

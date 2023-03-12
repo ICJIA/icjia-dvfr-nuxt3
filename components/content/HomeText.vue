@@ -10,6 +10,7 @@
       <v-container fluid style="min-height: 350px">
         <v-row class="py-5">
           <v-col cols="12" md="4" class="rule home-about-main px-5">
+            <!-- TODO: Make these classes dynamic -->
             <h2 class="no-rule text-right brand-color hidden-sm-and-down">
               About Us
             </h2>

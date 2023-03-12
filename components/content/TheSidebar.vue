@@ -7,6 +7,7 @@
       style="background: #fff"
     >
       <v-list v-model:opened="open" density="compact">
+        <v-list-item exact to="/">Home</v-list-item>
         <div
           v-for="(menu, index) in navMenu"
           :key="`sidebar-accordion-${index}`"
