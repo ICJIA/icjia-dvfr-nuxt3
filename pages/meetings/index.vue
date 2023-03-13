@@ -94,6 +94,11 @@ useHead({
     },
   ],
 });
+
+// onMounted(() => {
+//   const arrayUniqueByKey = [...new Map(array.map(item =>
+//   [item[key], item])).values()];
+// }),
 </script>
 
 <template>
@@ -111,14 +116,18 @@ useHead({
 
       <div v-for="meeting in query" :key="meeting._path" class="pl-3">
         <div
+          class="year-heading"
+          v-if="isYearDisplayed"
           style="
             font-size: 24px;
             font-weight: 900;
-            margin-bottom: 10px;
+            margin-bottom: 00px;
             margin-top: 10px;
+            border: none;
           "
-          v-html="displayYearHeading(meeting.start)"
-        ></div>
+        >
+          {{ displayYearHeading(meeting.start) }}
+        </div>
 
         <v-card
           class="markdown-body px-2 py-0 elevation-0 mb-0"
