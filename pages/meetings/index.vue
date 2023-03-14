@@ -137,7 +137,7 @@ useHead({
           <div class="mb-2">&nbsp;</div>
 
           <div v-for="meeting in query" :key="meeting._path">
-            <div
+            <h2
               :id="`year-${meeting.year}`"
               v-if="isYearDisplayed"
               style="
@@ -149,7 +149,7 @@ useHead({
               "
             >
               {{ displayYearHeading(meeting.start) }}
-            </div>
+            </h2>
 
             <v-card
               class="markdown-body px-2 py-0 elevation-0 mb-0"
