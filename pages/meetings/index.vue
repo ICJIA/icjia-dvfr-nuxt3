@@ -200,7 +200,7 @@ useHead({
           "
           class="hidden-sm-and-down elevation-0"
         >
-          <TheTableOfContents :data="testData" class="toc" />
+          <TheTableOfContents :data="testData" class="toc" :debug="true" />
         </v-col>
       </v-row>
     </v-container>
