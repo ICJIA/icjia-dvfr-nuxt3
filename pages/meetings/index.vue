@@ -137,7 +137,7 @@ useHead({
           <div class="mb-2">&nbsp;</div>
 
           <div v-for="meeting in query" :key="meeting._path">
-            <h2
+            <!-- <h2
               :id="`year-${meeting.year}`"
               v-if="isYearDisplayed"
               style="
@@ -149,7 +149,7 @@ useHead({
               "
             >
               {{ displayYearHeading(meeting.start) }}
-            </h2>
+            </h2> -->
 
             <v-card
               class="markdown-body px-2 py-0 elevation-0 mb-0"
@@ -195,7 +195,7 @@ useHead({
           </div>
         </v-col>
 
-        <v-col
+        <!-- <v-col
           cols="12"
           md="3"
           style="
@@ -214,7 +214,7 @@ useHead({
           class="hidden-sm-and-down elevation-0"
         >
           <TheTableOfContents :data="myTocObj" class="toc" :debug="false" />
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
   </div>
