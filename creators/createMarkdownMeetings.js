@@ -79,6 +79,7 @@ axios
       rawText = rawText.replace(/\s\s+/g, " ");
       obj.attributes.rawText = rawText.toLowerCase();
       obj.attributes.draft = false;
+      obj.attributes.year = new Date(obj.attributes.start).getFullYear();
 
       obj.attributes.navigation = true;
       if (item.attributes.section !== "root") {

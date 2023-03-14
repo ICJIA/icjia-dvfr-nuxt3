@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div v-if="props.debug">{{ props.data }}</div>
+
     <v-card
       elevation="0"
       class="toc px-5 py-5 markdown-body"
@@ -19,13 +21,19 @@
       >
         {{ props.title }}
       </div>
-      <div v-for="(item, index) in props.data.links" :key="index" class="pl-3">
+      <div v-if="props && props.data && props.data.links">
         <div
-          :id="`toc-${item.id}`"
-          class="mb-4 hover tocItem"
-          @click="scrollTo(item.id)"
+          v-for="(item, index) in props.data.links"
+          :key="index"
+          class="pl-3"
         >
-          {{ item.text }}
+          <div
+            :id="`toc-${item.id}`"
+            class="mb-4 hover tocItem"
+            @click="scrollTo(item.id)"
+          >
+            {{ item.text }}
+          </div>
         </div>
       </div>
       <br /><br />
@@ -46,19 +54,27 @@ const props = defineProps({
     type: String,
     default: "Navigation",
   },
+  debug: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const scrollTo = (id) => {
   // console.log("scrolling to", id);
-  const el = document.querySelector(`#${id}`);
-  // console.log("el: ", el);
-  window.scrollTo({
-    behavior: "smooth",
-    top:
-      el.getBoundingClientRect().top -
-      document.body.getBoundingClientRect().top -
-      80,
-  });
+  try {
+    const el = document.querySelector(`#${id}`);
+    // console.log("el: ", el);
+    window.scrollTo({
+      behavior: "smooth",
+      top:
+        el.getBoundingClientRect().top -
+        document.body.getBoundingClientRect().top -
+        80,
+    });
+  } catch (e) {
+    console.log("Table of Contents error: ", e.message);
+  }
 };
 
 const scrollToTop = () => {

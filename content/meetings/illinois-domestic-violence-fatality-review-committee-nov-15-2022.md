@@ -42,6 +42,7 @@ rawText: public notice is hereby given that the illinois domestic violence
   pm by zoom all interested parties are invited to attend and will be given the
   opportunity for public comment
 draft: false
+year: 2022
 navigation: true
 path: /meetings/illinois-domestic-violence-fatality-review-committee-nov-15-2022
 url: https://dvfr.icjia.dev/meetings/illinois-domestic-violence-fatality-review-committee-nov-15-2022
