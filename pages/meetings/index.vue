@@ -75,6 +75,19 @@ let testData = ref(
   )
 );
 
+let years = ["2023", "2022"];
+let myTocLinks = years.map((year) => {
+  return {
+    id: `year-${year}`,
+    depth: 2,
+    text: `${year} Meetings`,
+  };
+});
+
+let myTocObj = ref({ title: "", searchDepth: 2, depth: 2, links: myTocLinks });
+
+console.log("links: ", myTocLinks);
+
 useHead({
   title: "Meetings",
   meta: [
@@ -108,7 +121,7 @@ useHead({
 </script>
 
 <template>
-  <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
+  <div class="pb-12" data-aos="fade-in" style="margin-top: 0px">
     <v-container fluid style="margin: 0; padding: 0">
       <v-row>
         <v-col cols="12" md="9" class="px-8">
@@ -123,7 +136,7 @@ useHead({
           </p>
           <div class="mb-2">&nbsp;</div>
 
-          <div v-for="meeting in query" :key="meeting._path" class="pl-3">
+          <div v-for="meeting in query" :key="meeting._path">
             <div
               :id="`year-${meeting.year}`"
               v-if="isYearDisplayed"
@@ -189,7 +202,7 @@ useHead({
             min-height: 110vh !important;
 
             background: #fafafa;
-            margin-top: 18px;
+            margin-top: 13px;
             margin-bottom: -105px;
             border: 1px solid #ddd;
 
@@ -200,7 +213,7 @@ useHead({
           "
           class="hidden-sm-and-down elevation-0"
         >
-          <TheTableOfContents :data="testData" class="toc" :debug="true" />
+          <TheTableOfContents :data="myTocObj" class="toc" :debug="false" />
         </v-col>
       </v-row>
     </v-container>
