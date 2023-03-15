@@ -2,6 +2,7 @@
 import moment from "moment";
 const { path } = useRoute();
 const router = useRouter();
+import { v4 as uuidv4 } from "uuid";
 
 const { data: query } = await useAsyncData("meetings", () =>
   queryContent("/meetings/").sort({ start: -1 }).find()
@@ -137,9 +138,8 @@ useHead({
           <div class="mb-2">&nbsp;</div>
 
           <div v-for="meeting in query" :key="meeting._path">
-            <!-- <h2
+            <h2
               :id="`year-${meeting.year}`"
-              v-if="isYearDisplayed"
               style="
                 font-size: 24px;
                 font-weight: 900;
@@ -149,7 +149,7 @@ useHead({
               "
             >
               {{ displayYearHeading(meeting.start) }}
-            </h2> -->
+            </h2>
 
             <v-card
               class="markdown-body px-2 py-0 elevation-0 mb-0"
@@ -195,7 +195,7 @@ useHead({
           </div>
         </v-col>
 
-        <!-- <v-col
+        <v-col
           cols="12"
           md="3"
           style="
@@ -213,8 +213,13 @@ useHead({
           "
           class="hidden-sm-and-down elevation-0"
         >
-          <TheTableOfContents :data="myTocObj" class="toc" :debug="false" />
-        </v-col> -->
+          <TheTableOfContents
+            :data="myTocObj"
+            class="toc"
+            :debug="false"
+            :key="uuidv4()"
+          />
+        </v-col>
       </v-row>
     </v-container>
   </div>

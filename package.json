@@ -24,7 +24,8 @@
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "scripts:local": "yarn create:local",
     "scripts": "yarn create:contentDirectory && yarn create:meetings && yarn create:pages &&  yarn create:searchIndex && yarn create:sitemap && yarn create:routes",
-    "clear:cache": "rm -rf .nuxt .output"
+    "clear:cache": "rm -rf .nuxt .output",
+    "prestart": "source $HOME/.nvm/nvm.sh; nvm use"
   },
   "devDependencies": {
     "@nuxt/content": "^2.5.2",
