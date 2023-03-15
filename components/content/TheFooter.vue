@@ -90,7 +90,7 @@
                     href="https://icjia.illinois.gov"
                     target="_blank"
                     style="color: #fff"
-                    >Illinois Criminal Justice Information Authority</a
+                    >State of Illinois</a
                   >
                 </strong>
 

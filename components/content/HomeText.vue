@@ -32,7 +32,7 @@
             <v-container fluid class="fill-height">
               <v-row>
                 <v-col class="px-2 text-center">
-                  <div>
+                  <p>
                     The
                     <a
                       target="_blank"
@@ -41,16 +41,16 @@
                       102-0520)</a
                     >
                     was signed into law in August 2021. The Committee was
-                    established under the Illinois Domestic Violence Fatality
-                    Review Act in August 2021 to serve as a statewide resource
-                    for addressing domestic violence-related fatalities and
-                    near-fatalities, establish regional domestic violence
-                    fatality review teams, and issue annual recommendations for
-                    systems change. The Statewide Fatality Review Committee
-                    began meeting in January 2022 and continues to meet every
-                    other month to carry out its mission. All meetings are open
-                    to the public.
-                  </div>
+                    established to serve as a statewide resource for addressing
+                    domestic violence-related fatalities and near-fatalities,
+                    establish regional domestic violence fatality review teams,
+                    and issue annual recommendations for systems change. The
+                    Statewide Fatality Review Committee began meeting in January
+                    2022 and continues to meet every other month to carry out
+                    its mission. All
+                    <nuxt-link to="/meetings">meetings</nuxt-link> are open to
+                    the public.
+                  </p>
                   <div class="mt-8">
                     <v-btn
                       size="small"
