@@ -42,11 +42,11 @@ export default defineNuxtConfig({
           src: "https://code.jquery.com/jquery-3.6.1.slim.min.js",
           type: "text/javascript",
         },
-        // {
-        //   src: "https://analytics.icjia-api.cloud/js/plausible.js",
-        //   "data-domain": "i2i.illinois.gov",
-        //   defer: true,
-        // },
+        {
+          src: "https://analytics.icjia-api.cloud/js/plausible.js",
+          "data-domain": "dvfr.illinois.gov",
+          defer: true,
+        },
         // {
         //   src: "https://www.googletagmanager.com/gtag/js?id=G-xxxxxxx",
         //   async: true,

@@ -45,7 +45,7 @@ draft: false
 year: 2022
 navigation: true
 path: /meetings/illinois-domestic-violence-fatality-review-committee-mar-15-2022
-url: https://dvfr.icjia.dev/meetings/illinois-domestic-violence-fatality-review-committee-mar-15-2022
+url: https://dvfr.illinois.gov/meetings/illinois-domestic-violence-fatality-review-committee-mar-15-2022
 ---
 
 Public notice is hereby given that the Illinois Domestic Violence Fatality Review Committee will conduct

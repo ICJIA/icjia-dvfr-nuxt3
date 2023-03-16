@@ -22,7 +22,7 @@ rawText: " statewide domestic violence fatality review committee phone 217 789
 draft: false
 navigation: true
 path: /contact
-url: https://dvfr.icjia.dev/contact
+url: https://dvfr.illinois.gov/contact
 ---
 
 ## Statewide Domestic Violence Fatality Review Committee

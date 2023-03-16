@@ -50,7 +50,7 @@ rawText: " publications annual reports 2022 annual report coming soon forms
 draft: false
 navigation: true
 path: /resources
-url: https://dvfr.icjia.dev/resources
+url: https://dvfr.illinois.gov/resources
 ---
 
 ## Publications

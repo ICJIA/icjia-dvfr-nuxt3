@@ -2,7 +2,7 @@ export default defineAppConfig({
   title: "Illinois Domestic Violence Fatality Review",
   description: "Illinois Domestic Violence Fatality Review",
   api: "https://dvfr.icjia-api.cloud",
-  root: "https://dvfr.icjia.dev",
+  root: "https://dvfr.illinois.gov",
   isTranslationEnabled: true,
   footerMenu: [
     {

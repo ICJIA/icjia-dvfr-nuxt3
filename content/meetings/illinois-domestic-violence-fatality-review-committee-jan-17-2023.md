@@ -37,7 +37,7 @@ draft: false
 year: 2023
 navigation: true
 path: /meetings/illinois-domestic-violence-fatality-review-committee-jan-17-2023
-url: https://dvfr.icjia.dev/meetings/illinois-domestic-violence-fatality-review-committee-jan-17-2023
+url: https://dvfr.illinois.gov/meetings/illinois-domestic-violence-fatality-review-committee-jan-17-2023
 ---
 
 Public notice is hereby given that the Illinois Domestic Violence Fatality Review Committee will conduct

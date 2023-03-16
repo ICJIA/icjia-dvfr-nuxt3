@@ -114,7 +114,7 @@ rawText: "access to the state of illinois websites is provided subject to the
 draft: false
 navigation: true
 path: /privacy
-url: https://dvfr.icjia.dev/privacy
+url: https://dvfr.illinois.gov/privacy
 ---
 
 Access to the State of Illinois websites is provided subject to the following terms and conditions. Please read these terms carefully as use of these sites constitutes acceptance of all of the following terms and conditions:
