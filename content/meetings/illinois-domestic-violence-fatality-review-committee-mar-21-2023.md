@@ -13,11 +13,19 @@ summary: Public notice is hereby given that the Illinois Domestic Violence
   opportunity for public comment.
 section: meetings
 createdAt: 2023-03-14T18:25:07.712Z
-updatedAt: 2023-03-14T18:25:08.970Z
+updatedAt: 2023-03-17T23:09:44.634Z
 publishedAt: 2023-03-14T18:25:08.965Z
 searchMeta: null
 attachments:
   data:
+    - attributes:
+        createdAt: 2023-03-17T23:09:23.332Z
+        updatedAt: 2023-03-17T23:09:23.332Z
+        name: DVFR_Agenda_3-21-23 draft.pdf
+        alternativeText: null
+        url: /uploads/DVFR_Agenda_3_21_23_draft_e8841cae58.pdf
+        ext: .pdf
+        size: 101.86
     - attributes:
         createdAt: 2023-03-14T18:22:37.536Z
         updatedAt: 2023-03-14T18:23:24.515Z

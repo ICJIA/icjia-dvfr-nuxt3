@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <nav>
     <div
       variant="text"
       class="text-center pt-3 pb-3 footer-bg"
@@ -15,7 +15,7 @@
         <span v-if="menuLength - 1 !== index"> | </span>
       </span>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script setup>
