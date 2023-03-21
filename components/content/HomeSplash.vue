@@ -6,6 +6,7 @@
     src="/dvfr-splash-text-02_xl.jpg"
     lazy-src="/dvfr-splash-text-01_thumb.jpg"
     style="margin-top: 0px"
+    alt="DVFR Splash Image"
   >
     <template #placeholder>
       <v-row class="fill-height ma-0" align="center" justify="center">

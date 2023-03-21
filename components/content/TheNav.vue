@@ -77,6 +77,7 @@
                   size="default"
                   class="hidden-md-and-down navItem"
                   v-bind="props"
+                  :aria-label="menu.main"
                 >
                   {{ menu.main }}
                   <v-icon right small>mdi-menu-down</v-icon></v-btn
@@ -137,6 +138,7 @@
 
         <v-btn
           variant="text"
+          aria-label="Search"
           size="default"
           class="hidden-md-and-down navItem"
           style="font-weight: 900 !important; font-size: 16px"
@@ -149,6 +151,7 @@
         <v-btn
           v-if="isTranslationEnabled"
           size="default"
+          aria-label="Translate"
           class="hidden-md-and-down navItem"
           style="font-weight: 900 !important; font-size: 16px"
           @click="goToTranslate"
