@@ -139,7 +139,10 @@ export default {
         });
       }
     },
-  },
+  }
+
+  // create function to sum numbers
+  
 };
 </script>
 
