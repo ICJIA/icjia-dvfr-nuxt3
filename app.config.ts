@@ -18,6 +18,10 @@ export default defineAppConfig({
       link: "/contact",
     },
     {
+      main: "FAQs",
+      link: "/faq",
+    },
+    {
       main: "Meetings",
       link: "/meetings",
     },
@@ -45,7 +49,19 @@ export default defineAppConfig({
   navMenu: [
     {
       main: "About",
-      link: "/about",
+       "children": [
+        // {
+        //   "section": "Illinois Statistical Analysis Center (SAC)"
+        // },
+        {
+          "title": "About the DVFR",
+          "link": "/about"
+        },
+        {
+          "title": "Frequently Asked Questions (FAQs)",
+          "link": "/faq"
+        }
+      ]
     },
     {
       main: "Meetings",

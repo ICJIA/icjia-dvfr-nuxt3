@@ -78,6 +78,12 @@
                   class="hidden-md-and-down navItem"
                   v-bind="props"
                   :aria-label="menu.main"
+                  style="
+                    font-weight: 900 !important;
+                    font-size: 18px;
+                    font-family: 'Oswald', sans-serif !important;
+                    margin-bottom: 5px;
+                  "
                 >
                   {{ menu.main }}
                   <v-icon right small>mdi-menu-down</v-icon></v-btn
@@ -102,7 +108,8 @@
                     :href="child?.external ? child?.link : null"
                     :target="child?.external ? '_blank' : null"
                   >
-                    <v-list-item-title style="font-size: 12px !important"
+                    <v-list-item-title
+                      style="font-size: 14px !important; font-weight: 700"
                       >{{ child.title }}
                       <span v-if="child?.external">External</span>
                       <v-icon v-if="child.icon" small right color="black">{{
