@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-03-12T16:30:50.398Z
+updatedAt: 2023-05-05T12:42:16.520Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
@@ -209,15 +209,25 @@ The Statewide Domestic Violence Fatality Review Committee is responsible for ove
 
 **Megan Alderdan, Ph.D., Co-Chair**
 
+
+<img src="https://dvfr.icjia-api.cloud/uploads/thumbnail_alderden_233977f6ba.jpg" width="100" alt="Megan Alderdan" style="float:left; padding-right: 10px;"/>
+
 Dr. Megan Alderdan is an Associate Professor of Criminology at DePaul University. Her areas of expertise include research methods and program evaluation, victimology, and policing. She was a co-Investigator on two National Institute of Justice funded projects examining the impact of forensic evidence on police and prosecutorial decisions and court outcomes in sexual assault cases. Currently, she is a co-investigator on a federally funded project that focuses on educating and training laypersons, practitioners, and mental health professionals on how to identify and prevent targeted violence. She is the lead evaluator for a federally funded research project that aims to support and link recently incarcerated individuals with job training and employment. She is the Board President for the Justice Research and Statistics Association and the co-chair of the Illinois Domestic Violence Fatality Review Commission.   
 
 Prior to joining DePaul University, she was the Associate Director of Research with the Illinois Criminal Justice Information Authority (ICJIA), a state agency dedicated to improving the administration of justice in Illinois. As the ICJIA Research Director, she oversaw a wide portfolio of research projects that spanned from victim services to effective correctional practices and policies.  
 	
 **Sara Block, Co-Chair**
 
-Sara Block is the Managing Director of Advocacy and Partnerships at Ascend Justice where she focuses on policy and systemic reform that impact families experiencing domestic violence. Sara is also the Academic Director for Child and Family Law Programs at Loyola University Chicago School of Law. In the Master of Jurisprudence in Child Law program at Loyola, Sara teaches Child Welfare Law and Policy, and Juvenile Justice Law Policy. Sara was a Skadden Fellow at the Legal Assistance Foundation of Metropolitan Chicago with a fellowship focusing on the intersection of domestic violence and child welfare. Sara was awarded the Chicago Metropolitan Battered Women’s Network’s Outstanding Partnership Award, the Family Defense Center’s Major Litigation Award for her involvement in Julie Q. v. DCFS, and the Jewish United Fund’s “36 Under 36” award. Sara received her J.D., magna cum laude, from Loyola University Chicago School of Law in 2007, where she was a Child Law Fellow and the Features Editor of the Children’s Legal Rights Journal. Sara received her B.A. degree with honors in American Studies from Northwestern University. Sara is the author of the book entitled Together Unbroken: Stories, Law, Practice and Healing at the Intersection of Domestic Violence and Child Welfare. She has two daughters and feels honored to be their mother.  
+<img src="https://dvfr.icjia-api.cloud/uploads/thumbnail_block_web_min_1b0dcaaad7.jpg" width="100" alt="Sara Block" style="float:left; padding-right: 10px;"/>
+Sara Block is the Managing Director of Advocacy and Partnerships at Ascend Justice where she focuses on policy and systemic reform that impact families experiencing domestic violence. Sara is also the Academic Director for Child and Family Law Programs at Loyola University Chicago School of Law.
+
+In the Master of Jurisprudence in Child Law program at Loyola, Sara teaches Child Welfare Law and Policy, and Juvenile Justice Law Policy. Sara was a Skadden Fellow at the Legal Assistance Foundation of Metropolitan Chicago with a fellowship focusing on the intersection of domestic violence and child welfare. Sara was awarded the Chicago Metropolitan Battered Women’s Network’s Outstanding Partnership Award, the Family Defense Center’s Major Litigation Award for her involvement in Julie Q. v. DCFS, and the Jewish United Fund’s “36 Under 36” award. Sara received her J.D., magna cum laude, from Loyola University Chicago School of Law in 2007, where she was a Child Law Fellow and the Features Editor of the Children’s Legal Rights Journal. Sara received her B.A. degree with honors in American Studies from Northwestern University. Sara is the author of the book entitled Together Unbroken: Stories, Law, Practice and Healing at the Intersection of Domestic Violence and Child Welfare. She has two daughters and feels honored to be their mother.  
+    
+
 
 **Jenny Schoenwetter, Secretary**
+
+<img src="https://dvfr.icjia-api.cloud/uploads/thumbnail_schoenwetter_min_64b89bfa78.png" width="100" alt="Jenny Schoenwetter" style="float:left; padding-right: 10px;"/>
 
 Jenny Schoenwetter (pronounced “shane-wetter”) is the executive director and CEO of Harbor House, the only domestic violence agency serving Kankakee and Iroquois Counties. Jenny is a Certified Domestic Violence Professional and earned a Master’s in Business Administration degree. Jenny has received the Kankakee County Chamber of Commerce ATHENA Young Professionals Award in 2021, the Daily Journal’s Women in Business Honor in 2021, and United Way’s Rookie of the Year Award in 2016. 
 
