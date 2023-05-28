@@ -180,6 +180,18 @@
             </template>
 
             <v-list>
+              <v-list-item exact to="/about">
+                <v-list-item-title style="font-size: 16px; font-weight: 700"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About DVFR</v-list-item-title
+                >
+              </v-list-item>
+
+              <v-list-item exact to="/faq">
+                <v-list-item-title style="font-size: 16px; font-weight: 700"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQs</v-list-item-title
+                >
+              </v-list-item>
+
               <v-list-item exact to="/search">
                 <v-list-item-title style="font-size: 16px; font-weight: 700"
                   ><v-icon size="x-small" icon="mdi-magnify" left></v-icon

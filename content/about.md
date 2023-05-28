@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About DVFR
 slug: about
 hideFromSearch: false
 hideFromSitemap: false
@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-05-05T12:42:16.520Z
+updatedAt: 2023-05-28T20:37:27.062Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
