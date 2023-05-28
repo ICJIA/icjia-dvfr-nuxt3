@@ -57,7 +57,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   plugins: [{ src: "~/plugins/aos", mode: "client" }],
+
   css: [
     "vuetify/lib/styles/main.sass",
     "@mdi/font/css/materialdesignicons.min.css",
@@ -65,11 +67,13 @@ export default defineNuxtConfig({
     "~/assets/css/app.css",
     "~/assets/css/github-markdown.css",
   ],
+
   build: {
     transpile: ["vuetify"],
   },
 
   vite: {},
+
   runtimeConfig: {
     // The private keys which are only available within server-side
     // apiSecret: "123",
@@ -103,6 +107,7 @@ export default defineNuxtConfig({
       });
     },
   ],
+
   content: {
     documentDriven: false,
     markdown: {
@@ -153,9 +158,7 @@ export default defineNuxtConfig({
       "2xl": 1536,
     },
   },
-  generate: {
-    routes: appRoutes,
-  },
+
   //   apollo: {
   //     clients: {
   //       default: {
@@ -163,4 +166,11 @@ export default defineNuxtConfig({
   //       },
   //     },
   //   },
+  generate: {
+    routes: appRoutes,
+  },
+
+  devtools: {
+    enabled: true,
+  },
 });
