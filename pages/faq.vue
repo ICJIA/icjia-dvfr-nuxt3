@@ -80,7 +80,7 @@ details {
   margin-left: 25px;
   margin-right: 25px;
 
-  max-height: 3rem; /* Set a max-height value just enough to show the summary content */
+  max-height: 4rem; /* Set a max-height value just enough to show the summary content */
   overflow: hidden; /* Hide the rest of the content */
 }
 
@@ -101,8 +101,8 @@ label {
   background: #632c93;
   color: #fff;
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  height: 3rem; /* This height value must be equal to max-height value of <details> element  */
+  font-size: 18px;
+  height: 4rem; /* This height value must be equal to max-height value of <details> element  */
 }
 
 label:hover {
@@ -111,7 +111,7 @@ label:hover {
 
 label::before {
   content: "⏵";
-  font-size: 1.5rem;
+  font-size: 1rem;
   height: 4rem;
   display: flex;
   align-items: center;
