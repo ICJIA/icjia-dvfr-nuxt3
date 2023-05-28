@@ -54,11 +54,11 @@ export default defineAppConfig({
         //   "section": "Illinois Statistical Analysis Center (SAC)"
         // },
         {
-          "title": "About the DVFR",
+          "title": "About DVFR",
           "link": "/about"
         },
         {
-          "title": "Frequently Asked Questions (FAQs)",
+          "title": "FAQs",
           "link": "/faq"
         }
       ]
