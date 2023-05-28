@@ -6,6 +6,12 @@
           <h1 class="brand-color" style="margin-top: -5px">
             Frequently Asked Questions (FAQs)
           </h1>
+          <!-- <div class="text-right mt-5 pr-10 mb-5">
+            <a
+              href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
+              >Download print-friendly PDF&nbsp;&raquo;</a
+            >
+          </div> -->
           <div v-if="!pending">
             <!-- {{ data.data }} -->
             <div
@@ -28,6 +34,12 @@
                   v-html="renderer.render(item.attributes.details)"
                 ></div>
               </details>
+            </div>
+            <div class="text-center mt-5 pr-10 mb-0">
+              <a
+                href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
+                >Download print-friendly PDF&nbsp;&raquo;</a
+              >
             </div>
           </div>
           <div v-else>LOADING...</div>
