@@ -174,7 +174,7 @@
           <v-tooltip activator="parent" location="bottom"> More </v-tooltip>
           <v-menu transition="scale-transition">
             <template #activator="{ props }">
-              <v-btn v-bind="props">
+              <v-btn v-bind="props" style="margin-top: -9px">
                 <v-icon>mdi-dots-vertical</v-icon>
               </v-btn>
             </template>
