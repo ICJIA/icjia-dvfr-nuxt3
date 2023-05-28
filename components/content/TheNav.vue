@@ -191,6 +191,7 @@
                   >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQs</v-list-item-title
                 >
               </v-list-item>
+              <v-divider></v-divider>
 
               <v-list-item exact to="/search">
                 <v-list-item-title style="font-size: 16px; font-weight: 700"
