@@ -58,7 +58,7 @@ export default defineAppConfig({
           "link": "/about"
         },
         {
-          "title": "FAQs",
+          "title": "Frequently Asked Questions (FAQs)",
           "link": "/faq"
         }
       ]
@@ -77,4 +77,35 @@ export default defineAppConfig({
     //   link: "/contact",
     // },
   ],
+  sidebarMenu: [
+    {
+      main: "About",
+       "children": [
+        // {
+        //   "section": "Illinois Statistical Analysis Center (SAC)"
+        // },
+        {
+          "title": "About DVFR",
+          "link": "/about"
+        },
+        {
+          "title": "FAQs",
+          "link": "/faq"
+        }
+      ]
+    },
+    {
+      main: "Meetings",
+      link: "/meetings",
+    },
+
+    {
+      main: "Resources",
+      link: "/resources",
+    },
+    // {
+    //   main: "Contact",
+    //   link: "/contact",
+    // },
+  ]
 });
