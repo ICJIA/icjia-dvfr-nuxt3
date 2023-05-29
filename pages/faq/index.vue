@@ -24,7 +24,7 @@
                 href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
                 target="_blank"
                 style="font-size: 12px"
-                >Download print-friendly PDF&nbsp;&raquo;</a
+                >Download printer-friendly PDF&nbsp;&raquo;</a
               >
             </div>
             <v-expansion-panels>
@@ -52,14 +52,14 @@
                 </v-expansion-panel-text>
               </v-expansion-panel>
             </v-expansion-panels>
-            <div class="text-right mt-5 mb-0">
+            <!-- <div class="text-right mt-5 mb-0">
               <a
                 href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
                 style="font-size: 12px"
                 target="_blank"
                 >Download print-friendly PDF&nbsp;&raquo;</a
               >
-            </div>
+            </div> -->
           </div>
           <div v-else>LOADING...</div>
         </v-col></v-row
