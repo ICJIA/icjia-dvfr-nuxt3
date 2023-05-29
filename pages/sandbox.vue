@@ -274,7 +274,7 @@ useHead({
               {{ displayYearHeading(meeting.start) }}
             </h2>
             <v-expansion-panels class="" style="margin-bottom: 8px">
-              <v-expansion-panel class="">
+              <v-expansion-panel>
                 <v-expansion-panel-title
                   expand-icon="mdi-plus"
                   collapse-icon="mdi-minus"

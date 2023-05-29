@@ -70,13 +70,13 @@ const displayYearHeading = (date) => {
   }
 };
 
-let testData = ref(
-  JSON.parse(
-    '{ "title": "", "searchDepth": 2, "depth": 2, "links": [ { "id": "year-2023", "depth": 2, "text": "2023 Meetings" }, { "id": "year-2022", "depth": 2, "text": "2022 Meetings" }] }'
-  )
-);
+const _myQuery = toRaw(query.value);
+const _years = _myQuery.map((item) => {
+  return moment(item.start).format("YYYY");
+});
+const years = [...new Set(_years)];
+// console.log(years);
 
-let years = ["2023", "2022"];
 let myTocLinks = years.map((year) => {
   return {
     id: `year-${year}`,
@@ -284,6 +284,7 @@ useHead({
                     color: #000;
                     padding: 15px !important;
                   "
+                  class="panel-hover"
                 >
                   <div>
                     <span
@@ -358,7 +359,10 @@ useHead({
 </template>
 
 <style scoped>
-/* Summary/details */
+/* .panel-hover:hover {
+  background: purple !important;
+  color: #fff !important;
+} */
 
 summary {
   cursor: pointer;
