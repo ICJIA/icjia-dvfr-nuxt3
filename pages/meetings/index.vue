@@ -202,7 +202,7 @@ useHead({
             <v-expansion-panel
               v-for="(meeting, index) in query"
               :key="meeting._path"
-              class="mt-4"
+              class="mt-5"
             >
               <v-expansion-panel-title
                 expand-icon="mdi-plus"
@@ -215,11 +215,11 @@ useHead({
                 "
               >
                 <div>
-                  <span style="font-size: 16px; color: 000">{{
+                  <span style="font-size: 16px; color: 000; font-weight: 900">{{
                     formatDate(meeting.start)
                   }}</span>
                   <br /><br />
-                  <span style="color: #222; font-weight: 700" class="pl-0">
+                  <span style="color: #222; font-weight: 400" class="pl-0">
                     {{ meeting.title }}, {{ getTime(meeting.start) }} -
                     {{ getTime(meeting.end) }}</span
                   >
