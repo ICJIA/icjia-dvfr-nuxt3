@@ -80,9 +80,13 @@ const renderer = new md({
   quotes: "“”‘’",
 }).use(attrs);
 const { pending, data } = await useFetch(
-  "https://dvfr.icjia-api.cloud/api/faqs"
+  "https://dvfr.icjia-api.cloud/api/faqs",
+  {
+    params: {
+      sort: "ranking",
+    },
+  }
 );
-let test = "## Test";
 </script>
 
 <style scoped>
