@@ -9,12 +9,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <!-- <div class="text-center mt-5 pr-10 mb-5">
-      <a
-        href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
-        >Download print-friendly PDF&nbsp;&raquo;</a
-      >
-    </div> -->
+    
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -52,14 +47,6 @@
                 </v-expansion-panel-text>
               </v-expansion-panel>
             </v-expansion-panels>
-            <!-- <div class="text-right mt-5 mb-0">
-              <a
-                href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
-                style="font-size: 12px"
-                target="_blank"
-                >Download print-friendly PDF&nbsp;&raquo;</a
-              >
-            </div> -->
           </div>
           <div v-else>LOADING...</div>
         </v-col></v-row
@@ -69,7 +56,7 @@
 </template>
 
 <script setup>
-// TODO: Create this as static content files
+// TODO: Create this as static content files at build
 import md from "markdown-it";
 import attrs from "markdown-it-attrs";
 const renderer = new md({
