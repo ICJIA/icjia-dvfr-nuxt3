@@ -215,11 +215,11 @@ useHead({
                 "
               >
                 <div>
-                  <span style="font-size: 16px">{{
+                  <span style="font-size: 16px; color: 000">{{
                     formatDate(meeting.start)
                   }}</span>
                   <br /><br />
-                  <span style="color: #222" class="pl-0">
+                  <span style="color: #222; font-weight: 700" class="pl-0">
                     {{ meeting.title }}, {{ getTime(meeting.start) }} -
                     {{ getTime(meeting.end) }}</span
                   >
