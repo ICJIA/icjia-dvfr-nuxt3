@@ -6,12 +6,18 @@
           <h1 class="brand-color" style="margin-top: -5px">
             Frequently Asked Questions (FAQs)
           </h1>
-          <!-- <div class="text-right mt-5 pr-10 mb-5">
+        </v-col>
+      </v-row>
+    </v-container>
+    <!-- <div class="text-right mt-5 pr-10 mb-5">
             <a
               href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
               >Download print-friendly PDF&nbsp;&raquo;</a
             >
           </div> -->
+    <v-container>
+      <v-row>
+        <v-col cols="12">
           <div v-if="!pending">
             <!-- {{ data.data }} -->
             <div
