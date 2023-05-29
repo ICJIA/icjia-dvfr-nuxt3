@@ -125,7 +125,7 @@ useHead({
   <div class="pb-12" data-aos="fade-in" style="margin-top: 0px">
     <v-container fluid style="margin: 0; padding: 0">
       <v-row>
-        <v-col cols="12" md="9" class="mt-6 px-8 markdown-body">
+        <v-col cols="12" md="12" class="mt-6 px-8 markdown-body">
           <h1 class="brand-color">MEETINGS</h1>
           <p>
             The Statewide Domestic Violence Fatality Review Committee holds
@@ -136,8 +136,13 @@ useHead({
             session.
           </p>
           <div class="mb-2">&nbsp;</div>
-
-          <div v-for="meeting in query" :key="meeting._path">
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container>
+      <v-row>
+        <v-col cols="12">
+          <!-- <div v-for="meeting in query" :key="meeting._path">
             <h2
               :id="`year-${meeting.year}`"
               style="
@@ -192,10 +197,59 @@ useHead({
                 </div>
               </details>
             </v-card>
-          </div>
+          </div> -->
+          <v-expansion-panels>
+            <v-expansion-panel
+              v-for="(meeting, index) in query"
+              :key="meeting._path"
+              class="mt-4"
+            >
+              <v-expansion-panel-title
+                expand-icon="mdi-plus"
+                collapse-icon="mdi-minus"
+                style="
+                  font-weight: 700;
+                  background: #fbfbfb;
+                  color: #000;
+                  padding: 25px !important;
+                "
+              >
+                {{ formatDate(meeting.start) }} |&nbsp;
+                <span style="color: #000">
+                  {{ meeting.title }}, {{ getTime(meeting.start) }} -
+                  {{ getTime(meeting.end) }}</span
+                >
+              </v-expansion-panel-title>
+              <v-expansion-panel-text>
+                <div class="markdown-body mt-3">
+                  <div
+                    class="mt-3 px-5 py-0"
+                    v-if="meeting.summary && meeting.summary.length"
+                  >
+                    {{ meeting.summary }}
+                  </div>
+                  <div
+                    v-if="meeting.attachments.data.length"
+                    style="background: #fff"
+                    class="px-5 py-0"
+                  >
+                    <attachments
+                      :attachments="meeting.attachments.data"
+                      :showTableDisplay="true"
+                      class="mt-2"
+                    />
+                  </div>
+
+                  <div v-else class="pl-4">
+                    <strong>Attachments forthcoming.</strong>
+                  </div>
+                </div>
+              </v-expansion-panel-text>
+            </v-expansion-panel>
+          </v-expansion-panels>
         </v-col>
 
-        <v-col
+        <!-- <v-col
           cols="12"
           md="3"
           style="
@@ -219,7 +273,7 @@ useHead({
             :debug="false"
             :key="uuidv4()"
           />
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
   </div>

@@ -87,9 +87,14 @@ const { pending, data } = await useFetch(
     },
   }
 );
+
+const _sections = data.value.data.map((item) => {
+  return item.attributes.section;
+});
+const sections = [...new Set(_sections)];
+console.log(sections);
 </script>
 
 <style scoped>
-/* The key is to start <details> element in the "open" state...
-        ...and animate its max-height value by toggling a checkbox. */
+
 </style>
