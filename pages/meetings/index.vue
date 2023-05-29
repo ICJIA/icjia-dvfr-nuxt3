@@ -123,7 +123,7 @@ useHead({
 
 <template>
   <div class="pb-12" data-aos="fade-in" style="margin-top: 0px">
-    <v-container fluid style="">
+    <v-container fluid style="margin-left: 0; padding: 0">
       <!-- <v-row>
         <v-col cols="12" md="12" class="mt-6 px-8 markdown-body">
           <h1 class="brand-color">MEETINGS</h1>
@@ -140,7 +140,7 @@ useHead({
       </v-row> -->
 
       <v-row>
-        <v-col cols="12" md="9">
+        <v-col cols="12" md="9" class="px-12">
           <h1 class="brand-color">MEETINGS</h1>
           <p>
             The Statewide Domestic Violence Fatality Review Committee holds
@@ -334,12 +334,12 @@ useHead({
             min-height: 110vh !important;
 
             background: #fafafa;
-            margin-top: -5px;
-            margin-bottom: -120px;
+            margin-top: 12px;
+            margin-bottom: -110px;
             border: 1px solid #ddd;
 
             z-index: 1;
-            margin-left: -1px;
+            margin-left: 0px;
             margin-right: 0px;
             padding-right: 0;
           "
