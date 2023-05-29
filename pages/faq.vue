@@ -80,7 +80,7 @@ let test = "## Test";
 details {
   max-width: 100%;
   box-sizing: border-box;
-  margin-top: 2px;
+  margin-top: 5px;
   background: white;
   transition: max-height 400ms ease-out;
   margin-left: 25px;
