@@ -214,11 +214,16 @@ useHead({
                   padding: 25px !important;
                 "
               >
-                {{ formatDate(meeting.start) }} |&nbsp;
-                <span style="color: #000">
-                  {{ meeting.title }}, {{ getTime(meeting.start) }} -
-                  {{ getTime(meeting.end) }}</span
-                >
+                <div>
+                  <span style="font-size: 16px">{{
+                    formatDate(meeting.start)
+                  }}</span>
+                  <br /><br />
+                  <span style="color: #222" class="pl-0">
+                    {{ meeting.title }}, {{ getTime(meeting.start) }} -
+                    {{ getTime(meeting.end) }}</span
+                  >
+                </div>
               </v-expansion-panel-title>
               <v-expansion-panel-text>
                 <div class="markdown-body mt-3">
