@@ -19,13 +19,14 @@
       <v-row>
         <v-col cols="12">
           <div v-if="!pending">
-            <!-- <div class="text-right pr-4 mt-5 mb-3">
+            <div class="text-right mt-5 mb-0">
               <a
                 href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
+                target="_blank"
                 style="font-size: 12px"
                 >Download print-friendly PDF&nbsp;&raquo;</a
               >
-            </div> -->
+            </div>
             <v-expansion-panels>
               <v-expansion-panel
                 v-for="(item, index) in data.data"
@@ -55,6 +56,7 @@
               <a
                 href="https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf"
                 style="font-size: 12px"
+                target="_blank"
                 >Download print-friendly PDF&nbsp;&raquo;</a
               >
             </div>
@@ -95,6 +97,4 @@ const sections = [...new Set(_sections)];
 console.log(sections);
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
