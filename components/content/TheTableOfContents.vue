@@ -128,7 +128,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
-  //window.onscroll = null;
+  window.onscroll = null;
 });
 </script>
 
