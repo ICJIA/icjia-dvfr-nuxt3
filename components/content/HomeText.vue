@@ -11,7 +11,10 @@
         <v-row class="py-5">
           <v-col cols="12" md="4" class="rule home-about-main px-8 py-12">
             <!-- TODO: Make these classes dynamic -->
-            <h1 class="no-rule text-right brand-color hidden-sm-and-down">
+            <h1
+              class="no-rule text-right brand-color hidden-sm-and-down"
+              style="line-height: 95px; margin: 0; padding: 0"
+            >
               About the DVFR
             </h1>
             <h1
@@ -20,7 +23,9 @@
             >
               About the DVFR
             </h1>
-            <h2 class="home-about-sub text-right hidden-sm-and-down no-rule">
+            <h2
+              class="home-about-sub text-right hidden-sm-and-down no-rule mt-5"
+            >
               The Domestic Violence Fatality Review Committee is as an Ad Hoc
               Committee of the Illinois Criminal Justice Information Authority
               Board.

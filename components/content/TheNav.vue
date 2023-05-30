@@ -142,7 +142,7 @@
             </v-btn>
           </span>
         </span>
-
+        <!-- TODO: a11y --->
         <v-btn
           variant="text"
           aria-label="Search"
@@ -151,7 +151,13 @@
           style="font-weight: 900 !important; font-size: 16px"
           @click="goToSearch"
         >
-          <v-tooltip activator="parent" location="bottom"> Search </v-tooltip>
+          <v-tooltip
+            activator="parent"
+            location="bottom"
+            aria-label="Tooltip: Search"
+          >
+            Search
+          </v-tooltip>
           <v-icon icon="mdi-magnify" size="large"></v-icon>
         </v-btn>
 
@@ -163,7 +169,12 @@
           style="font-weight: 900 !important; font-size: 16px"
           @click="goToTranslate"
         >
-          <v-tooltip activator="parent" location="bottom"> Translate </v-tooltip
+          <v-tooltip
+            activator="parent"
+            location="bottom"
+            aria-label="Tooltip: Translate"
+          >
+            Translate </v-tooltip
           ><v-icon icon="mdi-web" size="large"></v-icon
         ></v-btn>
 
@@ -171,7 +182,13 @@
           <v-icon>mdi-dots-vertical</v-icon>
         </v-btn> -->
         <span class="hidden-lg-and-up hidden-sm-and-down">
-          <v-tooltip activator="parent" location="bottom"> More </v-tooltip>
+          <v-tooltip
+            activator="parent"
+            location="bottom"
+            aria-label="Tooltip: More menu items"
+          >
+            More
+          </v-tooltip>
           <v-menu transition="scale-transition">
             <template #activator="{ props }">
               <v-btn v-bind="props" style="margin-top: -9px">
