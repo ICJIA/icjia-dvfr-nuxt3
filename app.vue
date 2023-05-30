@@ -1,6 +1,9 @@
 <template>
   <v-app id="appTop">
-    <a class="skip-to-content-link" href="#main"> Skip to content </a>
+    <div ref="appTop" tabindex="-1"></div>
+    <a class="skip-to-content-link" id="skip-link" ref="skipLink" href="#main">
+      Skip to content
+    </a>
     <TheNav></TheNav>
 
     <TheSidebar></TheSidebar>
@@ -21,8 +24,13 @@
 const { isTranslationEnabled } = useAppConfig();
 const isHome = ref(true);
 const route = useRoute();
+const appTop = ref();
 watchEffect(() => {
   console.log("route.path: ", route.path);
+  console.log("skipLink refocus:", appTop.value);
+  if (appTop.value) {
+    appTop.value.focus();
+  }
   if (route.path === "/") {
     isHome.value = true;
   } else {
@@ -36,7 +44,15 @@ useHead({
 });
 
 const page = useCurrentPage({ slug: "slug-here" });
-// console.log(page);
+
+// watch(
+//   () => route.path,
+//   async () => {
+//     console.log("skipLink refocus");
+//     await nextTick();
+//     //console.log(skipLink.value);
+//   }
+// );
 </script>
 <style>
 .page-enter-active,
