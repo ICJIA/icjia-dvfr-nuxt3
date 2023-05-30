@@ -9,7 +9,7 @@
         class="text-center markdown-body pb-4"
         style="background: #401b60"
       >
-        <v-container class="mt-0 px-0 mx-0 my-0" fill-height>
+        <v-container fill-height>
           <v-row align="center" justify="center">
             <v-col
               cols="12"
