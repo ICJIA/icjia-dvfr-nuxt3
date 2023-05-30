@@ -1,12 +1,13 @@
 <template>
   <v-app id="appTop">
+    <a class="skip-to-content-link" href="#main"> Skip to content </a>
     <TheNav></TheNav>
 
     <TheSidebar></TheSidebar>
 
     <NuxtLoadingIndicator color="blue" />
 
-    <v-main class="markdown-body" style="min-height: 90vh !important">
+    <v-main class="markdown-body" style="min-height: 90vh !important" id="main">
       <TheBreadcrumbBar v-if="!isHome"></TheBreadcrumbBar>
       <NuxtPage data-aos="fade-in"></NuxtPage>
       <div></div>
@@ -47,5 +48,29 @@ const page = useCurrentPage({ slug: "slug-here" });
 .page-leave-to {
   opacity: 0;
   filter: blur(1rem);
+}
+
+/* TODO: a11y */
+
+.skip-to-content-link {
+  left: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+.skip-to-content-link {
+  background: #2f1804;
+  color: #fff;
+  height: 50px;
+  left: 50%;
+  padding: 5px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  z-index: 99999;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
 }
 </style>
