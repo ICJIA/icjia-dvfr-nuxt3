@@ -125,7 +125,7 @@ useHead({
   <div class="pb-12" data-aos="fade-in" style="margin-top: 0px">
     <v-container fluid style="margin-left: 0; padding: 0">
       <v-row>
-        <v-col cols="12" md="9" class="px-12">
+        <v-col cols="12" md="12" class="px-12">
           <h1 class="brand-color">MEETINGS</h1>
           <p>
             The Statewide Domestic Violence Fatality Review Committee holds
@@ -137,7 +137,7 @@ useHead({
           </p>
 
           <div v-for="(meeting, index) in query" :key="meeting._path">
-            <h2
+            <!-- <h2
               :id="`year-${meeting.year}`"
               style="
                 font-size: 24px;
@@ -149,8 +149,8 @@ useHead({
               "
             >
               {{ displayYearHeading(meeting.start) }}
-            </h2>
-            <v-expansion-panels class="px-6" style="margin-bottom: 12px">
+            </h2> -->
+            <v-expansion-panels class="px-6" style="margin-bottom: 25px">
               <v-expansion-panel class="">
                 <v-expansion-panel-title
                   expand-icon="mdi-plus"
@@ -205,7 +205,7 @@ useHead({
           </div>
         </v-col>
 
-        <v-col
+        <!-- <v-col
           cols="12"
           md="3"
           style="
@@ -229,7 +229,7 @@ useHead({
             :debug="false"
             :key="uuidv4()"
           />
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
   </div>
