@@ -104,7 +104,8 @@ onMounted(async () => {
   console.log("sidebar mounted");
   await nextTick();
   const el = document.getElementById("myVlist");
-  console.log("Sidebar el: ", el);
+  console.log('sidebar a11y: remove role="list"');
+  // console.log("Sidebar el: ", el);
   if (el) {
     el.removeAttribute("role");
   }

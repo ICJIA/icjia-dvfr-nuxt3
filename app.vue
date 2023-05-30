@@ -27,6 +27,7 @@ const route = useRoute();
 const appTop = ref();
 watchEffect(() => {
   console.log("route.path: ", route.path);
+  //TODO: a11y
   console.log("skipLink refocus:", appTop.value);
   if (appTop.value) {
     appTop.value.focus();
@@ -44,15 +45,6 @@ useHead({
 });
 
 const page = useCurrentPage({ slug: "slug-here" });
-
-// watch(
-//   () => route.path,
-//   async () => {
-//     console.log("skipLink refocus");
-//     await nextTick();
-//     //console.log(skipLink.value);
-//   }
-// );
 </script>
 <style>
 .page-enter-active,

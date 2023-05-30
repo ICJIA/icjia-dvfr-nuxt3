@@ -14,7 +14,10 @@
             <h1 class="no-rule text-right brand-color hidden-sm-and-down">
               About the DVFR
             </h1>
-            <h1 class="no-rule text-center brand-color hidden-md-and-up">
+            <h1
+              class="no-rule text-center brand-color hidden-md-and-up"
+              style="line-height: 90px; margin: 0; padding: 0"
+            >
               About the DVFR
             </h1>
             <h2 class="home-about-sub text-right hidden-sm-and-down no-rule">
@@ -22,7 +25,9 @@
               Committee of the Illinois Criminal Justice Information Authority
               Board.
             </h2>
-            <h2 class="home-about-sub text-center hidden-md-and-up no-rule">
+            <h2
+              class="home-about-sub text-center hidden-md-and-up no-rule mt-5"
+            >
               The Domestic Violence Fatality Review Committee is as an Ad Hoc
               Committee of the Illinois Criminal Justice Information Authority
               Board.

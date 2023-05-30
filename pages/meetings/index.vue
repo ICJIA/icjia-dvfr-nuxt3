@@ -87,7 +87,7 @@ let myTocLinks = years.map((year) => {
 
 let myTocObj = ref({ title: "", searchDepth: 2, depth: 2, links: myTocLinks });
 
-console.log("links: ", myTocLinks);
+//console.log("links: ", myTocLinks);
 
 useHead({
   title: "Meetings",
