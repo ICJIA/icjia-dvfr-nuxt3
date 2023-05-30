@@ -1,0 +1,44 @@
+[
+    {
+        "id": "123456",
+        "attributes": {
+            "title": "Frequently Asked Questions (FAQs)",
+            "slug": "faq",
+            "category": "regular",
+            "hideFromSearch": false,
+            "hideFromSitemap": false,
+            "showTableOfContents": false,
+            "summary": "Frequently Asked Questions",
+            "body": "Frequently Asked Questions.",
+            "createdAt": "2023-05-30",
+            "updatedAt": "2023-05-30",
+            "publishedAt": "2023-05-30",
+            "searchMeta": "dvfr faq ",
+            "draft": false,
+            "navigation": true,
+            "path": "/faq",
+            "url": "https://dvfr.illinois.gov/faq"
+        }
+    },
+    {
+        "id": "1234",
+        "attributes": {
+            "title": "Translate",
+            "slug": "translate",
+            "category": "regular",
+            "hideFromSearch": false,
+            "hideFromSitemap": false,
+            "showTableOfContents": false,
+            "summary": "Frequently Asked Questions",
+            "body": "Frequently Asked Questions.",
+            "createdAt": "2023-05-30",
+            "updatedAt": "2023-05-30",
+            "publishedAt": "2023-05-30",
+            "searchMeta": "dvfr translate translation ",
+            "draft": false,
+            "navigation": true,
+            "path": "/translate",
+            "url": "https://dvfr.illinois.gov/translate"
+        }
+    }
+]

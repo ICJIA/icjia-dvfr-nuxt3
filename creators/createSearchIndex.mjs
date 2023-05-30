@@ -4,6 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const jsonfile = require("jsonfile");
 const pages = require("../public/pages.json");
 const meetings = require("../public/meetings.json");
+const manualPages = require("../public/manualPages.json");
 // const posts = require("../public/posts.json");
 // const publications = require("../public/publications.json");
 // const site = [...pages, ...posts];
@@ -12,11 +13,13 @@ const meetings = require("../public/meetings.json");
 
 // const site = [...pages, ...meetings, ...posts, ...publications];
 
-const site = [...pages, ...meetings];
+// console.log(manualPages);
+
+const site = [...pages, ...meetings, ...manualPages];
 
 const searchIndex = site.map((item) => {
-  // console.log(item.attributes);
-  if (!item.attributes.hideFromSearch) {
+  //console.log(item.attributes);
+  if (!item?.attributes?.hideFromSearch) {
     const obj = { ...item.attributes };
     obj.id = item.id;
     obj.uuid = uuidv4();

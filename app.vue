@@ -28,10 +28,10 @@ const appTop = ref();
 watchEffect(() => {
   console.log("route.path: ", route.path);
   //TODO: a11y
-  console.log("skipLink refocus:", appTop.value);
-  if (appTop.value) {
-    appTop.value.focus();
-  }
+  // console.log("skipLink refocus:", appTop.value);
+  // if (appTop.value) {
+  //   appTop.value.focus();
+  // }
   if (route.path === "/") {
     isHome.value = true;
   } else {
