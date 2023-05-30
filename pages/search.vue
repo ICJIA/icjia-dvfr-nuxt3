@@ -11,13 +11,14 @@
               <v-text-field
                 id="textfield"
                 ref="textfield"
+                name="textfield"
                 v-model="query"
                 clearable
                 label="Search DVFR"
                 placeholder="Enter search term"
                 style="font-weight: 900"
                 @input="instantSearch"
-              />
+              ></v-text-field>
             </v-form>
 
             <div class="text-center">
@@ -139,12 +140,22 @@ const clearAll = () => {
   result.value = [];
   showIndex.value = false;
   const el = document.getElementById("textfield");
-  el.focus();
+  if (el) {
+    el.focus();
+  }
 };
 
 onMounted(() => {
   const el = document.getElementById("textfield");
-  el.focus();
+
+  if (el) {
+    el.focus();
+    const ariaEl = document.getElementsByClassName("v-field");
+    if (ariaEl && ariaEl.length) {
+      ariaEl[0].setAttribute("aria-label", "textfield");
+    }
+  }
+
   instantSearch();
 });
 </script>
