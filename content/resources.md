@@ -7,12 +7,12 @@ showTableOfContents: true
 summary: Publications and additional resources for DVFR
 section: root
 createdAt: 2023-02-16T02:07:30.063Z
-updatedAt: 2023-05-28T18:07:14.970Z
+updatedAt: 2023-05-30T12:08:26.875Z
 publishedAt: 2023-02-16T02:07:31.228Z
 searchMeta: null
 category: page
-rawText: " publications annual reports 2022 annual report coming soon forms
-  review team confidentiality form https dvfr icjia api cloud uploads
+rawText: " publications annual reports 2022 annual report coming soon forms dvfr
+  member confidentiality agreement https dvfr icjia api cloud uploads
   confidentiality form final 2665bfbc6b pdf frequently asked questions faqs
   online https dvfr illinois gov faq pdf https dvfr icjia api cloud uploads dvfr
   faq for review teams a3f71ae843 pdf program partners illinois coalition
@@ -64,7 +64,7 @@ url: https://dvfr.illinois.gov/resources
 
 ### Forms
 
-- [Review Team Confidentiality Form](https://dvfr.icjia-api.cloud/uploads/Confidentiality_Form_FINAL_2665bfbc6b.pdf)
+- [DVFR Member Confidentiality Agreement](https://dvfr.icjia-api.cloud/uploads/Confidentiality_Form_FINAL_2665bfbc6b.pdf)
 
 ### Frequently Asked Questions (FAQs)
 - [Online](https://dvfr.illinois.gov/faq)
