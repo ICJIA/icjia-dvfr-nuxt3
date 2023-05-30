@@ -6,7 +6,7 @@
       temporary
       style="background: #fff"
     >
-      <v-list v-model:opened="open" density="compact">
+      <v-list v-model:opened="open" density="compact" id="myVlist">
         <v-list-item exact to="/" style="font-weight: 900; color: #000"
           >Home</v-list-item
         >
@@ -98,8 +98,16 @@ const click = () => {
   altState.value = false;
 };
 
-onMounted(() => {
+onMounted(async () => {
   isMounted.value = true;
+  //TODO: a11y
+  console.log("sidebar mounted");
+  await nextTick();
+  const el = document.getElementById("myVlist");
+  console.log("Sidebar el: ", el);
+  if (el) {
+    el.removeAttribute("role");
+  }
 });
 
 const router = useRouter();

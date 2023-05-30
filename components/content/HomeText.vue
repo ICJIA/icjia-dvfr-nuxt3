@@ -11,22 +11,22 @@
         <v-row class="py-5">
           <v-col cols="12" md="4" class="rule home-about-main px-8 py-12">
             <!-- TODO: Make these classes dynamic -->
-            <h2 class="no-rule text-right brand-color hidden-sm-and-down">
+            <h1 class="no-rule text-right brand-color hidden-sm-and-down">
               About the DVFR
-            </h2>
-            <h2 class="no-rule text-center brand-color hidden-md-and-up">
+            </h1>
+            <h1 class="no-rule text-center brand-color hidden-md-and-up">
               About the DVFR
-            </h2>
-            <h3 class="home-about-sub text-right hidden-sm-and-down">
+            </h1>
+            <h2 class="home-about-sub text-right hidden-sm-and-down no-rule">
               The Domestic Violence Fatality Review Committee is as an Ad Hoc
               Committee of the Illinois Criminal Justice Information Authority
               Board.
-            </h3>
-            <h3 class="home-about-sub text-center hidden-md-and-up">
+            </h2>
+            <h2 class="home-about-sub text-center hidden-md-and-up no-rule">
               The Domestic Violence Fatality Review Committee is as an Ad Hoc
               Committee of the Illinois Criminal Justice Information Authority
               Board.
-            </h3>
+            </h2>
           </v-col>
           <v-col cols="12" md="8">
             <v-container fluid class="fill-height">

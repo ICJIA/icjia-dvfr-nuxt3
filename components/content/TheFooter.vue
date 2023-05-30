@@ -116,7 +116,8 @@
                   </nuxt-link>
                 </span>
               </div>
-              <p class="mt-3" style="font-size: 13px; font-weight: 400">
+              <!-- TODO: a11y -->
+              <p class="mt-3" style="font-size: 0.9em; font-weight: 400">
                 Illinois Domestic Violence Crisis Hotline: 1-877-863-6338
               </p>
             </v-col>
