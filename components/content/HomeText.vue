@@ -109,7 +109,7 @@
               <a
                 target="_blank"
                 href="https://www.dhs.state.il.us/page.aspx?module=12&officetype=17&county="
-                >click here</a
+                >click here to go to IDHS</a
               >.
             </div>
           </h3>

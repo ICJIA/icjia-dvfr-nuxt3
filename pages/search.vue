@@ -140,20 +140,21 @@ const clearAll = () => {
   result.value = [];
   showIndex.value = false;
   const el = document.getElementById("textfield");
-  if (el) {
+  if (el && el.length) {
     el.focus();
   }
 };
 
 onMounted(() => {
   const el = document.getElementById("textfield");
-
-  if (el) {
+  //TODO: a11y
+  if (el && el.length) {
     el.focus();
-    const ariaEl = document.getElementsByClassName("v-field");
-    if (ariaEl && ariaEl.length) {
-      ariaEl[0].setAttribute("aria-label", "textfield");
-    }
+  }
+
+  const ariaEl = document.getElementsByClassName("v-field");
+  if (ariaEl && ariaEl.length) {
+    ariaEl[0].setAttribute("aria-label", "textfield");
   }
 
   instantSearch();
