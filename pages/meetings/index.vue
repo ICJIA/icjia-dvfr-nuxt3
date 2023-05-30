@@ -135,7 +135,7 @@ useHead({
             confidential or identifying information may be closed for executive
             session.
           </p>
-
+          <!-- TODO: a11y -->
           <div v-for="(meeting, index) in query" :key="meeting._path">
             <!-- <h2
               :id="`year-${meeting.year}`"

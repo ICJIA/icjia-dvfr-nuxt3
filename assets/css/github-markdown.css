@@ -253,13 +253,15 @@
     line-height: inherit;
 }
 
+/* TODO: a11y */
+
 .markdown-body a {
-    color: #0366d6;
-    text-decoration: none;
+    color: #09447e;
+    text-decoration: underline;
 }
 
 .markdown-body a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .markdown-body strong {

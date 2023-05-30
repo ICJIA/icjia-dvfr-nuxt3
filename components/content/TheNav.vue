@@ -5,7 +5,7 @@
       app
       color="white"
       density="default"
-      style="z-index: 50; width: 100%"
+      style="z-index: 50; width: 100%; overflow: unset !important"
       size="150px"
       elevation="3"
       class="pl-5 pr-5"
