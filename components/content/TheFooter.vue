@@ -39,6 +39,7 @@
                   aria-label="Link to ICJIA on Twitter"
                   href="https://twitter.com/icjia_illinois?lang=en"
                   target="_blank"
+                  class="footer-link"
                   ><v-icon>mdi-twitter</v-icon>
                 </v-btn>
 
@@ -52,6 +53,7 @@
                   target="_blank"
                   aria-label="Link to ICJIA on Facebook"
                   href="https://www.facebook.com/ICJIA/"
+                  class="footer-link"
                   ><v-icon>mdi-facebook</v-icon></v-btn
                 >
 
@@ -60,6 +62,7 @@
                   style="color: #fff !important; font-size: 20px"
                   target="_blank"
                   aria-label="Link to ICJIA on YouTube"
+                  class="footer-link"
                   href="https://www.youtube.com/c/illinoiscriminaljusticeinformationauthority"
                   ><v-icon> mdi-youtube</v-icon></v-btn
                 >
@@ -69,6 +72,7 @@
                   style="color: #fff !important; font-size: 20px"
                   target="_blank"
                   href="https://www.instagram.com/icjia_illinois/"
+                  class="footer-link"
                   aria-label="ICJIA on Instagram"
                   ><v-icon>mdi-instagram</v-icon></v-btn
                 >
@@ -79,6 +83,7 @@
                   target="_blank"
                   href="https://www.linkedin.com/company/icjia/"
                   aria-label="ICJIA on LinkedIn "
+                  class="footer-link"
                   ><v-icon>mdi-linkedin</v-icon></v-btn
                 >
               </div>
@@ -163,5 +168,13 @@ export default {
 .goToTop:hover {
   text-decoration: underline;
   color: #aaa;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 </style>
