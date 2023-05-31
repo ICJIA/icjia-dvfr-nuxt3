@@ -34,6 +34,10 @@ watchEffect(() => {
   useSeoMeta({
     ogUrl: () => `${seoURL.value}`,
     ogType: "website",
+    twitterTitle: "Illinois Domestic Violence Fatality Review",
+    twitterDescription: "Illinois Domestic Violence Fatality Review (DVFR)",
+    twitterImage: "https://dvfr.icjia.dev/dvfr-splash-text-01.jpg",
+    twitterCard: "summary_large_image",
   });
   //TODO: a11y
   // console.log("skipLink refocus:", appTop.value);
