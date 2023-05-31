@@ -140,21 +140,14 @@ useHead({
             confidential or identifying information may be closed for executive
             session.
           </p>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container>
+      <v-row>
+        <v-col cols="12" md="12" class="mt-5 px-0">
           <!-- TODO: a11y -->
           <div v-for="(meeting, index) in query" :key="meeting._path">
-            <!-- <h2
-              :id="`year-${meeting.year}`"
-              style="
-                font-size: 24px;
-                font-weight: 900;
-                padding: 0;
-                margin: 20px;
-
-                border: none;
-              "
-            >
-              {{ displayYearHeading(meeting.start) }}
-            </h2> -->
             <v-expansion-panels class="px-6" style="margin-bottom: 25px">
               <v-expansion-panel class="">
                 <v-expansion-panel-title
@@ -209,32 +202,6 @@ useHead({
             </v-expansion-panels>
           </div>
         </v-col>
-
-        <!-- <v-col
-          cols="12"
-          md="3"
-          style="
-            min-height: 110vh !important;
-
-            background: #fafafa;
-            margin-top: 12px;
-            margin-bottom: -110px;
-            border: 1px solid #ddd;
-
-            z-index: 1;
-            margin-left: 0px;
-            margin-right: 0px;
-            padding-right: 0;
-          "
-          class="hidden-sm-and-down elevation-0"
-        >
-          <TheTableOfContents
-            :data="myTocObj"
-            class="toc"
-            :debug="false"
-            :key="uuidv4()"
-          />
-        </v-col> -->
       </v-row>
     </v-container>
   </div>
