@@ -162,7 +162,7 @@ useHead({
                   collapse-icon="mdi-minus"
                   style="
                     font-weight: 700;
-                    background: #fbfbfb;
+                    background: #efefef;
                     color: #000;
                     padding: 15px !important;
                   "
