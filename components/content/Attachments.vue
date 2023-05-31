@@ -160,6 +160,7 @@ const formatDate = (dateString) => {
   font-size: 0.65rem;
 }
 
+/* TODO: a11y */
 .v-table .v-table__wrapper > table > thead > tr > th {
   color: #000;
 }
