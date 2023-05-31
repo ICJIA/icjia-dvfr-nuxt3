@@ -10,9 +10,9 @@
       <v-table class="markdown-body dataTable mt-3" density="compact">
         <thead>
           <tr>
-            <th class="text-left" style="color: #000">Filename</th>
-            <th class="text-left" style="color: #000">Last Updated</th>
-            <th class="text-left" style="color: #000">Size</th>
+            <th class="text-left">Filename</th>
+            <th class="text-left">Last Updated</th>
+            <th class="text-left">Size</th>
           </tr>
         </thead>
         <tbody>
@@ -158,5 +158,9 @@ const formatDate = (dateString) => {
   font-weight: 400;
   text-align: left;
   font-size: 0.65rem;
+}
+
+.v-table .v-table__wrapper > table > thead > tr > th {
+  color: #000;
 }
 </style>
