@@ -25,9 +25,9 @@ const { isTranslationEnabled } = useAppConfig();
 const isHome = ref(true);
 const route = useRoute();
 const appTop = ref();
-const seoURL = ref("https://dvfr.illinois.gov" + route.path);
 
 watchEffect(() => {
+  const seoURL = ref("https://dvfr.illinois.gov" + route.path);
   console.log("route.path: ", route.path);
   console.log("seoURL: ", seoURL.value);
   useSeoMeta({
