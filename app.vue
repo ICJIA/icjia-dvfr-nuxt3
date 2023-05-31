@@ -25,8 +25,14 @@ const { isTranslationEnabled } = useAppConfig();
 const isHome = ref(true);
 const route = useRoute();
 const appTop = ref();
+const seoURL = ref("https://dvfr.illinois.gov" + route.path);
+
 watchEffect(() => {
   console.log("route.path: ", route.path);
+  console.log("seoURL: ", seoURL.value);
+  useSeoMeta({
+    ogUrl: () => `${seoURL.value}`,
+  });
   //TODO: a11y
   // console.log("skipLink refocus:", appTop.value);
   // if (appTop.value) {
