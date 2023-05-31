@@ -1,8 +1,8 @@
 <script setup>
 import moment from "moment";
+import { v4 as uuidv4 } from "uuid";
 const { path } = useRoute();
 const router = useRouter();
-import { v4 as uuidv4 } from "uuid";
 
 const { data: query } = await useAsyncData("meetings", () =>
   queryContent("/meetings/").sort({ start: -1 }).find()
@@ -116,6 +116,11 @@ useHead({
       hid: "og-desc",
       property: "og:description",
       content: "DVFR meeting information and attachments.",
+    },
+    {
+      hid: "og-type",
+      property: "og:type",
+      content: "website",
     },
   ],
 });

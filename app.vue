@@ -27,11 +27,13 @@ const route = useRoute();
 const appTop = ref();
 
 watchEffect(() => {
+  //TODO: SEO
   const seoURL = ref("https://dvfr.illinois.gov" + route.path);
   console.log("route.path: ", route.path);
   console.log("seoURL: ", seoURL.value);
   useSeoMeta({
     ogUrl: () => `${seoURL.value}`,
+    ogType: "website",
   });
   //TODO: a11y
   // console.log("skipLink refocus:", appTop.value);
