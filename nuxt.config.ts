@@ -42,6 +42,11 @@ export default defineNuxtConfig({
           src: "https://code.jquery.com/jquery-3.6.1.slim.min.js",
           type: "text/javascript",
         },
+         {
+          src: "https://assets.adobedtm.com/c318d2739692/96e37aff7009/launch-4ef36d3c8aed.min.js",
+          type: "text/javascript",
+          async: true
+        },
         {
           src: "https://analytics.icjia-api.cloud/js/plausible.js",
           "data-domain": "dvfr.illinois.gov",
