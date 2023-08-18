@@ -5,10 +5,7 @@ export default defineAppConfig({
   root: "https://dvfr.illinois.gov",
   isTranslationEnabled: true,
   footerMenu: [
-    {
-      main: "Home",
-      link: "/",
-    },
+   
     {
       main: "About",
       link: "/about",
@@ -30,6 +27,12 @@ export default defineAppConfig({
       main: "Privacy",
       link: "/privacy",
     },
+    
+    {
+      main: "Regional DVFR Teams",
+      link: "/regional-dvfr-teams",
+    },
+  
 
     {
       main: "Resources",
@@ -60,6 +63,10 @@ export default defineAppConfig({
         {
           "title": "Frequently Asked Questions (FAQs)",
           "link": "/faq"
+         },
+        {
+          "title": "Regional DVFR Teams",
+          "link": "/regional-dvfr-teams"
         }
       ]
     },
@@ -91,6 +98,10 @@ export default defineAppConfig({
         {
           "title": "FAQs",
           "link": "/faq"
+         },
+        {
+          "title": "Regional DVFR Teams",
+          "link": "/regional-dvfr-teams"
         }
       ]
     },

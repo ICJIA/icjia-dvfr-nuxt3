@@ -16,11 +16,19 @@ summary: >-
   be given the opportunity for public comment.
 section: meetings
 createdAt: 2023-05-09T14:32:13.401Z
-updatedAt: 2023-05-11T16:39:27.637Z
+updatedAt: 2023-07-18T19:58:52.042Z
 publishedAt: 2023-05-09T14:32:15.243Z
 searchMeta: null
 attachments:
   data:
+    - attributes:
+        createdAt: 2023-07-18T19:58:48.377Z
+        updatedAt: 2023-07-18T19:58:48.377Z
+        name: DVFR minutes.051623.pdf
+        alternativeText: null
+        url: /uploads/DVFR_minutes_051623_d4af1d4dd5.pdf
+        ext: .pdf
+        size: 178.65
     - attributes:
         createdAt: 2023-05-11T16:39:20.995Z
         updatedAt: 2023-05-11T16:39:20.995Z

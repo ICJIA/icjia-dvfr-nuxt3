@@ -16,11 +16,19 @@ summary: >-
   be given the opportunity for public comment.
 section: meetings
 createdAt: 2023-03-02T12:48:50.223Z
-updatedAt: 2023-03-02T12:48:52.560Z
+updatedAt: 2023-07-18T19:54:22.380Z
 publishedAt: 2023-03-02T12:48:52.553Z
 searchMeta: "dvfr "
 attachments:
   data:
+    - attributes:
+        createdAt: 2023-07-18T19:54:19.017Z
+        updatedAt: 2023-07-18T19:54:19.017Z
+        name: January 17 2023 Meeting Minutes Final.pdf
+        alternativeText: null
+        url: /uploads/January_17_2023_Meeting_Minutes_Final_537c29f8a0.pdf
+        ext: .pdf
+        size: 144.22
     - attributes:
         createdAt: 2023-03-02T12:48:42.114Z
         updatedAt: 2023-03-02T12:48:42.114Z
