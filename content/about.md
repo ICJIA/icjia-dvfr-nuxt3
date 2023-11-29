@@ -9,7 +9,7 @@ summary: The Domestic Violence Fatality Review Act (Public Act 102-0520) was
   violence fatality review (DVFR) teams across Illinois.
 section: root
 createdAt: 2023-02-06T17:32:54.095Z
-updatedAt: 2023-08-18T19:25:05.933Z
+updatedAt: 2023-11-29T14:38:52.269Z
 publishedAt: 2023-02-06T17:32:55.127Z
 searchMeta: "icjia Megan Alderdan Sara Block Jenny Schoenwetter "
 category: page
@@ -105,7 +105,7 @@ rawText: " ul member list webkit columns 1 moz columns 1 columns 1 padding left
   klarquist supervisor assistant defender office of the state appellate defender
   major dan likens illinois state police division of criminal investigations
   jenna lopez sexual assault legal advocacy program manager ywca sauk valley rep
-  tony mccombie house republican leader 89th district illinois house of
+  patrick windhorst republican floor leader 117th district illinois house of
   representatives ariana correa policy manager lt governor s office emily miller
   senior advisor for policy legislative affairs office of the illinois governor
   fawn pettet client support services manager land of lincoln legal aid amanda
@@ -378,11 +378,11 @@ YWCA Sauk Valley
  
  <li>
  
-**Rep. Tony McCombie**
+**Rep. Patrick Windhorst**
 
-House Republican Leader, 89th District
-
-Illinois House of Representatives
+Republican Floor Leader
+	 
+117th District Illinois House of Representatives
 
  
  </li>
@@ -586,14 +586,6 @@ Cairo Women’s Shelter, Inc.
  </ul>
 
 </div>
-
-
-
-
-
-
-
-
 
 
 
