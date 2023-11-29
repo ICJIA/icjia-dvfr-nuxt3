@@ -7,7 +7,7 @@ showTableOfContents: true
 summary: Publications and additional resources for DVFR
 section: root
 createdAt: 2023-02-16T02:07:30.063Z
-updatedAt: 2023-10-23T19:45:50.658Z
+updatedAt: 2023-10-24T11:11:06.705Z
 publishedAt: 2023-02-16T02:07:31.228Z
 searchMeta: null
 category: page
@@ -19,17 +19,18 @@ rawText: " publications domestic violence fatality review committee annual
   confidentilaity agreement final 32ab38f7fe pdf frequently asked questions faqs
   online https dvfr illinois gov faq pdf https dvfr icjia api cloud uploads dvfr
   faq for review teams a3f71ae843 pdf illinois coalition against domestic
-  violence reports homicide report pdf program partners illinois coalition
-  against domestic violence icadv https www ilcadv org nbsp raquo the illinois
-  coalition against domestic violence is a statewide voice for survivors of
-  domestic violence and their children icadv s member organizations provide
-  direct service to survivors to work toward ending domestic violence in
-  illinois illinois criminal justice information authority icjia https icjia
-  illinois gov nbsp raquo the illinois criminal justice information authority is
-  a state agency dedicated to improving the administration of criminal justice
-  icjia brings together key leaders from the justice system and the public to
-  identify critical issues faced by the criminal justice system in illinois and
-  to propose and evaluate policies programs and legislation that address those
+  violence reports homicide report pdf https dvfr illinois gov 2022
+  homicidereport final pdf program partners illinois coalition against domestic
+  violence icadv https www ilcadv org nbsp raquo the illinois coalition against
+  domestic violence is a statewide voice for survivors of domestic violence and
+  their children icadv s member organizations provide direct service to
+  survivors to work toward ending domestic violence in illinois illinois
+  criminal justice information authority icjia https icjia illinois gov nbsp
+  raquo the illinois criminal justice information authority is a state agency
+  dedicated to improving the administration of criminal justice icjia brings
+  together key leaders from the justice system and the public to identify
+  critical issues faced by the criminal justice system in illinois and to
+  propose and evaluate policies programs and legislation that address those
   issues the agency also works to ensure the criminal justice system in illinois
   is efficient effective and equitable national domestic violence fatality
   review initiative https www ndvfri org nbsp raquo the national domestic
@@ -62,7 +63,7 @@ url: https://dvfr.illinois.gov/resources
 
 ## Publications
 
-- Domestic Violence Fatality Review Committee
+- ### Domestic Violence Fatality Review Committee
 
     - **Annual Reports**
 
@@ -71,17 +72,17 @@ url: https://dvfr.illinois.gov/resources
 
     - **Forms**
 
-    - [DVFR Member Confidentiality Agreement](https://dvfr.icjia-api.cloud/uploads/Confidentiality_Form_FINAL_2665bfbc6b.pdf)
-    - [DVFR Guest Confidentiality Agreement](https://dvfr.icjia-api.cloud/uploads/Guest_Confidentilaity_Agreement_Final_32ab38f7fe.pdf)
+        - [DVFR Member Confidentiality Agreement](https://dvfr.icjia-api.cloud/uploads/Confidentiality_Form_FINAL_2665bfbc6b.pdf)
+        - [DVFR Guest Confidentiality Agreement](https://dvfr.icjia-api.cloud/uploads/Guest_Confidentilaity_Agreement_Final_32ab38f7fe.pdf)
 
     - **Frequently Asked Questions (FAQs)**
         - [Online](https://dvfr.illinois.gov/faq)
         - [PDF](https://dvfr.icjia-api.cloud/uploads/DVFR_FAQ_for_Review_Teams_a3f71ae843.pdf)
 
--  Illinois Coalition Against Domestic Violence
+-  ### Illinois Coalition Against Domestic Violence
 
     -  **Reports**
-        -  Homicide Report (PDF)
+        -  [Homicide Report (PDF)](https://dvfr.illinois.gov/2022.HomicideReport.FINAL.pdf)
 
 
 ## Program Partners

@@ -28,33 +28,33 @@
     "prestart": "source $HOME/.nvm/nvm.sh; nvm use"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.8.5",
-    "@nuxt/devtools": "^1.0.0",
+    "@nuxt/content": "^2.9.0",
+    "@nuxt/devtools": "^1.0.4",
     "@nuxt/image-edge": "1.0.0-28299296.4360928",
-    "@nuxtjs/google-fonts": "^3.0.2",
-    "@vueuse/nuxt": "^10.5.0",
-    "nuxt": "^3.8.0"
+    "@nuxtjs/google-fonts": "^3.1.0",
+    "@vueuse/nuxt": "^10.6.1",
+    "nuxt": "^3.8.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-free": "^6.5.0",
     "@mdi/font": "^7.3.67",
-    "@vueuse/components": "^10.5.0",
-    "@vueuse/core": "^10.5.0",
-    "@vueuse/integrations": "^10.5.0",
-    "@vueuse/router": "^10.5.0",
+    "@vueuse/components": "^10.6.1",
+    "@vueuse/core": "^10.6.1",
+    "@vueuse/integrations": "^10.6.1",
+    "@vueuse/router": "^10.6.1",
     "aos": "2.3.4",
-    "axios": "^1.5.1",
-    "fuse.js": "^6.6.2",
+    "axios": "^1.6.2",
+    "fuse.js": "^7.0.0",
     "markdown-it": "^13.0.2",
     "markdown-it-attrs": "^4.1.6",
     "moment": "^2.29.4",
     "request": "^2.88.2",
-    "sass": "^1.69.4",
+    "sass": "^1.69.5",
     "sitemap": "^7.1.1",
     "url-exist": "3.0.1",
     "url-exist-sync": "^2.0.0",
     "uuid": "^9.0.1",
     "vite-plugin-vuetify": "^1.0.2",
-    "vuetify": "^3.3.22"
+    "vuetify": "^3.4.4"
   }
 }
