@@ -168,6 +168,11 @@ useHead({
                     >
                     <br /><br />
                     <span style="color: #222; font-weight: 400" class="pl-0">
+                      <span
+                        v-if="meeting.isCancelled"
+                        style="color: red; font-weight: 900"
+                        >CANCELLED:
+                      </span>
                       {{ meeting.title }}, {{ getTime(meeting.start) }} -
                       {{ getTime(meeting.end) }}</span
                     >
@@ -177,8 +182,15 @@ useHead({
                   <div class="markdown-body mt-3">
                     <div
                       class="mt-3 px-5 py-0"
-                      v-if="meeting.summary && meeting.summary.length"
+                      v-if="
+                        meeting.summary &&
+                        meeting.summary.length &&
+                        !meeting.isCancelled
+                      "
                     >
+                      {{ meeting.summary }}
+                    </div>
+                    <div v-else style="color: red; font-weight: 900">
                       {{ meeting.summary }}
                     </div>
                     <div

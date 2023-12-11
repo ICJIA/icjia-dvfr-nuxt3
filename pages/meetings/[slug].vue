@@ -113,6 +113,11 @@ useHead({
       ><v-row
         ><v-col cols="12" :md="cols">
           <div v-if="data" class="mt-6 px-5">
+            <span
+              v-if="data.isCancelled"
+              style="color: red; font-weight: 900; font-size: 30px"
+              >THIS MEETING HAS BEEN CANCELLED
+            </span>
             <h1>{{ data.title.toUpperCase() }}</h1>
             <ContentDoc :key="data?.title" :value="data" class="markdown-body">
               <template #empty>Document not found</template>

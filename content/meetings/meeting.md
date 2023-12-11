@@ -18,6 +18,8 @@ section: meetings
 createdAt: 2023-07-11T13:25:31.559Z
 updatedAt: 2023-07-11T13:25:32.709Z
 publishedAt: 2023-07-11T13:25:32.702Z
+isCancelled: false
+cancelMessage: null
 searchMeta: null
 attachments:
   data:

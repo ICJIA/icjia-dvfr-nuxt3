@@ -30,6 +30,8 @@ const query = `query {
           createdAt
           updatedAt
           publishedAt
+          isCancelled
+          cancelMessage
           searchMeta
           attachments {
             data {

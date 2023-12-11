@@ -18,6 +18,8 @@ section: meetings
 createdAt: 2023-03-02T12:48:50.223Z
 updatedAt: 2023-07-18T19:54:22.380Z
 publishedAt: 2023-03-02T12:48:52.553Z
+isCancelled: false
+cancelMessage: null
 searchMeta: "dvfr "
 attachments:
   data:
