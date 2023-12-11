@@ -12,7 +12,6 @@ console.log("Content directory cleared");
 const publicDir = path.join(__dirname, "../public");
 
 const PUBLIC_FILES_TO_REMOVE = [
-  "appRoutes.json",
   "site.json",
   "sitemap.xml",
   "siteMeta.json",
