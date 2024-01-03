@@ -127,7 +127,7 @@ useHead({
 </script>
 
 <template>
-  <div class="pb-12" data-aos="fade-in" style="margin-top: 0px">
+  <div class="pb-12" style="margin-top: 0px">
     <v-container fluid style="margin-left: 0; padding: 0">
       <v-row>
         <v-col cols="12" md="12" class="px-12">

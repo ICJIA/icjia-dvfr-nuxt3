@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-in">
+  <div>
     <keep-alive>
       <v-container class="mb-12"
         ><v-row

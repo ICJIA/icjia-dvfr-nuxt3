@@ -101,7 +101,7 @@ useHead({
 </script>
 
 <template>
-  <div class="pb-12" data-aos="fade-in" style="margin-top: -18px">
+  <div class="pb-12" style="margin-top: -18px">
     <v-container fluid>
       <h1>Publications</h1>
 

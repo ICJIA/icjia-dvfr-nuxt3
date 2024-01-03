@@ -12,7 +12,7 @@
 
     <v-main class="markdown-body" style="min-height: 90vh !important" id="main">
       <TheBreadcrumbBar v-if="!isHome"></TheBreadcrumbBar>
-      <NuxtPage data-aos="fade-in"></NuxtPage>
+      <NuxtPage></NuxtPage>
       <div></div>
     </v-main>
     <div style="height: 75px"></div>
