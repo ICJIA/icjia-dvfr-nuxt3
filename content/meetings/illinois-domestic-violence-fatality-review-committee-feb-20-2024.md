@@ -13,18 +13,27 @@ summary: >-
 
   Committee will conduct a public meeting on 2/20/2024, at 1:00 pm by Microsoft
 
-  Teams. All interested parties are invited to attend and will be given the opportunity for
+  Teams. All interested parties are invited to attend and will be given the
+  opportunity for
 
   public comment
 section: meetings
 createdAt: 2024-02-14T20:21:33.854Z
-updatedAt: 2024-02-14T20:21:35.203Z
+updatedAt: 2024-05-24T18:40:49.793Z
 publishedAt: 2024-02-14T20:21:35.195Z
 isCancelled: false
 cancelMessage: null
 searchMeta: null
 attachments:
   data:
+    - attributes:
+        createdAt: 2024-05-24T18:40:47.054Z
+        updatedAt: 2024-05-24T18:40:47.054Z
+        name: DVFR minutes.022024.pdf
+        alternativeText: null
+        url: /uploads/DVFR_minutes_022024_6b3c546936.pdf
+        ext: .pdf
+        size: 198.12
     - attributes:
         createdAt: 2024-02-14T20:21:14.956Z
         updatedAt: 2024-02-14T20:21:14.956Z

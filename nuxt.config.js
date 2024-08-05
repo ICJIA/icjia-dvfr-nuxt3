@@ -105,7 +105,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     // "@nuxtjs/apollo",
     // "@pinia/nuxt",
-    "@nuxt/image-edge",
+    // "@nuxt/image-edge",
     "@vueuse/nuxt",
     "@nuxt/content",
 

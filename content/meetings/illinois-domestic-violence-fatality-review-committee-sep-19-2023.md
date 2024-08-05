@@ -13,18 +13,27 @@ summary: >-
 
   Committee will conduct a public meeting on 9/19/2023, at 1:00 pm by Zoom. All
 
-  interested parties are invited to attend and will be given the opportunity for public
+  interested parties are invited to attend and will be given the opportunity for
+  public
 
   comment.
 section: meetings
 createdAt: 2023-09-08T16:17:07.161Z
-updatedAt: 2023-09-18T12:38:36.783Z
+updatedAt: 2024-05-24T18:41:15.120Z
 publishedAt: 2023-09-08T16:17:08.373Z
 isCancelled: false
 cancelMessage: null
 searchMeta: null
 attachments:
   data:
+    - attributes:
+        createdAt: 2024-05-24T18:41:12.174Z
+        updatedAt: 2024-05-24T18:41:12.174Z
+        name: DVFR minutes.091923final.pdf
+        alternativeText: null
+        url: /uploads/DVFR_minutes_091923final_2c19d91780.pdf
+        ext: .pdf
+        size: 64.15
     - attributes:
         createdAt: 2023-09-18T12:38:33.377Z
         updatedAt: 2023-09-18T12:38:33.377Z

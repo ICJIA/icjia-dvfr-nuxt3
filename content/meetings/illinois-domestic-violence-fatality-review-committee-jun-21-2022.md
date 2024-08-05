@@ -11,7 +11,8 @@ summary: >-
   Public notice is hereby given that the Illinois Domestic Violence Fatality
   Review Committee will conduct
 
-  a public meeting on 6/21/2022, at 1:00 pm by WebEx. All interested parties are invited to attend and will
+  a public meeting on 6/21/2022, at 1:00 pm by WebEx. All interested parties are
+  invited to attend and will
 
   be given the opportunity for public comment.
 section: meetings
