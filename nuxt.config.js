@@ -2,7 +2,9 @@
 //
 // https://v3.nuxtjs.org/api/configuration/nuxt.config\
 
-import vuetify from "vite-plugin-vuetify";
+import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
+import vue from "@vitejs/plugin-vue";
+import { nodePolyfills } from "vite-plugin-node-polyfills";
 import appRoutes from "./public/appRoutes.json";
 
 export default defineNuxtConfig({
@@ -96,6 +98,13 @@ export default defineNuxtConfig({
         "uuid",
         "mitt",
       ],
+    },
+    vue: {
+      plugins: [vue(), vuetify(), nodePolyfills()],
+
+      template: {
+        transformAssetUrls,
+      },
     },
   },
 
@@ -197,6 +206,12 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true,
+    timeline: {
+      enabled: true,
+    },
+  },
+  future: {
+    compatibilityVersion: 4,
   },
   compatibilityDate: "2024-07-22",
 });

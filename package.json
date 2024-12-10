@@ -33,7 +33,9 @@
     "@nuxt/image": "^1.8.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@vueuse/nuxt": "^12.0.0",
-    "nuxt": "^3.14.1592"
+    "nuxt": "^3.14.1592",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vite-plugin-vuetify": "^2.0.4"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.1",
@@ -44,6 +46,7 @@
     "@vueuse/router": "^12.0.0",
     "aos": "2.3.4",
     "axios": "^1.7.9",
+    "dompurify": "^3.2.0",
     "fuse.js": "^7.0.0",
     "is-buffer": "^2.0.5",
     "lodash": "^4.17.21",
@@ -53,6 +56,7 @@
     "request": "^2.88.2",
     "sass": "1.78.0",
     "sitemap": "^8.0.0",
+    "thumbor-url-builder-ts": "^0.1.9",
     "url-exist": "3.0.1",
     "url-exist-sync": "^2.0.0",
     "uuid": "^11.0.3",
