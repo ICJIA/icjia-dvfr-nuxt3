@@ -82,7 +82,22 @@ export default defineNuxtConfig({
     transpile: ["vuetify"],
   },
 
-  vite: {},
+  vite: {
+    optimizeDeps: {
+      include: [
+        "axios",
+        "moment",
+        "dompurify",
+        "fuse.js",
+        "lodash",
+        "markdown-it",
+        "markdown-it-attrs",
+        "thumbor-url-builder-ts",
+        "uuid",
+        "mitt",
+      ],
+    },
+  },
 
   runtimeConfig: {
     // The private keys which are only available within server-side
@@ -183,4 +198,5 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
+  compatibilityDate: "2024-07-22",
 });
