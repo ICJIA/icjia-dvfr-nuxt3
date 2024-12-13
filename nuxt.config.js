@@ -10,6 +10,7 @@ import appRoutes from "./public/appRoutes.json";
 export default defineNuxtConfig({
   app: {
     // baseURL: "/dvfr/",
+    // srcDir: ".",
     // pageTransition: { name: "page", mode: "out-in" },
     head: {
       charset: "utf-8",
@@ -83,6 +84,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vuetify"],
   },
+  
 
   vite: {
     optimizeDeps: {
