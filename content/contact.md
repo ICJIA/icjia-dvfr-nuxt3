@@ -7,7 +7,7 @@ showTableOfContents: true
 summary: DVFR Contact information
 section: root
 createdAt: 2023-02-16T02:10:40.943Z
-updatedAt: 2024-01-03T20:07:57.952Z
+updatedAt: 2024-12-16T14:42:34.474Z
 publishedAt: 2023-02-16T02:10:42.140Z
 searchMeta: "how to contact "
 category: page
@@ -15,14 +15,12 @@ rawText: " illinois domestic violence crisis hotline the 24 hour illinois
   domestic violence crisis hotline can provide support information and referral
   for a wide range of services you do not need to leave your abuser or your home
   to receive help all services are both free and confidential 1 877 to end dv 1
-  877 863 6338 statewide domestic violence fatality review committee samantha
-  gaddy director of fatality review illinois coalition against domestic violence
-  email gaddy ilcadv org office 464 733 9517 stacey garoutte fatality review
-  coordinator illinois coalition against domestic violence email garoutte ilcadv
-  org office 464 733 9522 for public inquiries please contact fatalityreview
-  ilcadv org office 217 789 2830 illinois criminal justice information authority
-  60 e van buren blvd 6th floor chicago illinois 60605 phone 312 793 8550 cja
-  info illinois gov https icjia illinois gov "
+  877 863 6338 statewide domestic violence fatality review committee andrea
+  wilson project director center for victim studies illinois criminal justice
+  information authority andrea wilson4 illinois gov for public inquiries please
+  contact andrea wilson4 illinois gov illinois criminal justice information
+  authority 60 e van buren blvd 6th floor chicago illinois 60605 phone 312 793
+  8550 cja info illinois gov https icjia illinois gov "
 draft: false
 navigation: true
 path: /contact
@@ -42,33 +40,24 @@ The 24-Hour Illinois Domestic Violence Crisis Hotline can provide support, infor
 
 
 
-### Samantha Gaddy
 
-Director of Fatality Review
+###  Andrea Wilson
 
-Illinois Coalition Against Domestic Violence
+Project Director
 
-Email: gaddy@ilcadv.org
+Center for Victim Studies
 
-Office: 464-733-9517
+Illinois Criminal Justice Information Authority
 
+Andrea.Wilson4@Illinois.gov
  
 
-### Stacey Garoutte
 
-Fatality Review Coordinator
-
-Illinois Coalition Against Domestic Violence
-
-Email: garoutte@ilcadv.org
-
-Office: 464-733-9522
 
 ### For public inquiries, please contact:
 
-FatalityReview@ilcadv.org
+Andrea.Wilson4@Illinois.gov
 
-Office: 217-789-2830
 
 
 

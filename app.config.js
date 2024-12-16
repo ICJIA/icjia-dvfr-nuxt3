@@ -5,7 +5,6 @@ export default defineAppConfig({
   root: "https://dvfr.illinois.gov",
   isTranslationEnabled: true,
   footerMenu: [
-   
     {
       main: "About",
       link: "/about",
@@ -27,12 +26,11 @@ export default defineAppConfig({
       main: "Privacy",
       link: "/privacy",
     },
-    
+
     {
       main: "Regional DVFR Teams",
       link: "/regional-dvfr-teams",
     },
-  
 
     {
       main: "Resources",
@@ -52,23 +50,23 @@ export default defineAppConfig({
   navMenu: [
     {
       main: "About",
-       "children": [
+      children: [
         // {
         //   "section": "Illinois Statistical Analysis Center (SAC)"
         // },
         {
-          "title": "About DVFR",
-          "link": "/about"
+          title: "About DVFR",
+          link: "/about",
         },
         {
-          "title": "Frequently Asked Questions (FAQs)",
-          "link": "/faq"
-         },
+          title: "Frequently Asked Questions (FAQs)",
+          link: "/faq",
+        },
         {
-          "title": "Regional DVFR Teams",
-          "link": "/regional-dvfr-teams"
-        }
-      ]
+          title: "Regional DVFR Teams",
+          link: "/regional-dvfr-teams",
+        },
+      ],
     },
     {
       main: "Meetings",
@@ -79,31 +77,31 @@ export default defineAppConfig({
       main: "Resources",
       link: "/resources",
     },
-    // {
-    //   main: "Contact",
-    //   link: "/contact",
-    // },
+    {
+      main: "Contact",
+      link: "/contact",
+    },
   ],
   sidebarMenu: [
     {
       main: "About",
-       "children": [
+      children: [
         // {
         //   "section": "Illinois Statistical Analysis Center (SAC)"
         // },
         {
-          "title": "About DVFR",
-          "link": "/about"
+          title: "About DVFR",
+          link: "/about",
         },
         {
-          "title": "FAQs",
-          "link": "/faq"
-         },
+          title: "FAQs",
+          link: "/faq",
+        },
         {
-          "title": "Regional DVFR Teams",
-          "link": "/regional-dvfr-teams"
-        }
-      ]
+          title: "Regional DVFR Teams",
+          link: "/regional-dvfr-teams",
+        },
+      ],
     },
     {
       main: "Meetings",
@@ -114,9 +112,9 @@ export default defineAppConfig({
       main: "Resources",
       link: "/resources",
     },
-    // {
-    //   main: "Contact",
-    //   link: "/contact",
-    // },
-  ]
+    {
+      main: "Contact",
+      link: "/contact",
+    },
+  ],
 });
