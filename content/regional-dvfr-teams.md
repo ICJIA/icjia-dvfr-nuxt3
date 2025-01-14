@@ -14,7 +14,7 @@ summary: Regional Domestic Violence Fatality Review Teams are responsible for
   vulnerabilities and strengths in the intervention process.
 section: root
 createdAt: 2023-08-18T19:26:32.974Z
-updatedAt: 2024-12-16T14:50:29.867Z
+updatedAt: 2024-12-18T17:51:19.867Z
 publishedAt: 2023-08-18T19:26:35.163Z
 searchMeta: null
 category: page
@@ -32,7 +32,7 @@ rawText: " regional dvfr teams regional domestic violence fatality review teams
   may be formed as county jurisdiction beat or neighborhood specific the
   statewide dvfr committee is actively recruiting stakeholder groups in illinois
   that are interested in forming a domestic violence fatality review team in
-  their area for more information please email us atandrea wilson4 illinois gov
+  their area for more information please email us at andrea wilson4 illinois gov
   madison and bond county 3rd judicial circuit will county 12th judicial circuit
   rockford 17th judicial circuit lake county 19th judicial circuit kankakee
   county 21st judicial circuit "
@@ -50,7 +50,7 @@ Teams will use their findings to identify opportunities for improvement in domes
 
 Teams must be organized by circuit court boundaries but may be formed as county, jurisdiction, beat, or neighborhood specific. 
 
-The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us atAndrea.Wilson4@Illinois.gov.
+The Statewide DVFR Committee is actively recruiting stakeholder groups in Illinois that are interested in forming a domestic violence fatality review team in their area. For more information, please email us at Andrea.Wilson4@Illinois.gov.
 
 
 - Madison and Bond County - 3rd Judicial Circuit
