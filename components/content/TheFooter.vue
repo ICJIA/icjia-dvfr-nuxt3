@@ -90,7 +90,7 @@
 
               <div style="font-size: 12px; font-weight: 400">
                 <strong
-                  >&#169; 2023
+                  >&#169; 2025
                   <a
                     href="https://icjia.illinois.gov"
                     target="_blank"
