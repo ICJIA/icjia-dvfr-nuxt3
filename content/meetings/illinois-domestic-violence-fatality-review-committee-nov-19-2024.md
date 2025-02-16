@@ -20,13 +20,21 @@ summary: >
   Location: Webex
 section: meetings
 createdAt: 2024-11-14T19:52:24.146Z
-updatedAt: 2024-11-14T19:53:25.051Z
+updatedAt: 2025-02-07T17:07:18.878Z
 publishedAt: 2024-11-14T19:53:25.045Z
 isCancelled: false
 cancelMessage: null
 searchMeta: null
 attachments:
   data:
+    - attributes:
+        createdAt: 2025-02-07T17:07:04.818Z
+        updatedAt: 2025-02-07T17:07:04.818Z
+        name: DVFR minutes.111924.pdf
+        alternativeText: null
+        url: /uploads/DVFR_minutes_111924_1d8bbe3e5d.pdf
+        ext: .pdf
+        size: 70.06
     - attributes:
         createdAt: 2024-11-14T19:51:39.005Z
         updatedAt: 2024-11-14T19:51:39.005Z

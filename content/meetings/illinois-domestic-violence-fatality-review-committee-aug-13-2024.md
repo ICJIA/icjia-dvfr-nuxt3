@@ -10,13 +10,21 @@ showTableOfContents: false
 summary: "ILLINOIS DOMESTIC VIOLENCE FATALITY REVIEW COMMITTEE: Aug 13, 2024"
 section: meetings
 createdAt: 2024-08-07T22:29:43.385Z
-updatedAt: 2024-08-07T22:29:45.190Z
+updatedAt: 2025-02-07T17:10:03.270Z
 publishedAt: 2024-08-07T22:29:45.184Z
 isCancelled: false
 cancelMessage: null
 searchMeta: null
 attachments:
   data:
+    - attributes:
+        createdAt: 2025-02-07T17:10:00.171Z
+        updatedAt: 2025-02-07T17:10:00.171Z
+        name: DVFR minutes.081324.pdf
+        alternativeText: null
+        url: /uploads/DVFR_minutes_081324_16df5c462b.pdf
+        ext: .pdf
+        size: 59.57
     - attributes:
         createdAt: 2024-08-07T22:29:36.072Z
         updatedAt: 2024-08-07T22:29:36.072Z

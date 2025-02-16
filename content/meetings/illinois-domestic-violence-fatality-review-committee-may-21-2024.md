@@ -19,13 +19,21 @@ summary: >-
   comment.
 section: meetings
 createdAt: 2024-05-16T13:32:39.868Z
-updatedAt: 2024-05-16T13:32:42.928Z
+updatedAt: 2025-02-07T17:09:27.568Z
 publishedAt: 2024-05-16T13:32:42.920Z
 isCancelled: false
 cancelMessage: null
 searchMeta: "dvr dvfr "
 attachments:
   data:
+    - attributes:
+        createdAt: 2025-02-07T17:09:22.875Z
+        updatedAt: 2025-02-07T17:09:22.875Z
+        name: 2024-5-21 DVFR Statewide Commitee Meeting Minutes.pdf
+        alternativeText: null
+        url: /uploads/2024_5_21_DVFR_Statewide_Commitee_Meeting_Minutes_4161a209d8.pdf
+        ext: .pdf
+        size: 133.19
     - attributes:
         createdAt: 2024-05-16T13:32:05.161Z
         updatedAt: 2024-05-16T13:32:05.161Z
